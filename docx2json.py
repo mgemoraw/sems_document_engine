@@ -45,10 +45,10 @@ class DocxProcessor:
 
     def extract_questions(self, docx_path):
         questions = []
-
+        source_path = Path(docx_path).resolve()
         # set working folder
         # folder = input("Enter file folder: ")
-        folder = os.path.join("./", "outputs")
+        folder = os.path.join(source_path.parent, "outputs")
 
         if not os.path.exists(folder):
             os.makedirs(folder)
@@ -61,8 +61,11 @@ class DocxProcessor:
         # print(dir(document))
         # save images to current directory
         with docx2python(docx_path) as docx_content:
+            images_folder = os.path.join(folder, "images")
+            if not os.path.exists(images_folder):
+                os.makedirs(images_folder)
             # os.makedirs(f'{folder}/images/')
-            docx_content.save_images(f"./{folder}/images/")
+            docx_content.save_images(images_folder)
 
         # get document body
         # print(document.body[2])
@@ -107,7 +110,7 @@ class DocxProcessor:
                                 pos = re.search(r'^\d+[.)]', line)
                                 end_pos = pos.end()
                                 # print(pos)
-                                question = {'qno': qno+1, 'department': department, 'module': module_name, 'course': course_name, 'content': line.strip()[end_pos:], 'options': [], 'image': None, 'answer': None}
+                                question = {'qid': qno+1, 'department': department, 'module': module_name, 'course': course_name, 'content': line.strip()[end_pos:], 'options': [], 'image': None, 'answer': None}
                                 # # options = []
                                 questions.append(question)
                                 qno += 1
@@ -273,7 +276,7 @@ if __name__=='__main__':
         print("You have to enter name of docx file ")
         sys.exit(0)
     else:
-        docx_path = f"./{sys.argv[1]}.docx"
+        docx_path = os.path.join("./", f"{sys.argv[1]}.docx")
 
         engine = DocxProcessor(docx_path)
         engine.extract_questions(docx_path)

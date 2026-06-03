@@ -2,6 +2,7 @@ import os
 import re
 import json
 import sys 
+from pathlib import Path
 from docx2python import docx2python
 
 from PySide6.QtWidgets import (
@@ -10,16 +11,18 @@ from PySide6.QtWidgets import (
     QFrame, QTextEdit, QApplication
 )
 from PySide6.QtCore import Qt, QThread, Signal
+from PySide6.QtGui import QTextCursor
 
 sys.stdout.reconfigure(encoding='utf-8')
 
 # =====================================================================
-# BACKGROUND PROCESSING WORKER ENGINE (FIXED PARSING EMPTY NESTED LISTS)
+# BACKGROUND PROCESSING WORKER ENGINE 
 # =====================================================================
 class DocumentExtractorWorker(QThread):
     """
-    Asynchronously parses the target .docx data stream, saves integrated imagery,
-    and formats JSON payloads without blocking the primary user interface thread.
+    Asynchronously parses the target .docx using the external engine rules,
+    saves integrated imagery, and formats JSON payloads without blocking 
+    the primary user interface thread.
     """
     progress_status = Signal(str)
     progress_percentage = Signal(int)
@@ -30,177 +33,178 @@ class DocumentExtractorWorker(QThread):
         super().__init__()
         self.docx_path = os.path.normpath(docx_path)
 
+    def map_answers(self, questions, answers_path=None):
+        if answers_path is None:
+            return
+        try:
+            with open(answers_path, 'r', encoding='utf-8') as f:
+                answers_data = json.load(f)
+                for q in questions:
+                    qno = q.get('qid')
+                    if qno is not None:
+                        q['answer'] = answers_data.get(str(qno))
+                return True
+        except FileNotFoundError:
+            self.progress_status.emit(f"[WARNING]: Answer key file not found: {answers_path}")
+        except json.JSONDecodeError:
+            self.progress_status.emit(f"[WARNING]: Invalid JSON structural format in: {answers_path}")
+
     def run(self):
         try:
             self.progress_percentage.emit(10)
             self.progress_status.emit("Initializing targeted input file structures...")
 
-            # Enforce automatic outputs folder tree constraints
-            base_directory = os.path.dirname(self.docx_path)
-            output_folder = os.path.join(base_directory, "outputs")
-            images_folder = os.path.join(output_folder, "images")
-            
-            os.makedirs(images_folder, exist_ok=True)
-            
-            self.progress_percentage.emit(25)
-            self.progress_status.emit("Extracting binary images and math layers...")
-
-            # Extract content cleanly using contextual blocks
-            with docx2python(self.docx_path) as docx_content:
-                docx_content.save_images(images_folder)
-                html_body = docx_content.body
-
-            self.progress_percentage.emit(45)
-            self.progress_status.emit("Parsing paragraph runs and math nodes...")
-            
             questions = []
-            image_mappings = []
+            source_path = Path(self.docx_path).resolve()
+            folder = os.path.join(source_path.parent, "outputs")
+
+            if not os.path.exists(folder):
+                os.makedirs(folder)
+                self.progress_status.emit(f"Folder '{folder}' created successfully.")
+            else:
+                self.progress_status.emit(f"Folder '{folder}' already exists.")
+
+            self.progress_percentage.emit(25)
+            self.progress_status.emit("Extracting binary images from archive layers...")
+
+            with docx2python(self.docx_path) as docx_content:
+                images_folder = os.path.join(folder, "images")
+                if not os.path.exists(images_folder):
+                    os.makedirs(images_folder)
+                docx_content.save_images(images_folder)
+
+            document = docx2python(self.docx_path)
+
             module_name = None
             course_name = None
             department = None
             course_code = None
+            faculty = None
             qno = 0
 
-            # Exact matching pattern to capture full filenames out of docx2python's '[[[[image1.png]]]]' tokens
-            image_token_pattern = re.compile(r'----(image\d+\.[a-zA-Z0-9]+)----|\[\[\[\[(image\d+\.[a-zA-Z0-9]+)\]\]\]\]')
+            self.progress_percentage.emit(45)
+            self.progress_status.emit("Processing structure conversion parsing paragraphs...")
 
-            # docx2python depth-4 tracking system normalization
-            for s_idx, section in enumerate(html_body):
-                self.progress_percentage.emit(45 + int((s_idx / max(1, len(html_body))) * 45))
-
+            body_sections = document.body
+            for s_idx, section in enumerate(body_sections):
+                self.progress_percentage.emit(45 + int((s_idx / max(1, len(body_sections))) * 45))
+                
                 for page in section:
-                    for paragraph in page:
-                        for line_item in paragraph:
-                            
-                            # --- CRITICAL FIX HERE ---
-                            # Instead of iterating over lists of objects, check if line_item is a list
-                            # or join strings cleanly to ensure text formatting symbols are kept intact.
-                            if isinstance(line_item, list):
-                                line = " ".join([str(i).strip() for i in line_item if i]).strip()
-                            else:
-                                line = str(line_item).strip()
-                            
-                            if 'answer key' in line.lower():
-                                break
-                            if not line or len(line) < 2:
-                                continue
+                    for paragraphs in page:
+                        for line in paragraphs:
+                            line = line.strip()
+                            try:
+                                if 'answer key' in line.lower():
+                                    break
 
-                            # Look for image tokens in the current text block run
-                            found_image = None
-                            image_match = image_token_pattern.search(line)
-                            if image_match:
-                                # Capture group 1 or group 2 depending on token format used by docx2python version
-                                found_image = image_match.group(1) or image_match.group(2)
-                                line = image_token_pattern.sub(f" [Image: {found_image}] ", line).strip()
-
-                            # --- 1. Question Line Detection ---
-                            if re.match(r'^\d+[.)]', line):
-                                pos = re.search(r'^\d+[.)]', line)
-                                end_pos = pos.end()
-                                question = {
-                                    'qno': qno + 1, 
-                                    'department': department, 
-                                    'module': module_name, 
-                                    'course': course_name, 
-                                    'content': line[end_pos:].strip(), 
-                                    'options': [], 
-                                    'image': found_image,
-                                    'answer': None
-                                }
-                                questions.append(question)
-                                qno += 1
-
-                            # --- 2. Option Entry Detection ---
-                            elif re.match(r'^[A-Za-z][.)]', line):
-                                if qno == 0:
-                                    continue
-                                pos = re.search(r'^[A-Za-z][.)]', line)
-                                end_pos = pos.end()
-                                option_label = line[0]
-                                option_content = line[end_pos:].strip()
-
-                                option = {
-                                    'label': option_label, 
-                                    'content': option_content, 
-                                    'image': found_image  # Linked dynamically to the exact option paragraph
-                                }
-
-                                if found_image:
-                                    image_mappings.append({
-                                        "qno": qno,
-                                        "option": option_label,
-                                        "image": found_image
-                                    })
-                                questions[qno-1]['options'].append(option)
-
-                            # --- 3. Standalone Image Placeholder ---
-                            elif "[IMAGE" in line.upper() or found_image:
-                                if qno == 0:
+                                if not line or len(line.strip()) < 2:
                                     continue
 
-                                if found_image:
-                                    image_mappings.append({
-                                        "qno": qno,
-                                        "image": found_image,
-                                    })
+                                if re.match(r'^\d+[.)]', line):
+                                    pos = re.search(r'^\d+[.)]', line)
+                                    end_pos = pos.end()
+                                    question = {
+                                        'qid': qno + 1, 
+                                        'department': department, 
+                                        'module': module_name, 
+                                        'course': course_name, 
+                                        'content': line.strip()[end_pos:], 
+                                        'options': [], 
+                                        'image': None, 
+                                        'answer': None
+                                    }
+                                    questions.append(question)
+                                    qno += 1
 
-                                if not questions[qno-1]['image']:
-                                    questions[qno-1]['image'] = found_image
+                                elif re.match(r'^(?:\([A-Za-z]\)|[A-Za-z][.)])\s*', line):
+                                    found_image_path = None
+                                    image_name = None
+                                    if 'image' in line:
+                                        image_token_pattern = re.compile(r'----media/([^-\s]+)----|\[\[\[\[([^\]\s]+)\]\]\]\]') 
+                                        image_match = image_token_pattern.search(line)
+                                        if image_match: 
+                                            image_name = image_match.group(1) if image_match.group(1) else image_match.group(2)
+                                            found_image_path = os.path.join("images/", image_name)
+                                    
+                                    pos = re.search(r'^[(A-Za-z][.)]|[A-Za-z][.)]', line)
+                                    end_pos = 0
+                                    if pos is not None:
+                                        end_pos = pos.end()
+                                    option_label = line[1] if line.startswith('(') else line[0]
+                                    option_content = line[end_pos:].strip()
 
-                            # --- 4. Answer Key Tracking ---
-                            elif line.lower().startswith('answer'):
-                                if qno == 0:
+                                    option = {'label': option_label, 'content': option_content, 'image': found_image_path}
+                                    if qno > 0:
+                                        questions[qno - 1]['options'].append(option)
+
+                                elif "IMAGE" in line.upper():
+                                    if qno == 0:
+                                        continue
+                                    image_token_pattern = re.compile(r'----media/([^-\s]+)----|\[\[\[\[([^\]\s]+)\]\]\]\]') 
+                                    image_match = image_token_pattern.search(line)
+                                    if image_match: 
+                                        image_name = image_match.group(1) if image_match.group(1) else image_match.group(2)
+                                        found_image_path = os.path.join("images/", image_name)
+                                        questions[qno - 1]['image'] = found_image_path
+
+                                elif line.lower().startswith('answer'):
+                                    if qno == 0:
+                                        continue
+                                    answer = line.strip().split(':')
+                                    if len(answer) > 1:
+                                        questions[qno - 1]['answer'] = answer[1].strip()
+
+                                elif line.lower().startswith('course name'):
+                                    course_name = line.split(':', 1)[1].strip()
+                                elif line.lower().startswith('module name'):
+                                    module_name = line.split(':', 1)[1].strip()
+                                elif line.lower().startswith('department'):
+                                    department = line.split(':', 1)[1].strip()
+                                elif line.lower().startswith('course code'):
+                                    if len(line.split(':', 1)) > 1:
+                                        course_code = line.split(':', 1)[1].strip()
+                                elif line.lower().startswith('faculty'):
+                                    faculty = line
+                                else:
                                     continue
-                                parts = line.split(':')
-                                if len(parts) > 1:
-                                    questions[qno-1]['answer'] = parts[1].strip()
+                                    
+                            except Exception as inside_e:
+                                raise inside_e
 
-                            # --- 5. Document Metadata Extraction ---
-                            elif line.lower().startswith('course name'):
-                                course_name = line.split(':', 1)[1].strip()
-                            elif line.lower().startswith('module name'):
-                                module_name = line.split(':', 1)[1].strip()
-                            elif line.lower().startswith('department'):
-                                department = line.split(':', 1)[1].strip()
-                            elif line.lower().startswith('course code'):
-                                if len(line.split(':', 1)) > 1:
-                                    course_code = line.split(':', 1)[1].strip()
+            docx_dir = Path(self.docx_path).parent
+            answers_path = os.path.join(docx_dir, 'answers.json')
+            self.map_answers(questions, answers_path=answers_path)
 
             self.progress_percentage.emit(95)
-            self.progress_status.emit("Serializing JSON elements with math properties intact...")
+            self.progress_status.emit("Dumping mapped data to structured json formatting layouts...")
 
-
-            # Save structural output JSON map file
-            image_index_path = os.path.join(output_folder, 'image_index.json')
-            with open(image_index_path, 'w', encoding='utf-8') as img_file:
-                json.dump(image_mappings, img_file, ensure_ascii=False, indent=4)
-
-            json_out_path = os.path.join(output_folder, 'questions.json')
-            with open(json_out_path, 'w', encoding='utf-8') as file:
+            output_json_path = os.path.join(folder, 'questions.json')
+            with open(output_json_path, 'w', encoding='utf-8') as file:
                 json.dump(questions, file, ensure_ascii=False, indent=4)
 
             self.progress_percentage.emit(100)
-            self.extraction_complete.emit(output_folder, qno)
+            self.extraction_complete.emit(folder, qno)
 
         except Exception as e:
             self.extraction_failed.emit(str(e))
 
 
 # =====================================================================
-# CORE VISUAL DASHBOARD DESIGN CANVAS
+# CORE VISUAL DASHBOARD DESIGN CANVAS (WITH VALIDATION INTERFACE)
 # =====================================================================
 class DocumentConverterPage(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Academic Asset Processing Suite")
-        self.resize(750, 550)
+        self.resize(800, 650)
         self.worker = None
+        self.auto_target_json = ""
         self.init_ui()
 
     def init_ui(self):
         layout = QVBoxLayout(self)
         layout.setContentsMargins(24, 24, 24, 24)
-        layout.setSpacing(16)
+        layout.setSpacing(14)
 
         # Header Logo Banner
         header_frame = QFrame()
@@ -210,14 +214,14 @@ class DocumentConverterPage(QWidget):
         
         title = QLabel("Docx Exam Parsing Engine")
         title.setStyleSheet("color: #0f172a; font-size: 22px; font-weight: 800;")
-        desc = QLabel("Transform structured assessment forms into normalized, machine-readable datasets cleanly.")
+        desc = QLabel("Transform and validate structured assessment sheets into normalized, machine-readable datasets.")
         desc.setStyleSheet("color: #64748b; font-size: 13px;")
         
         header_lay.addWidget(title)
         header_lay.addWidget(desc)
         layout.addWidget(header_frame)
 
-        # Fields (Input / Automated Output)
+        # Extraction Fields Panel
         form_frame = QFrame()
         form_frame.setObjectName("FormFrame")
         form_layout = QFormLayout(form_frame)
@@ -248,6 +252,41 @@ class DocumentConverterPage(QWidget):
         form_layout.addRow("Configured Output Path Target:", self.output_display)
         layout.addWidget(form_frame)
 
+        # Added UI Component: Independent Validation File Panel
+        val_frame = QFrame()
+        val_frame.setObjectName("ValidationFrame")
+        val_layout = QFormLayout(val_frame)
+        val_layout.setContentsMargins(16, 16, 16, 16)
+        val_layout.setSpacing(12)
+
+        self.val_input_display = QLineEdit()
+        self.val_input_display.setPlaceholderText("Select questions.json file to validate...")
+        self.val_input_display.setReadOnly(True)
+
+        btn_val_browse = QPushButton("📁 Select JSON")
+        btn_val_browse.clicked.connect(self.select_validation_json)
+        btn_val_browse.setStyleSheet("""
+            QPushButton { background-color: #64748b; color: white; padding: 6px 14px; font-weight: bold; border-radius: 5px; }
+            QPushButton:hover { background-color: #475569; }
+        """)
+
+        val_row = QHBoxLayout()
+        val_row.addWidget(self.val_input_display, stretch=1)
+        val_row.addWidget(btn_val_browse)
+
+        self.btn_validate = QPushButton("🔍 Validate Dataset Schema")
+        self.btn_validate.setEnabled(False)
+        self.btn_validate.clicked.connect(self.run_schema_validation)
+        self.btn_validate.setStyleSheet("""
+            QPushButton { background-color: #8b5cf6; color: white; padding: 6px 14px; font-weight: bold; border-radius: 5px; }
+            QPushButton:hover { background-color: #7c3aed; }
+            QPushButton:disabled { background-color: #cbd5e1; color: #94a3b8; }
+        """)
+        val_row.addWidget(self.btn_validate)
+
+        val_layout.addRow("Validation Checklist File:", val_row)
+        layout.addWidget(val_frame)
+
         # Logger Canvas
         self.logger_canvas = QTextEdit()
         self.logger_canvas.setReadOnly(True)
@@ -273,10 +312,10 @@ class DocumentConverterPage(QWidget):
         """)
         layout.addWidget(self.btn_execute)
 
-        # Stylesheet styling
+        # Stylesheet styling updates
         self.setStyleSheet("""
             QWidget { background-color: #f1f5f9; font-family: 'Segoe UI', Arial, sans-serif; }
-            QFrame#HeaderFrame, QFrame#FormFrame {
+            QFrame#HeaderFrame, QFrame#FormFrame, QFrame#ValidationFrame {
                 background-color: #ffffff;
                 border: 1px solid #e2e8f0;
                 border-radius: 8px;
@@ -320,10 +359,22 @@ class DocumentConverterPage(QWidget):
             base_dir = os.path.dirname(file_path)
             target_out_path = os.path.join(base_dir, "outputs")
             self.output_display.setText(target_out_path)
+            self.auto_target_json = os.path.join(target_out_path, "questions.json")
             
             self.btn_execute.setEnabled(True)
-            self.logger_canvas.append(f"[SYSTEM]: Registered input file stream: '{os.path.basename(file_path)}'")
-            self.logger_canvas.append(f"[SYSTEM]: Output folder mapped to: '{target_out_path}{os.sep}'")
+            self.log_html("<span style='color: #a7f3d0;'>[SYSTEM]: Registered input file stream: '" + os.path.basename(file_path) + "'</span>")
+            self.log_html("<span style='color: #cbd5e1;'>[SYSTEM]: Output folder mapped to: '" + target_out_path + os.sep + "'</span>")
+
+    def select_validation_json(self):
+        file_path, _ = QFileDialog.getOpenFileName(self, "Identify Target Dataset Schema", "", "JSON Files (*.json)")
+        if file_path:
+            self.val_input_display.setText(file_path)
+            self.btn_validate.setEnabled(True)
+            self.log_html("<span style='color: #c084fc;'>[SYSTEM]: Validation target redirected to: '" + os.path.basename(file_path) + "'</span>")
+
+    def log_html(self, html_text):
+        self.logger_canvas.append(html_text)
+        self.logger_canvas.moveCursor(QTextCursor.End)
 
     def start_conversion_pipeline(self):
         docx_target = self.input_display.text()
@@ -331,27 +382,147 @@ class DocumentConverterPage(QWidget):
             return
 
         self.btn_execute.setEnabled(False)
+        self.btn_validate.setEnabled(False)
         self.progress_bar.setValue(0)
-        self.logger_canvas.append("\n--- Starting Extraction Sequence ---")
+        self.log_html("<br><span style='color: #38bdf8; font-weight: bold;'>--- Starting Extraction Sequence ---</span>")
 
         self.worker = DocumentExtractorWorker(docx_target)
-        self.worker.progress_status.connect(lambda msg: self.logger_canvas.append(f"[PROCESS]: {msg}"))
+        self.worker.progress_status.connect(lambda msg: self.log_html(f"<span style='color: #94a3b8;'>[PROCESS]: {msg}</span>"))
         self.worker.progress_percentage.connect(self.progress_bar.setValue)
         self.worker.extraction_complete.connect(self.handle_pipeline_success)
         self.worker.extraction_failed.connect(self.handle_pipeline_error)
         self.worker.start()
 
     def handle_pipeline_success(self, target_path, count):
-        self.logger_canvas.append(f"\n[SUCCESS]: Matrix transformations executed successfully!")
-        self.logger_canvas.append(f"[SUCCESS]: Generated {count} normalized schema records inside:")
-        self.logger_canvas.append(f"          📁 {target_path}{os.sep}questions.json")
-        self.logger_canvas.append(f"          📁 {target_path}{os.sep}images{os.sep}")
+        self.log_html("<br><span style='color: #4ade80; font-weight: bold;'>[SUCCESS]: Matrix transformations executed successfully!</span>")
+        self.log_html(f"<span style='color: #4ade80;'>[SUCCESS]: Generated {count} normalized schema records inside:</span>")
+        self.log_html(f"           📁 {target_path}{os.sep}questions.json")
         self.btn_execute.setEnabled(True)
+        
+        # Automatically load generated target paths into the validation field layout
+        if os.path.exists(self.auto_target_json):
+            self.val_input_display.setText(self.auto_target_json)
+            self.btn_validate.setEnabled(True)
+            # Run background schema auto-audit checklist instantly
+            self.run_schema_validation()
 
     def handle_pipeline_error(self, message):
-        self.logger_canvas.append(f"\n[CRITICAL ERROR]: Pipeline execution faulted: {message}")
+        self.log_html(f"<br><span style='color: #f87171; font-weight: bold;'>[CRITICAL ERROR]: Pipeline execution faulted: {message}</span>")
         self.progress_bar.setValue(0)
         self.btn_execute.setEnabled(True)
+        self.btn_validate.setEnabled(True)
+
+    # UI Conversion of terminal schema audit functions
+    def run_schema_validation(self):
+        file_path = self.val_input_display.text()
+        if not file_path or not os.path.exists(file_path):
+            self.log_html(f"<span style='color: #f87171;'>[ERROR]: Targeted validation file path does not exist: '{file_path}'</span>")
+            return
+
+        self.log_html("<br><span style='color: #c084fc; font-weight: bold;'>==================================================</span>")
+        self.log_html(f"<span style='color: #c084fc; font-weight: bold;'>🔬 Starting Validation Audit Checklist on: {os.path.basename(file_path)}</span>")
+        self.log_html("<span style='color: #c084fc; font-weight: bold;'>==================================================</span>")
+
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+        except json.JSONDecodeError as e:
+            self.log_html(f"<span style='color: #f87171; font-weight: bold;'>[CRITICAL ERROR]: File is not a valid JSON string layout! Details: {e}</span>")
+            return
+
+        if not isinstance(data, list):
+            self.log_html("<span style='color: #f87171; font-weight: bold;'>[CRITICAL ERROR]: Root element is not a JSON list container []!</span>")
+            return
+
+        total_records = len(data)
+        errors_count = 0
+        warnings_count = 0
+        self.log_html(f"<span style='color: #cbd5e1;'>Found total payload records: {total_records}</span><br>")
+
+        for idx, item in enumerate(data):
+            q_identifier = item.get('qid') if isinstance(item, dict) and item.get('qid') is not None else f"Index {idx}"
+            prefix_context = f"Question No. {q_identifier}:"
+
+            if not isinstance(item, dict):
+                self.log_html(f"<span style='color: #f87171;'>[ERROR] {prefix_context} Structure block entry is not an object node!</span>")
+                errors_count += 1
+                continue
+
+            # Warning Checks (Metadata fields tracking)
+            missing_meta = []
+            if not item.get('department') or str(item['department']).strip().lower() == "none":
+                missing_meta.append("department")
+            if not item.get('module') or str(item['module']).strip().lower() == "none":
+                missing_meta.append("module")
+            if not item.get('course') or str(item['course']).strip().lower() == "none":
+                missing_meta.append("course")
+
+            if missing_meta:
+                meta_str = ", ".join(missing_meta)
+                self.log_html(f"<span style='color: #fbbf24;'>[WARNING] {prefix_context} Metadata fields are null/unset -&gt; [{meta_str}]</span>")
+                warnings_count += 1
+
+            # Core Error Validation Layout Rules
+            content = item.get('content')
+            if content is None or (isinstance(content, str) and not content.strip()):
+                self.log_html(f"<span style='color: #f87171;'>[ERROR] {prefix_context} Question 'content' text body is completely empty/null!</span>")
+                errors_count += 1
+
+            answer = item.get('answer')
+            if answer is None or (isinstance(answer, str) and not answer.strip()) or str(answer).strip().lower() == "none":
+                self.log_html(f"<span style='color: #f87171;'>[ERROR] {prefix_context} Crucial field 'answer' key cannot be null or unset!</span>")
+                errors_count += 1
+
+            options = item.get('options')
+            if not isinstance(options, list):
+                self.log_html(f"<span style='color: #f87171;'>[ERROR] {prefix_context} 'options' wrapper missing or formatted incorrectly (not a list)!</span>")
+                errors_count += 1
+                continue
+
+            if len(options) == 0:
+                self.log_html(f"<span style='color: #f87171;'>[ERROR] {prefix_context} Options collection list is empty! Requires A-D items.</span>")
+                errors_count += 1
+                continue
+
+            found_labels = []
+            for opt_idx, opt in enumerate(options):
+                if not isinstance(opt, dict):
+                    self.log_html(f"<span style='color: #f87171;'>[ERROR] {prefix_context} Option index {opt_idx} is corrupted (not an object block)!</span>")
+                    errors_count += 1
+                    continue
+                
+                label = str(opt.get('label', '')).strip().upper()
+                if label:
+                    found_labels.append(label)
+                    
+                opt_content = opt.get('content')
+                if opt_content is None or (isinstance(opt_content, str) and not opt_content.strip()):
+                    self.log_html(f"<span style='color: #f87171;'>[ERROR] {prefix_context} Option ({label or opt_idx}) text value content is empty/null!</span>")
+                    errors_count += 1
+
+            expected_labels = ["A", "B", "C", "D"]
+            if found_labels != expected_labels:
+                joined_found = ", ".join(found_labels) if found_labels else "None"
+                self.log_html(f"<span style='color: #f87171;'>[ERROR] {prefix_context} Broken choice scheme labels. Found: [{joined_found}]. Expected exactly: [A, B, C, D]</span>")
+                errors_count += 1
+
+        # Summary Log Generation Block
+        self.log_html("<br><span style='color: #c084fc; font-weight: bold;'>==================================================</span>")
+        self.log_html("<span style='color: #ffffff; font-weight: bold;'>📋 FINAL SCHEMA AUDIT REPORT SUMMARY</span>")
+        self.log_html("<span style='color: #c084fc; font-weight: bold;'>==================================================</span>")
+        self.log_html(f"<span style='color: #cbd5e1;'>Total Exam Items Audited : {total_records}</span>")
+        
+        if warnings_count > 0:
+            self.log_html(f"<span style='color: #fbbf24;'>Total Warnings Flagged    : {warnings_count}</span>")
+        else:
+            self.log_html("<span style='color: #34d399;'>Total Warnings Flagged    : 0 (Clean metadata!)</span>")
+
+        if errors_count > 0:
+            self.log_html(f"<span style='color: #f87171; font-weight: bold;'>Total Errors Found       : {errors_count}</span>")
+            self.log_html("<span style='color: #f87171; font-weight: bold;'><br>❌ VALIDATION STATUS: FAILED. Please fix data constraints before proceeding.</span>")
+        else:
+            self.log_html("<span style='color: #34d399; font-weight: bold;'>Total Errors Found       : 0</span>")
+            self.log_html("<span style='color: #34d399; font-weight: bold;'><br>✔ VALIDATION STATUS: PASSED! JSON conforms cleanly to structural requirements.</span>")
 
 
 if __name__ == '__main__':
