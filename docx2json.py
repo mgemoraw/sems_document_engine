@@ -15,8 +15,9 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 
 class DocxProcessor:
-    def __init__(self, docx_path):
+    def __init__(self, docx_path, text_answer_path):
         self.docx_path = docx_path
+        self.text_answer_path = text_answer_path
         self.questions = []
 
     def run(self):
@@ -25,23 +26,84 @@ class DocxProcessor:
     def create_working_directory(self, docx_path):
         pass
 
+    def prepare_output_folder(self):
+        pass
+
+    def update_progress(self, message):
+        pass 
+
+
+    # def map_answers(self, questions, answers_path=None):
+    #     answers_path=self.answer_text2json(self.text_answer_path)
+    #     if answers_path is None:
+    #         return
+    #     try:
+    #         with open(answers_path, 'r', encoding='utf-8') as f:
+    #             answers_data = json.load(f)
+    #             # Create a mapping of question numbers to answers
+    #             for q in questions:
+    #                 qno = q.get('qno')
+    #                 if qno is not None:
+    #                     q['answer'] = answers_data.get(str(qno))  # Assuming answers_data is a dict with qno as keys
+                        
+    #             return True
+    #     except FileNotFoundError:
+    #         print(f"File not found: {answers_path}")
+    #     except json.JSONDecodeError:
+    #         print(f"Invalid JSON in file: {answers_path}")
+
     def map_answers(self, questions, answers_path=None):
+        answers_path=self.answer_text2json(self.text_answer_path)
+
         if answers_path is None:
+            print("answers not found")
             return
         try:
+            # first convert text answers to json
+            # self.answer_text2jon(self.text_answer_path)
+            
+            print("....Mapping answer....")
             with open(answers_path, 'r', encoding='utf-8') as f:
                 answers_data = json.load(f)
-                # Create a mapping of question numbers to answers
                 for q in questions:
-                    qno = q.get('qno')
+                    qno = q.get('qid')
                     if qno is not None:
-                        q['answer'] = answers_data.get(str(qno))  # Assuming answers_data is a dict with qno as keys
-                        
+                        q['answer'] = answers_data.get(str(qno))
+                        # print(f"answer to {qno} is set {q['answer']}")
                 return True
         except FileNotFoundError:
-            print(f"File not found: {answers_path}")
+            self.update_progress(f"[WARNING]: Answer key file not found: {answers_path}")
         except json.JSONDecodeError:
-            print(f"Invalid JSON in file: {answers_path}")
+            self.update_progress(f"[WARNING]: Invalid JSON structural format in: {answers_path}")
+    
+
+    def answer_text2json(self, source=None):
+        try:
+            source_path = Path(source)
+            result = {}
+            with open(source_path, 'r') as file:
+                data = file.read()
+
+                # Split by whitespace
+                tokens = data.split()
+
+                # Convert into dictionary
+                # result = {}
+                for i in range(0, len(tokens), 2):
+                    qno = tokens[i]
+                    label = tokens[i+1]
+                    result[int(qno)] = label
+
+            # Save to JSON file
+            answers_output_path = Path(self.docx_path).parent /"outputs" / "answers.json"
+            with open(answers_output_path, "w") as f:
+                json.dump(result, f, indent=2)
+
+            print("✅ Conversion complete! Saved as answers.json")
+            return answers_output_path
+
+        except Exception as e:
+            raise e
 
     def extract_questions(self, docx_path):
         questions = []

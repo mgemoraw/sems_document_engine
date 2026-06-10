@@ -14,7 +14,7 @@ from PySide6.QtCore import Qt, QThread, Signal
 from PySide6.QtGui import QTextCursor
 
 from pathlib import Path 
-from docx2json import DocxProcessor
+from docx2python import DocxProcessor
 
 sys.stdout.reconfigure(encoding='utf-8')
 
@@ -38,7 +38,7 @@ class DocumentExtractorWorker(QThread):
         self.text_answer_path = os.path.normpath(text_answer_path)
 
     def map_answers(self, questions, answers_path=None):
-        answers_path=self.answer_text2json(self.text_answer_path)
+        answers_path=self.answer_text2jon(self.text_answer_path)
 
         if answers_path is None:
             print("answers not found")
@@ -61,7 +61,7 @@ class DocumentExtractorWorker(QThread):
         except json.JSONDecodeError:
             self.progress_status.emit(f"[WARNING]: Invalid JSON structural format in: {answers_path}")
     
-    def answer_text2json(self, source=None):
+    def answer_text2jon(self, source=None):
         try:
             source_path = Path(source)
             result = {}
@@ -94,36 +94,134 @@ class DocumentExtractorWorker(QThread):
             self.progress_percentage.emit(10)
             self.progress_status.emit("Initializing targeted input file structures...")
 
-            engine = DocxProcessor(self.docx_path, self.text_answer_path)
-            # processor.prepare_output_folder()
-            # processor.extract_images()
-            question = engine.extract_questions(self.docx_path)
 
-            
+            questions = []
             source_path = Path(self.docx_path).resolve()
             folder = os.path.join(source_path.parent, "outputs")
+
+            if not os.path.exists(folder):
+                os.makedirs(folder)
+                self.progress_status.emit(f"Folder '{folder}' created successfully.")
+            else:
+                self.progress_status.emit(f"Folder '{folder}' already exists.")
+
+            self.progress_percentage.emit(25)
+            self.progress_status.emit("Extracting binary images from archive layers...")
+
+            with docx2python(self.docx_path) as docx_content:
+                images_folder = os.path.join(folder, "images")
+                if not os.path.exists(images_folder):
+                    os.makedirs(images_folder)
+                docx_content.save_images(images_folder)
+
+            document = docx2python(self.docx_path)
+
+            module_name = None
+            course_name = None
+            department = None
+            course_code = None
+            faculty = None
             qno = 0
 
-            # if not os.path.exists(folder):
-            #     os.makedirs(folder)
-            #     self.progress_status.emit(f"Folder '{folder}' created successfully.")
-            # else:
-            #     self.progress_status.emit(f"Folder '{folder}' already exists.")
+            self.progress_percentage.emit(45)
+            self.progress_status.emit("Processing structure conversion parsing paragraphs...")
 
-            # self.progress_percentage.emit(25)
-            # self.progress_status.emit("Extracting binary images from archive layers...")
+            body_sections = document.body
+            for s_idx, section in enumerate(body_sections):
+                self.progress_percentage.emit(45 + int((s_idx / max(1, len(body_sections))) * 45))
+                
+                for page in section:
+                    for paragraphs in page:
+                        for line in paragraphs:
+                            line = line.strip()
+                            try:
+                                if 'answer key' in line.lower():
+                                    break
 
-        
-            # docx_dir = Path(self.docx_path).parent
-            # answers_path = os.path.join(docx_dir, 'answers.json')
-            # self.map_answers(questions, answers_path=answers_path)
+                                if not line or len(line.strip()) < 2:
+                                    continue
 
-            # self.progress_percentage.emit(95)
-            # self.progress_status.emit("Dumping mapped data to structured json formatting layouts...")
+                                if re.match(r'^\d+[.)]', line):
+                                    pos = re.search(r'^\d+[.)]', line)
+                                    end_pos = pos.end()
+                                    question = {
+                                        'qid': qno + 1, 
+                                        'department': department, 
+                                        'module': module_name, 
+                                        'course': course_name, 
+                                        'content': line.strip()[end_pos:], 
+                                        'options': [], 
+                                        'image': None, 
+                                        'answer': None
+                                    }
+                                    questions.append(question)
+                                    qno += 1
 
-            # output_json_path = os.path.join(folder, 'questions.json')
-            # with open(output_json_path, 'w', encoding='utf-8') as file:
-            #     json.dump(questions, file, ensure_ascii=False, indent=4)
+                                elif re.match(r'^(?:\([A-Za-z]\)|[A-Za-z][.)])\s*', line):
+                                    found_image_path = None
+                                    image_name = None
+                                    if 'image' in line:
+                                        image_token_pattern = re.compile(r'----media/([^-\s]+)----|\[\[\[\[([^\]\s]+)\]\]\]\]') 
+                                        image_match = image_token_pattern.search(line)
+                                        if image_match: 
+                                            image_name = image_match.group(1) if image_match.group(1) else image_match.group(2)
+                                            found_image_path = os.path.join("images/", image_name)
+                                    
+                                    pos = re.search(r'^[(A-Za-z][.)]|[A-Za-z][.)]', line)
+                                    end_pos = 0
+                                    if pos is not None:
+                                        end_pos = pos.end()
+                                    option_label = line[1] if line.startswith('(') else line[0]
+                                    option_content = line[end_pos:].strip()
+
+                                    option = {'label': option_label, 'content': option_content, 'image': found_image_path}
+                                    if qno > 0:
+                                        questions[qno - 1]['options'].append(option)
+
+                                elif "IMAGE" in line.upper():
+                                    if qno == 0:
+                                        continue
+                                    image_token_pattern = re.compile(r'----media/([^-\s]+)----|\[\[\[\[([^\]\s]+)\]\]\]\]') 
+                                    image_match = image_token_pattern.search(line)
+                                    if image_match: 
+                                        image_name = image_match.group(1) if image_match.group(1) else image_match.group(2)
+                                        found_image_path = os.path.join("images/", image_name)
+                                        questions[qno - 1]['image'] = found_image_path
+
+                                elif line.lower().startswith('answer'):
+                                    if qno == 0:
+                                        continue
+                                    answer = line.strip().split(':')
+                                    if len(answer) > 1:
+                                        questions[qno - 1]['answer'] = answer[1].strip()
+
+                                elif line.lower().startswith('course name'):
+                                    course_name = line.split(':', 1)[1].strip()
+                                elif line.lower().startswith('module name'):
+                                    module_name = line.split(':', 1)[1].strip()
+                                elif line.lower().startswith('department'):
+                                    department = line.split(':', 1)[1].strip()
+                                elif line.lower().startswith('course code'):
+                                    if len(line.split(':', 1)) > 1:
+                                        course_code = line.split(':', 1)[1].strip()
+                                elif line.lower().startswith('faculty'):
+                                    faculty = line
+                                else:
+                                    continue
+                                    
+                            except Exception as inside_e:
+                                raise inside_e
+
+            docx_dir = Path(self.docx_path).parent
+            answers_path = os.path.join(docx_dir, 'answers.json')
+            self.map_answers(questions, answers_path=answers_path)
+
+            self.progress_percentage.emit(95)
+            self.progress_status.emit("Dumping mapped data to structured json formatting layouts...")
+
+            output_json_path = os.path.join(folder, 'questions.json')
+            with open(output_json_path, 'w', encoding='utf-8') as file:
+                json.dump(questions, file, ensure_ascii=False, indent=4)
 
             self.progress_percentage.emit(100)
             self.extraction_complete.emit(folder, qno)
