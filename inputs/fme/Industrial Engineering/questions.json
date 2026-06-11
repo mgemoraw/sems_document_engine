@@ -1,0 +1,3124 @@
+[
+    {
+        "qid": 1,
+        "qno": 1,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which of the following links production planning and capacity planning?",
+        "options": [
+            {
+                "label": "A",
+                "content": "When to produce?",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "How much to produce?",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "What products to produce?",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "How to produce?",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 2,
+        "qno": 2,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which is not correct?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Forecasts are seldom perfect.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Product family and aggregated forecasts are more accurate than individual productforecasts",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "exponential smoothing needs only three values to forecast.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "quantitative methods are better in predicting the demand of new products",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 3,
+        "qno": 3,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which of the following statements is true when comparing and contrasting mean absolutedeviation (MAD) and mean squared error (MSE) methods for evaluating forecast accuracy?",
+        "options": [
+            {
+                "label": "A",
+                "content": "MAD is more appropriate for situations with high variability in the data than MSE.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "MAD is more appropriate than MSE because it is more sensitive to outliers.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Both MAD and MSE are equally appropriate for evaluating forecast accuracy usingthree-week historical data.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "MSE is more appropriate for situations with high variability in the data than MAD.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 4,
+        "qno": 4,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "How much is the current demand for Ford Company if the smoothing constant is 0.2, theactual demand for the previous period and the predicted demand for the previous period was 153and 142 respectively.",
+        "options": [
+            {
+                "label": "A",
+                "content": "144",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "155",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "151",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "165",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 5,
+        "qno": 5,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which of the following is not a building block in developing operation strategy?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Operations mission",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Distinctive competence",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Operations objective",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Operations policies",
+                "image": null
+            },
+            {
+                "label": "E",
+                "content": "None",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "E"
+    },
+    {
+        "qid": 6,
+        "qno": 6,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "What is the primary purpose of constructing the \u201cHouse of Quality\u201d matrix in QFD?",
+        "options": [
+            {
+                "label": "A",
+                "content": "To prioritize customer requirements",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "To identify potential design flaws",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "To estimate production costs",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "To evaluate marketing strategies",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 7,
+        "qno": 7,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "How would you conduct a value analysis of the smartphone? Which option maynot be advised to answer this?",
+        "options": [
+            {
+                "label": "A",
+                "content": "You could conduct rigorous testing and quality control procedures on eachcomponent of the smartphone",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Determining which functions are essential and which are not",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "You might identify components that can be sourced at a lower cost withcompromising their quality",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "You might identify opportunities to streamline the manufacturing processto reduce waste",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 8,
+        "qno": 8,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which is the primary challenge in inventory management?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Balancing inventory levels",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Forecasting demand",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Managing lead times",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Controlling the loss of inventory due to theft or damage",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 9,
+        "qno": 9,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which is not correct?",
+        "options": [
+            {
+                "label": "A",
+                "content": "To consider uncertainty in the classical Economic Order Quantity model, companies may use safety stock",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "In the newsboy model, the \"newsboy\" represents the person who decides how much inventoryto order instead of the salesperson who sells the inventory",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The Pareto principle states that 80% of the effects come from 20% of the causes, and ABCanalysis is a way to identify the 20% of inventory items that account for 80% of the value.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The primary goal of controlling VED items in inventory management is to ensure that criticalitems are always available when needed",
+                "image": null
+            },
+            {
+                "label": "E",
+                "content": "The continuous review system checks inventory levels at fixed intervals, while periodic reviewsystem monitors inventory levels continuously",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "E"
+    },
+    {
+        "qid": 10,
+        "qno": 10,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "How does material requirement planning help companies to manage inventory more effectively?",
+        "options": [
+            {
+                "label": "A",
+                "content": "By ensuring that materials are ordered in the right quantities and at the right time",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "By providing accurate forecasts of future demand",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "By reducing lead times for ordering materials",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 11,
+        "qno": 11,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "An end item X is composed of two Bs and one C. moreover, each Bs requires three Ds andoneE, and each D requires four Es. Similarly, each C is made up of two Es and two Fs. The available inventory on hand of each items B, C, D, and E are 4, 10, 8, and 60 respectively.Which of the following is not correct about the quantities of these components that will be required to assemble 10 Xs?",
+        "options": [
+            {
+                "label": "A",
+                "content": "The quantities of B is 16",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The quantities of C is 1",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The quantities of D is 40",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The quantities of E is 116",
+                "image": null
+            },
+            {
+                "label": "E",
+                "content": "The quantities of F is 0",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 12,
+        "qno": 12,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which is correct?",
+        "options": [
+            {
+                "label": "A",
+                "content": "The production activity with the highest critical ratio is scheduled first",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Shortest Processing Time (SPT), Earliest Due Date (EDD), and Critical Ratio (CR) are somecommon priority rules used in single dimension dispatching.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The purpose of using priority rules in single dimension dispatching is to determine the optimalsequence for completing production activities",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The task with CR>1 is behind schedule.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 13,
+        "qno": 13,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "How can companies determine which priority rule to use in production scheduling?",
+        "options": [
+            {
+                "label": "A",
+                "content": "By choosing the priority rule with the highest accuracy rate",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "By analyzing the characteristics of the production process and the specific goals of thecompany",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "By selecting the priority rule that is most commonly used in the industry",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "By using trial and error to determine which priority rule works best?",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 14,
+        "qno": 14,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "A production facility has five jobs to complete. The processing times for the jobs are asfollows:Job A - 3 days, Job B - 6 days, Job C - 2 days, Job D - 5 days, and Job E - 4 days. Added to this,the due date for all jobs is 10 days from now. If the facility wants to minimize the average jobcompletion time, what would be the optimal sequence for scheduling these jobs?",
+        "options": [
+            {
+                "label": "A",
+                "content": "C, A, E, B, D,",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "C, E, A, D, B",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "C, A, E, D, B",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "C, E, A, B, D",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 15,
+        "qno": 15,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "It is a concept that integrates all the activities of planning,scheduling and controlling materials from design through production and including delivery to the customer.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Material flow",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Material management",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Inventory management",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Material handling",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 16,
+        "qno": 16,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "The one is not the function of store department",
+        "options": [
+            {
+                "label": "A",
+                "content": "To receive items and goods manufactured in the organization",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "To record and update receipts and issues of materials",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "To control quality of goods during manufacturing",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "To dispose obsolete and non-moving items",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 17,
+        "qno": 17,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "One of the following questions might be answered by facilities location except one",
+        "options": [
+            {
+                "label": "A",
+                "content": "How much of each product will be produced?",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Where are the products to be produced?",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "How are the products to be produced?",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 18,
+        "qno": 18,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "All of the following are the concepts of Process design except one:",
+        "options": [
+            {
+                "label": "A",
+                "content": "It is the design of new facilities, modification or expansion of existing facilities",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It is the activity of representing processes of an industry",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "it shows events, actions and links in the sequence from end to end",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 19,
+        "qno": 19,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which statement is correct about the concept of EOQ",
+        "options": [
+            {
+                "label": "A",
+                "content": "The holding cost is greater than the ordering cost",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The ordering cost is greater than the holding cost",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The ordering cost is equal to the holding cost",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Total inventory cost is equal to zero",
+                "image": null
+            },
+            {
+                "label": "E",
+                "content": "None",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 20,
+        "qno": 20,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Problems in learning, often related to communication in the supply chain and how the supply chain is structured is the concept of",
+        "options": [
+            {
+                "label": "A",
+                "content": "Incentive obstacles",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Behavioral obstacles",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Pricing obstacles",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Operational obstacle",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 21,
+        "qno": 21,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Fleet management in logistics industries is essential to except",
+        "options": [
+            {
+                "label": "A",
+                "content": "Improve efficiency and productivity",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Reduce cost, and enhance customer satisfaction",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Enhance drivers\u2019 safety and health",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Protect any unethical activity",
+                "image": null
+            },
+            {
+                "label": "E",
+                "content": "None",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 22,
+        "qno": 22,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "___________ is a warehouse sharing model that allows companies that have excess space in their warehouses to share it with another company that needs extra space for inventory purposes",
+        "options": [
+            {
+                "label": "A",
+                "content": "Product warehouse",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "On demand warehouse",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Automated warehouse",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Material warehouse",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 23,
+        "qno": 23,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "A supply chain which includes the distribution of finished product and service?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Outbound logistics",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Inbound logistics",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Supply of goods",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Transportation",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 24,
+        "qno": 24,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "__________ encompasses all activities associated with the flow and transformation of goods from the raw material stage, through to end user, as well as the associated information flows.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Production line",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Supply chain",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Marketing channel",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Warehouse",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 25,
+        "qno": 25,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which formula is applicable to calculate the reorder level of item when lead time is lower than cycle time?",
+        "options": [
+            {
+                "label": "A",
+                "content": "L*d",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "(TL-TC)*d",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "(TC-TL)*d",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "L*d + SS",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 26,
+        "qno": 26,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "The time taken by a trained worker to perform an operation, while working a steady pace is known as",
+        "options": [
+            {
+                "label": "A",
+                "content": "Standard time",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Representative time",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Normal time",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "None of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 27,
+        "qno": 27,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Work study consists of",
+        "options": [
+            {
+                "label": "A",
+                "content": "Effective use of plant and equipment",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Evaluation of human work",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Effective use of human effort",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 28,
+        "qno": 28,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "The observed time for an element is 2.4 minutes. The pace rate is 90 percent and the sum of all the secondary adjustment amounts is to 40 percent. The normal time is of an element",
+        "options": [
+            {
+                "label": "A",
+                "content": "3.73-minute",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "4.01-minute",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "3.02 minute",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "2.16 minute",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 29,
+        "qno": 29,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one of the following charts gives simultaneously information about the progress of work and machine loading?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Process chart",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Man-machine chart",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Machine load chart",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Gantt chart",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 30,
+        "qno": 30,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "In micro-motion study, therblig is described by",
+        "options": [
+            {
+                "label": "A",
+                "content": "a symbol",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "an activity",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "an event",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Standard symbol and color",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 31,
+        "qno": 31,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "\u2018Value\u2019 for value engineering and analysis purposes is defined as",
+        "options": [
+            {
+                "label": "A",
+                "content": "Purchase values",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Depreciated value",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Saleable value",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Function/cost",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 32,
+        "qno": 32,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one of the following statements concerning work sampling is not true?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Observations are made at random intervals.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "A detailed description of activities is obtained.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Multiple observations are necessary.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "It can be used to estimate the percentage of delay",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 33,
+        "qno": 33,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one of the following is considered as the goal of RCM?",
+        "options": [
+            {
+                "label": "A",
+                "content": "To develop post design-associated priorities that can facilitate PM.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "To gather information useful for improving the design of items",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "To develop corrective-related tasks that can reinstate reliability and safety",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "To achieve the RCM with average total cost.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 34,
+        "qno": 34,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "The informational sources which are not required for efficient maintenance planning.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Prints, Drawings and Sketches",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Product selling Catalogues",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Standard Operating Procedures",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Labor Estimating System",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 35,
+        "qno": 35,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "The following is not a classification of maintenance",
+        "options": [
+            {
+                "label": "A",
+                "content": "Corrective maintenance",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Timely maintenance",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Scheduled maintenance",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Preventive maintenance",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 36,
+        "qno": 36,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "With the increase in preventive maintenance cost, breakdown maintenance cost",
+        "options": [
+            {
+                "label": "A",
+                "content": "Increases",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Decreases",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Remain same",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Any of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 37,
+        "qno": 37,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "The down time cost consists of",
+        "options": [
+            {
+                "label": "A",
+                "content": "Loss of production",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Wages paid to the workers",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Reduction in sales",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 38,
+        "qno": 38,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which performance result best shows a maintenance and reliability manager that the scheduled maintenance activities being implemented are effective?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Hours spent on unscheduled maintenance have decreased",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Maintenance cost per unit of production has decreased",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Total annual maintenance cost has decreased",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Production rate has increased",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 39,
+        "qno": 39,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which of the following metrics definitions is not accurate?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Uptime \u2013 % of time you run producing quality product at design rate",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Schedule compliance \u2013 how often mechanics are pulled off their current work to another task",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "MTBF \u2013 a measure or indicator of equipment life expectancy",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Backlog \u2013 how long it takes to fix broken equipment",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 40,
+        "qno": 40,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "In the quality improvement effort using statistical thinking, one of the following is correct except:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Control is defined as the complete absence of variation",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Control is simply a state where all variation is predictable variation",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "A controlled process isn't necessarily a sign of good management, nor is an out-of-control process necessarily producing non-conforming product",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "We control the process through the use of past experience and to predict/expect the variation in the future at least within limits",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 41,
+        "qno": 41,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "One is correct about \u2018Variation\u2019 in a process.",
+        "options": [
+            {
+                "label": "A",
+                "content": "All variations are caused and are a natural phenomenon",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "All processes will be subject to variation in performance",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Non-random variations are not usually a planned part of the process variations",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All variations are considered to be caused by chance",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 42,
+        "qno": 42,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "One is a wrong statement about systematic error of data.",
+        "options": [
+            {
+                "label": "A",
+                "content": "It affects all measurements in the same way i.e., the accuracy of the measurement",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "They are avoided, i.e., they are determinate errors",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "They are inherent in the measuring system, and are unavoidable, i.e., they are indeterminate errors",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "None of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 43,
+        "qno": 43,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Of the following, chose the wrong statement.",
+        "options": [
+            {
+                "label": "A",
+                "content": "The key aspect of SPC is to obtain predictable processes that produce consistent results by quickly detecting the occurrence of assignable causes of process shifts",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Predetermined control limits are defined by the capability of the process, whereas specification limits are determined by the customer needs",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Control Limits are used to determine if the process is in a state of statistical control (i.e., is producing consistent output)",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Specification Limits are used to determine if the product will function in the intended fashion",
+                "image": null
+            },
+            {
+                "label": "E",
+                "content": "None of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "E"
+    },
+    {
+        "qid": 44,
+        "qno": 44,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Pick the wrong statement.",
+        "options": [
+            {
+                "label": "A",
+                "content": "A process is capable if individual products consistently meet specification",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "A process is stable (in control) only if common variation is present in the process",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "A process in statistical control will necessarily meet the design specifications",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Process capability compares the output of an in-control process to the specification limits by using capability indices",
+                "image": null
+            },
+            {
+                "label": "E",
+                "content": "None of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 45,
+        "qno": 45,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "One is correctly matched.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Quality control- Are we doing the job correctly?",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Quality control- Can we done the job correctly?",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Process control- Have we done the job correctly?",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Process capability- Can we done the job correctly?",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 46,
+        "qno": 46,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "The review of the successes and the mistakes is normally held during _____ phase of a project?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Initiation",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Planning",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Execution",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Closure",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 47,
+        "qno": 47,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Of the following, one is correct except:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Process performance is not predictable unless the process behavior is stable.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Control chart is a useful off-line quality control tool.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The standard deviation does not reflect the magnitude of the sample data, only the scatter about the average.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The average value of the quality characteristic corresponding to in-control state is represented by center line (CL).",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 48,
+        "qno": 48,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "In a process, 18 out of 20 points are plotted above the center line (CL) but below the upper control limit, and only 2 of 20 are plotted between the center line and the lower control limit. The process state is said to be:",
+        "options": [
+            {
+                "label": "A",
+                "content": "In-control",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Out-of-control",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Data is not enough to predict",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Process state is not dependent over this data",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 49,
+        "qno": 49,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "A statistical process tool which facilitates systematic record keeping or data collection as they happen, which reveals patterns or trends is named as:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Check sheet or Tally sheet",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Histogram",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Flow chart",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Scatter plot diagram",
+                "image": null
+            },
+            {
+                "label": "E",
+                "content": "Control chart or Run chart",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 50,
+        "qno": 50,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "The size of sample is 5 for a process. If the process standard deviation is 0.15 mm, and the mean of process is 1.5 mm, the standard deviation of the sample average will be:",
+        "options": [
+            {
+                "label": "A",
+                "content": "0.0500",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "0.1000",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "0.6710",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "0.0671",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 51,
+        "qno": 51,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "The graphical representation of the total frequencies of occurrence of each type of defects type against the various defect types is:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Check sheet",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Pareto chart",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Histogram",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Control charts",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 52,
+        "qno": 52,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "For a process, the upper specification limit and lower specification limits are 62 and 38 respectively. If the process has its mean equal to 53, and its standard deviation 2, what is the value of Cpk for this process?",
+        "options": [
+            {
+                "label": "A",
+                "content": "1.7",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "2.5",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "1.0",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "1.5",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 53,
+        "qno": 54,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Total solidification time is defined as which one of the following:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Time between pouring and cooling to room temperature,",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Time between solidification and cooling to room temperature,",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Time between pouring and complete solidification,",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Time to give up the heat of fusion?",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 54,
+        "qno": 55,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "A riser in casting is described by which one of the following statements:",
+        "options": [
+            {
+                "label": "A",
+                "content": "An insert in the casting that inhibits buoyancy of the core;",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Source of molten metal to feed the casting and compensate for shrinkage during solidification,",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Gating system in which the sprue feeds directly into the cavity,",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Passage that let pour molten metal to in gates,",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 55,
+        "qno": 56,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one of the following casting processes is expendable mold operations",
+        "options": [
+            {
+                "label": "A",
+                "content": "Centrifugal casting",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Die casting",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Low pressure casting",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Sand casting",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 56,
+        "qno": 57,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which of the following are classified as forging operations:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Swaging",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Impact extrusion",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Roll piercing",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Thread rolling",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 57,
+        "qno": 58,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "The term blanking and punching are the common sheet meal cutting operations, what are the difference between the two:",
+        "options": [
+            {
+                "label": "A",
+                "content": "In Punching the cut-out part is required,",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "In blanking the part remain on the machine table is required;",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "In punching the part remain on the machine table is not required",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "In blanking the cut-out part is required;",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 58,
+        "qno": 59,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "One of the following statements is most correct while defining welding:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Welding is performed generally with the application of heat and/or presser,",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "While performing welding never used filler metal to join the two faying parts,",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Welding is performed most of the times with the application of heat or pressure only,",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Welding is performed most of the times only with the application of heat only,",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 59,
+        "qno": 60,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "One of the following statements is not correct about advantages of welding:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Welding is usually the most economical way to join components in terms of material usage and fabrication costs,",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Some Welding types are restricted to be performed only in a factory environment,",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The welded joint can be stronger than the parent materials if a filler metal is used that has strength properties superior to those of the parents, and if proper welding techniques are used",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Welding provides a permanent joint that make the welded parts a single entity",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 60,
+        "qno": 61,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Among the lists given below could not be categorized as fusion welding:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Arc welding,",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Oxy-fuel gas welding,",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Resistancewelding,",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Friction welding,",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 61,
+        "qno": 62,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "From the statement given below one statement is not true about electrode that used in arc welding:",
+        "options": [
+            {
+                "label": "A",
+                "content": "It must always melt and mix with the parent metal,",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It is available in stick and wire form,",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It is available covered with flux;",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "It is available in wire (continues) form",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 62,
+        "qno": 63,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "On which parameters, life of cutting tool most affected",
+        "options": [
+            {
+                "label": "A",
+                "content": "Depth of cut",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Feed",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Cutting speed",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Tool geometry",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 63,
+        "qno": 64,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "In horizontal milling machines for the motion of work piece and cutting tool while machining process is taking place, which one is correct",
+        "options": [
+            {
+                "label": "A",
+                "content": "The cutting tool is rotating and work piece is stationary",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The work piece is rotating and cutting tool is translating",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The cutting tool is rotating and work piece is translating",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The work piece is stationary and cutting tool is translating",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 64,
+        "qno": 65,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "What is blending in powder metallurgy?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Making powders from different materials",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Packing powder in the die",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Mixing different types of powders",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Heat powder in an oven",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 65,
+        "qno": 66,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Project risk management is best described as?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Managing responses to threats",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Identifying and acknowledging threats and opportunities",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Planning responses to threats",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Minimizing threats and maximizing opportunities",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 66,
+        "qno": 67,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "All of the following are closeness rating factors except one",
+        "options": [
+            {
+                "label": "A",
+                "content": "Need for contact between personnel",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Material flow",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Sharing of technical staff",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Uses of different resources",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 67,
+        "qno": 68,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "The basic outputs from the process selection procedure are",
+        "options": [
+            {
+                "label": "A",
+                "content": "Progressed processes,",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Equipment, and",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Raw materials",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 68,
+        "qno": 69,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "----------involve determining the location of one or more new facilities in one or more of several potential sites",
+        "options": [
+            {
+                "label": "A",
+                "content": "Allocation Problems",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Location Problems",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Location - Allocation Problems",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 69,
+        "qno": 71,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one of following are the reason are for separating of one department from the other",
+        "options": [
+            {
+                "label": "A",
+                "content": "High nose level",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Emissions of fumes",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "High Oder",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 70,
+        "qno": 72,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "ABC company sells shoes for $450. The variable cost is $200 per unit. The fixed costs are $750,000. The company wants to have a profit of $250,000. How many units do they have to sell to achieve this goal?",
+        "options": [
+            {
+                "label": "A",
+                "content": "3,000",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "4,000",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "5,000",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "6,000",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 71,
+        "qno": 73,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "The annuity which refers to debt payment for recovering the initial amount or capital in equal periodical payments, is known as",
+        "options": [
+            {
+                "label": "A",
+                "content": "capital recovery annuity",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "present worth annuity",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "sinking fund annuity",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "compound annuity",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 72,
+        "qno": 74,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "The decision rule for project acceptance is that",
+        "options": [
+            {
+                "label": "A",
+                "content": "if IRR > 0",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "if IRR > MARR",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "if IRR = 0",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "if IRR>= MARR",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 73,
+        "qno": 75,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "A bookstore purchased a best-selling book at P200.00 per copy. At what price should this book be sold so that by giving a 20% discount, the profit is 30%.",
+        "options": [
+            {
+                "label": "A",
+                "content": "P200.00",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "P300.00",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "P400.00",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "P500.00",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 74,
+        "qno": 76,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "P5,000 is borrowed for 75 days at 16% per annum simple interest. How much will be due at the end of 75 days?",
+        "options": [
+            {
+                "label": "A",
+                "content": "P5,066.67",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "P5,133.33",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "P5,050.00",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "P5,166.67",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 75,
+        "qno": 77,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Mr. J. Dela Cruz borrowed money from a bank. He receives from the bank P1,340.00 and promised to pay P1,500.00 at the end of 9 months. Determine the corresponding discount rate or often referred to as the \"banker's discount.\"",
+        "options": [
+            {
+                "label": "A",
+                "content": "13.15%",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "13.32%",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "13.46%",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "13.73%",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 76,
+        "qno": 78,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "In which of the following occupation and industry does musculoskeletal disorder occur?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Service industry",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Textile industry",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Construction Industry",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 77,
+        "qno": 79,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "An accident can be called hazardous only when?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Stressor has the potential to cause harm humans and ecological systems",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Poses threat to the surrounding",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Monitoring is failed",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Outburst chemicals",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 78,
+        "qno": 80,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "____________ is used to determine the range of adjustability for adjustable chairs.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Elbow height",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Shoulder height",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Popliteal height",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Knuckle height",
+                "image": null
+            },
+            {
+                "label": "E",
+                "content": "All",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 79,
+        "qno": 81,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "If you notice tingling, soreness or stiffness in your hands and wrists while typing you should:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Correct your typing technique",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Adjust your workstation.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Take frequent mini-breaks",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All of the Above.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 80,
+        "qno": 82,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "The main categories of ergonomic risk are:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Environment \u2013 risks found in your work environment",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Equipment \u2013 risks associated with the equipment you use and proper fit/adjustment",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Work practices \u2013 risks caused by work requirements, processes or procedures",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Individual \u2013 risks that are unique to you as an individual, such as a physical characteristic, habits and behavior",
+                "image": null
+            },
+            {
+                "label": "E",
+                "content": "All the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "E"
+    },
+    {
+        "qid": 81,
+        "qno": 83,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "A 12-year-old male hurts his ankle while playing football. Then he went to the clinic and a test reveals that he tore a ligament. This condition is known as ___________.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Sprain",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Strain",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Disunion",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Subluxation",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 82,
+        "qno": 84,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Ergonomics principle suggests that:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Monitoring displays should be placed outside peripheral limitations",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Glow-in-the dark dials made of reflective substances are good for viewing in the nights",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Visual systems should be preferred over auditory systems in noisy locations",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 83,
+        "qno": 85,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Scheduling can best be defined as the process used to determine?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Overall project duration",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Project cost estimating",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The project management plan",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Sub-contractor\u2019s responsibilities.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 84,
+        "qno": 86,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one of the following statements is true?",
+        "options": [
+            {
+                "label": "A",
+                "content": "An increase in project scope is likely to increase project cost",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "A decrease in the project time is likely to increase project quality",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "An increase in the project quality requirements is likely to decrease project cost",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "A decrease in the project cost is likely to decrease project time",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 85,
+        "qno": 87,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which statement best describes a responsibility of the project manager?",
+        "options": [
+            {
+                "label": "A",
+                "content": "To be the sole source of expertise for estimating techniques on cost and time",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "To deliver the project objectives to enable benefits to be realized",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "To take ultimate accountability for the delivery of the business benefits",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "To delegate all accountability for managing time, cost and quality to team leaders.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 86,
+        "qno": 88,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one is a true statement relating to project communications?",
+        "options": [
+            {
+                "label": "A",
+                "content": "A project sponsor is responsible for all communication methods and media",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Different stakeholders typically have different communication needs",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It is best to have a standard set of project reports used for every project",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Email is the only way to communicate with large numbers of people.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 87,
+        "qno": 89,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "The main outcome of risk identification, in a risk management process, is to?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Identify and determine the relative importance of the project risks",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Identify and describe all risks that might occur on the project",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Identify and determine the responses to the project risks",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Identify and describe risks that have occurred on previous projects",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 88,
+        "qno": 90,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one of the following is true about operation research?",
+        "options": [
+            {
+                "label": "A",
+                "content": "It is a quantitative approach to decision making based on the scientific method of problem solving",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It is the combination of the activities carried out in an organization and the process of observation and testing characterized by the scientific method",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "OR is the application of the methods of science to complex problems in the direction and management of large systems of 4Ms",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 89,
+        "qno": 91,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "All the statements are correct about goal programming concept except",
+        "options": [
+            {
+                "label": "A",
+                "content": "If the original ithinequality is of the type <= and its di- > 0, the ithgoal is not satisfied",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "If the original ithinequality is of the type >= and its di+ > 0, the ithgoal is satisfied",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "If the original ithinequality is of the type <= and its di+ > 0, the ithgoal is not satisfied",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "If the original ithinequality is of the type <= and its di- > 0, the ithgoal is satisfied",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 90,
+        "qno": 92,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one is not the advantage of linear programming model?",
+        "options": [
+            {
+                "label": "A",
+                "content": "It helps decision - makers to use their productive resource effectively.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "In order to make the decision-making approach of the user becomes more objective and less subjective.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "In a production process, it\u2019s important in highlighting of bottle necks.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "None",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 91,
+        "qno": 93,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Optimal solution of an assignment problem can be obtained only if",
+        "options": [
+            {
+                "label": "A",
+                "content": "Each row & column has only one zero element",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Each row & column has at least one zero element",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The data is arrangement in a square matrix",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "None of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 92,
+        "qno": 94,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one is not correct about goal programming",
+        "options": [
+            {
+                "label": "A",
+                "content": "It provides a way of striving toward several objectives simultaneously.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The objective is to minimize the deviation between goals and actual result",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Deviational variables are real",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Optimizing the objective functions",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 93,
+        "qno": 95,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one is the limitation of linear programming model?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Factors such as uncertainty and time are not taken into consideration",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Parameters in the model are assumed to be constant but in real life situations they are not constants",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Linear programming deals with only single objective",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 94,
+        "qno": 96,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Consider the linear equation x1 + 3 x2 - 4 x3 + 2 x4 = 12. How many decision variables and constraints are defined by this equation respectively?",
+        "options": [
+            {
+                "label": "A",
+                "content": "2 and 4",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "4 and 1",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "4 and 2",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "1 and 4",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 95,
+        "qno": 97,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Suppose that the chance of rain tomorrow depends on previous weather conditions only through whether or not it is raining today and not on past weather condition. If it is raining today, then it will rain tomorrow with probability 0.75. If it is not raining today, then it will rain tomorrow with probability of 0.4. Calculate the probability that it will not rain two days from today given that it is raining today.",
+        "options": [
+            {
+                "label": "A",
+                "content": "0.3375",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "0.4600",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "0.6625",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "0.54",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 96,
+        "qno": 100,
+        "department": "Industrial Engineering",
+        "module": null,
+        "course": null,
+        "content": "Arrivals at telephone booth are considered to be Poisson with an average time of 10 minutes between one arrival and the next. The length of phone call is assumed to be distributed exponentially, with mean 3 minutes. They are served in single server with infinite queue length. What is the probability that a person arriving at the booth will have to wait?",
+        "options": [
+            {
+                "label": "A",
+                "content": "0.33",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "0.67",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "0.25",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "0.45",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    }
+]

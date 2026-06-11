@@ -1,0 +1,1164 @@
+1. Which sensor should one prefer for accurate measurement of distance up to 1 meter?
+A. Ultrasonic sensor                                  
+B. Infrared sensor
+C. PIR sensor                                            
+D. Photo resistor sensor
+ANSWER: A
+2. In a closed system undergoing a cyclic process, the net work done (Wnet) is related to the net heat transfer (Qnet) by the first law of thermodynamics. Which additional information is required to determine the path taken by the system during the cycle (i.e., specific processes involved)?
+A. The system's specific heat capacity at constant pressure (Cp) 
+B. The pressure-volume (P-V) diagram of the cycle
+C. The change in internal energy for one process in the cycle
+D. The mass of the system
+ANSWER: B
+3. In a single-stage vapor compression refrigeration cycle, how does the irreversibility associated with the throttling process (expansion valve) affect the system's performance?
+A. It increases the coefficient of performance (COP), allowing for more cooling per unit work input.
+B. It reduces the pressure difference between the condenser and evaporator, leading to a decrease in refrigerant mass flow rate and cooling capacity. 
+C. It increases the discharge temperature of the refrigerant from the compressor, requiring more work for compression. 
+D. It increases the enthalpy of the refrigerant entering the evaporator, requiring more heat removal for cooling.
+ANSWER: B
+4. What are some common indicators of damage in machinery components, and how can these indicators be used to assess the state of damage of the machinery as a whole?
+A. Unusual noises, vibration, and increased temperature; they indicate potential issues in specific components, helping in timely repairs.
+B. Regular operational sounds, steady vibration, and constant temperature; these signs show that the machinery is functioning normally.
+C. Smooth operation, no noise, and no need for lubrication; they suggest that the machinery is in perfect condition.
+D. Sudden shutdowns, no vibration, and decreased temperature; indicate that the machinery is well-maintained and does not need any repairs.
+ANSWER: A
+5. The product of stiffness of material and moment of inertia of a cross-section is;
+A. Elasticity 
+B. Flexural rigidity
+C. Shear modulus 
+D. Torsional rigidity
+ANSWER: B
+6. As fluid velocity in a pipe increases, according to Bernoulli's principle, the pressure: 
+A. Decreases                                           
+B. Remains constant 
+C. Increases disproportionately              
+D. Depends on the pipe material
+ANSWER: A
+7. The simplification principle in M.H method deals with 
+A. Make optimum use of equipment 
+B. Reduce combine or eliminate unnecessary movement.
+C. Eliminate obstacles from materials flow 
+D. Integrate operations into Handling systems
+ANSWER: B
+8. Which of the following statements is false for troughed belt conveyors? I, Troughed belt conveyors use flexible belts II, They contain five idlers III, Depth of trough decreases with increasing number of idlers IV, Flexibility of belt increases as depth of trough decreases
+A. III and IV
+B. II and III
+C. I and II
+D. None of the above 
+ANSWER: A
+9. Which of the following devices is used to measure fluid pressure?
+A. Venturi meter
+B. Orifice plate
+C. Manometer
+D. Pitot tube
+ANSWER: C
+10. When a fluid flows through a nozzle (constriction), its velocity:
+A. Decreases
+B. Remains constant
+C. Increases 
+D. Depends on the fluid density
+ANSWER: C
+11. A material is said to be yielded if
+A. It loses its plastic nature
+B. It strained with appreciable increase in stress
+C. It can’t regain its original shape/size after the load is removed
+D. None of the above  
+ANSWER: C
+12. Laminar flow is characterized by: 
+A. Random fluid particle movement 
+B. Smooth, parallel fluid layers 
+C. High levels of turbulence 
+D. Only occurring in large pipes
+ANSWER: B
+13. The pressure drop in a pipe due to friction is proportional to the square of the fluid velocity according to the:
+A. Bernoulli's principle
+B. Pascal's law
+C. Darcy-Weisbach equation 
+D. Hagen-Poiseuille equation
+ANSWER: C
+14. In a centrifugal pump, the highest pressure is developed:
+A. At the pump inlet
+B. At the pump outlet 
+C. At the impeller
+D. At the volute casing
+ANSWER: A
+15. Which is the most common load cell used in the force sensors?
+A. Hydraulic load cells      
+B. Strain-Gauge based load cells
+C. Pneumatic load cells     
+D. Capacitive load cells
+ANSWER: B
+16. A cross-section of vertical column has two moments of inertia (i.e. Ixx and Iyy ). The column will tend to buckle in the direction of the
+A. Axis of load
+B. Minimum moment of inertia
+C. Maximum moment of inertia
+D. Perpendicular to the axis of load
+ANSWER: B
+17. Which of the following statements accurately describes the effective length for a column supported by pin and rolling supports?
+A. The effective length is reduced by a factor of 0.7.
+B. The effective length is equal to the actual length of the column.
+C. The effective length is doubled compared to a fixed-fixed support condition.
+D. The effective length is unaffected by the support conditions.
+ANSWER: A
+18. A steel bar of 5 mm is cooled from 45° C to 40° C and it is free to compress. The bar will induce
+A. Compressive stress
+B. Tensile stress
+C. No stress
+D. shear stress
+ANSWER: B
+19. Which maintenance strategy emphasizes the use of real-time data and condition monitoring techniques to predict equipment failures before they occur?
+A. Corrective Maintenance
+B. Preventive Maintenance
+C. Predictive Maintenance
+D. Proactive Maintenance
+ANSWER: C
+20. A curved beam is most similar in structural behavior to which of the following options:
+A. A straight beam with a constant cross-section
+B. A straight beam with a varying cross-section
+C. A truss structure
+D. A cable under tension
+ANSWER: A
+21. When does the concept of “lumped capacitance” apply in transient heat conduction problems? 
+A. When the Biot number is small 
+B. When the Fourier number is large
+C. When the material has high thermal conductivity
+D. When the surface area is large
+ANSWER: A
+22. When water boils at atmospheric pressure (1 atm), the boiling point:
+A. Increases with higher heat input Incorrect 
+B. Decreases with lower heat input Incorrect 
+C. Varies depending on the container material Incorrect 
+D. Remains constant at 100°C 
+ANSWER: D
+23. Which law describes the rate of heat transfer through a solid material based on the temperature gradient? 
+A. Fourier's law 
+B. Newton's law of cooling 
+C. Stefan-Boltzmann law 
+D. Ohm's law
+ANSWER: A
+24. Which filter contains entirely passive elements?
+A. Electrical filter
+B. Mechanical filter
+C. Digital filter
+D. Optical filter
+ANSWER: A
+25. In thick-walled cylinders, what is a significant consideration regarding stress distribution?
+A. Stress is highest at the outer surface.
+B. Stress is uniform throughout the cylinder.
+C. Stress is highest at the longitudinal axis.
+D. Stress is highest at the inner surface.
+ANSWER: D
+26. Blackbody radiation describes the: 
+A. Emissive power of a perfect absorber at any temperature 
+B. Reflective properties of a polished surface  
+C. Emissive power of a real object at a specific temperature 
+D. Emissive power of a perfect emitter at a specific temperature
+ANSWER: D
+27. According to Newton's law of cooling, the rate of heat transfer from a surface is proportional to:
+A. The surface area only 
+B. The temperature difference only
+C. The product of surface area and temperature difference
+D. The square of the temperature difference
+ANSWER: C
+28. Which theory of failure in materials is based on the assumption that failure occurs when the maximum normal stress reaches the ultimate tensile strength of the material?
+A. Maximum Shear Stress Theory
+B. Maximum Distortion Energy Theory
+C. Maximum Shear Strain Energy Theory
+D. Maximum Principal Stress Theory
+ANSWER: D
+29. Which of the following performs Logical and Arithmetic Operations in Mechatronics System?
+A. Sensors                                        
+B. Input Signal Conditioning Unit
+C. Digital Control Unit                       
+D. Output Display
+ANSWER: C
+30. Refrigerant R141 is chemically classified as a(n):
+A. Hydrochlorocarbon (HCFC)
+B. Chlorofluorocarbon (CFC) 
+C. Hydrofluorocarbon (HFC)
+D. Hydrocarbon (HC) 
+ANSWER: A
+31. Superheating in a refrigeration cycle:
+A. Increases the specific refrigeration effect 
+B. Decreases the specific work of compression 
+C. Increases the specific work of compression 
+D. Decreases the compressor discharge
+ANSWER: B 
+32. Absorption refrigeration systems:
+A. Water-lithium bromide systems are limited to applications above 0°C.  
+B. Ammonia-water systems are limited to applications below 0°C.  
+C. Water-lithium bromide systems are suitable for large-scale commercial applications. 
+D. Small ammonia-water systems are used in domestic air conditioners.
+ANSWER: C
+33. Which of the following statements are TRUE?
+A. Heat transfer through a building wall may be considered as steady if its thermal capacity is very small
+B. When the thermal capacity of the wall is large, at any point of time the heat transferred to the outer surface of the wall is larger than the heat transfer from the inner surface
+C. When the thermal capacity of the wall is large, the heat transfer rate at the outer surface of the wall can be smaller than the heat transfer rate from the inner surface
+D. Due to finite thermal capacity of the wall, the outer surface temperature is always higher than the inner surface temperature
+ANSWER: C
+34. In psychrometrics, when the enthalpy of air entering an air conditioning system is equal to the enthalpy of saturated air leaving the cooling coil, the air has reached its:
+A. Maximum cooling capacity
+B. Adiabatic saturation point
+C. Dew point temperature 
+D. Minimum relative humidity
+ANSWER: C
+35. What is the main function of a transducer?
+A. To convert physical quantity into an electrical signal 
+B. To convert electrical signal into a physical quantity
+C. Convert physical quantity into mechanical quantity  
+D. To convert physical quantity into a chemical quantity
+ANSWER: A
+36. In a kinematic inversion of four bar mechanisms, which of the following correctly states Grashof’s law?
+A.  If any of the links  adjacent to the shortest link is fixed, a double rocker  mechanism is obtained 
+B. Grashof’s law of inversion does not consider the arrangement of the links
+C. If the shortest link is fixed crank rocker mechanism is obtained
+D. If the link opposite to the shortest link is fixed double crank mechanism is obtained
+ANSWER: B
+37. Variation in the speed of an engine over some revolutions  is corrected by incorporating
+A. governor on the shaft
+B. flywheel on the shaft
+C. flywheel and governor on the shaft
+D. clutch on the shaft
+ANSWER: A
+38. Suppose in a four-bar mechanism the sum of the lengths of the largest and the shortest links is less than the sum of the other two links. What kind of motion do we get if the shortest link is fixed?
+A. Crank rocker 
+B. Crank - Crank
+C. Double rocker
+D. Rocker - Rocker 
+ANSWER: B
+39. Which system allows for transfer of both matter and energy across its boundaries? 
+A. Closed system 
+B. Open system 
+C. Isolated system 
+D. Adiabatic system
+ANSWER: B
+40. In a throttling process (also known as a Joule-Thomson expansion) through a valve in a steady-state flow, which property remains constant across the valve (assuming negligible heat transfer and kinetic/potential energy changes)?
+A. Temperature
+B. Enthalpy  
+C. Entropy 
+D. Specific heat capacity  
+ANSWER: B
+41. The first law of thermodynamics states that energy can neither be created nor destroyed, only transformed. How does this principle impact the analysis of cyclic processes in a closed system?
+A. It allows for the calculation of the system's absolute entropy at any point in the cycle. 
+B. It guarantees that the net work done by the system in a cyclic process will always be positive.
+C. It ensures that the total heat transferred into the system during a cyclic process must equal the total heat transferred out. 
+D. It simplifies the calculation of the system's efficiency by relating it solely to the temperature difference between the heat source and sink. 
+ANSWER: C
+42. During a constant-volume process in a closed system, which of the following propertY or interaction remains constant:
+A. Enthalpy (H)
+B. Pressure (P) 
+C. Temperature (T)
+D. Work (W)
+ANSWER: D
+43. A construction company has a request to make for the young mechanical engineering graduates of BiT.  The request from the company indicates that the machine in need is going to be used for painting the walls of a high tower building. The need identification also specifies the machine will be supported by cables from a crane and is observed to be in space. The main mechanical features requested include a low-speed slider with a brush attached to its end for painting, misaligned input and output shafts to save a horizontal space parallel to the walls, a means to solve the fluctuation of the machine’s speed for the moment the buckets are full of paint, a means to solve the fluctuation of the machine’s speed in each cycle of rotation due to forces like friction between components, a means to identify and correct the location or orientation of the whole machine when observed from the crane since it is in space. Based on the request, if you are expected to send a to–design list for the company, your list will include the following machine elements in the order they are described by the company.
+A. Gearbox – Cam and follower – Governor – Universal Joint – Gyroscope
+B. Gearbox – Cam and follower – Universal joint – Governor – Gyroscope
+C. Governor – Universal joint –  Gearbox  –  Cam and follower – Gyroscope
+D. Gyroscope – Governor – universal joint – Gearbox – Cam and follower
+ANSWER: A
+44. Suppose in a workshop full of machinery, a machine was running at high speed. The team observing the machine deduced that unbalanced forces of high magnitude were causing the machine to vibrate and produce a lousy noise.  With the problem being mechanical unbalance, among the following options, what do you think will not be the initial cause of the unbalance?
+A. Probably there are mechanical members in the machine  loaded eccentrically 
+B. Probably there are reciprocating elements inside the machine
+C. Probably there are faults made during the mounting of components  
+D. Probably the geometric centers of some of the  components in motion does not change due to wear
+ANSWER: D
+45. In a Carnot heat engine, which statement is true? 
+A. It operates between two isothermal and two adiabatic processes. 
+B. It operates between two isothermal and two isentropic processes.
+C. It operates between two adiabatic and two isochoric processes. 
+D. It operates between two isobaric and two isentropic processes.
+ANSWER: B
+46. Psychrometric charts are used to determine properties of: 
+A. Ideal gases only
+B. Moist air
+C. Incompressible fluids
+D. Superheated steam
+ANSWER: B
+47. The second law of thermodynamics in power generation cycles is significant because it:
+A. Defines the Carnot efficiency as the theoretical maximum.  
+B. Introduces the concept of specific heat capacity. 
+C. Relates pressure and temperature for ideal gases. 
+D. Governs the direction of heat transfer only. 
+ANSWER: A
+48. Ergonomics in plant design focuses on:
+A. Minimizing employee engagement
+B. Maximizing physical strain on workers
+C. Improving efficiency and safety of workspaces
+D. Ignoring human factors in workplace design
+ANSWER: C
+49. What is a fundamental principle of material management in industrial engineering?
+A. Stockpiling excess inventory
+B. Reducing lead times for procurement
+C. Ignoring supplier relationships
+D. Increasing transportation costs
+ANSWER: B
+50. What is a primary focus of project management in industrial management?
+A. Increasing project scope without considering resources
+B. Ignoring project timelines and deadlines
+C. Balancing project constraints such as time, cost, and quality
+D. Minimizing stakeholder communication
+ANSWER: C
+51. What is a critical aspect of basic management concepts in industrial organization?
+A. Disregarding employee morale and motivation
+B. Neglecting customer satisfaction
+C. Emphasizing hierarchical structures over teamwork
+D. Promoting effective leadership and decision-making
+ANSWER: D 
+52. Consider a combined-cycle power plant that utilizes a gas turbine cycle followed by a steam Rankine cycle in a cogeneration setup. What are the primary benefits of such a configuration compared to a standalone gas turbine cycle?
+A. It achieves a higher overall thermal efficiency by utilizing the waste heat from the gas turbine exhaust for steam generation. 
+B. It simplifies the design and operation of the power plant compared to individual gas and steam cycles. 
+C. It produces only electricity and doesn't offer any additional outputs like process heat. 
+D. It is less susceptible to environmental regulations due to lower emissions compared to a standalone gas turbine cycle.
+ANSWER: A
+53. What happens to the temperature during a phase transformation?
+A. It remains constant.
+B. It always increases.
+C. It always decreases.
+D. It varies randomly.
+ANSWER: A
+54. What is the process of converting raw metal into a desired shape by using compressive force called?
+A. Welding
+B. Casting
+C. Forging
+D. Extrusion
+ANSWER: C
+55. Which metal is used to make aircraft bodies due to its lightweight and high strength-to-weight ratio?
+A. Copper
+B. Titanium
+C. Gold
+D. Brass
+ANSWER: B
+56. Which of the following is a common crystal structure exhibited by ceramics?
+A. Body-centered cubic (BCC)
+B. Face-centered cubic (FCC)
+C. Hexagonal close-packed (HCP)
+D. Amorphous
+ANSWER: C
+57. What concept in maintenance technology helps in predicting plant performance by assessing the ease of repairing equipment and minimizing downtime?
+A. Reliability
+B. Maintainability
+C. Availability
+D. Predictability
+ANSWER: B
+58. Which practical skill is essential for maintenance personnel?
+A. Software programming
+B. Advanced calculus
+C. Troubleshooting and diagnostic techniques
+D. Graphic design
+ANSWER: C
+59. What is the primary objective of plant layout design in industrial management?
+A. Maximizing material handling costs
+B. Enhancing employee satisfaction
+C. Minimizing production efficiency
+D. Optimizing workflow and space utilization
+ANSWER: D
+60. Which one is true about pour point of fuels 
+A. Fuel catches fire without spark  
+B. Temperature at which the fuel solidifies or coagulates 
+C. Temperature at which fuel catches fire with help of spark
+D. None
+ANSWER: B
+61. A spur gear with pitch circle diameter D has number of teeth T. The module m is defined as
+A. m = D/T 
+B. m = T/D
+C. m = πD/T
+D. m = D*T
+ANSWER: A
+62. The power transmitted by means of a belt depends upon
+A. velocity of the belt
+B. tension under which the belt is placed on the pulleys
+C. arc of contact between the belt and the smaller pulley
+D. all of the above
+ANSWER: D
+63. What property of ceramics makes them highly resistant to heat and thermal shock?
+A. High electrical conductivity
+B. Low density
+C. Brittle fracture behavior
+D. High thermal stability
+ANSWER: D
+64. Which polymer processing technique involves forcing molten polymer through a die to create a continuous profile?
+A. Injection molding
+B. Blow molding
+C. Extrusion
+D. Compression molding
+ANSWER: C
+65. Which polymer is widely used in packaging materials, such as plastic bags and food containers, due to its low cost and versatility?
+A. Polyethylene
+B. Polypropylene
+C. Polystyrene
+D. Polyvinyl chloride
+ANSWER: A
+66. Composite materials are known for their:
+A. High ductility
+B. Low density
+C. High electrical conductivity
+D. Low strength
+ANSWER: B
+67. The process of combining fibers and matrix materials to create a composite is called:
+A. Filament winding
+B. Injection molding
+C. Vacuum bagging
+D. Lay-up
+ANSWER: D
+68. In welding processes, what is the principle behind gas welding techniques?
+A. Melting the base materials using a high-energy laser beam
+B. Creating a high-temperature arc between the electrode and workpiece
+C. Heating the workpiece with an oxyfuel flame to melt and join metals
+D. Passing an electric current through the workpiece to generate heat for fusion
+ANSWER: C
+69. What is a primary objective of preventive maintenance for machinery?
+A. Repairing equipment after it breaks down
+B. Maximizing uptime and minimizing unexpected downtime
+C. Replacing machinery components only when they fail
+D. Implementing upgrades and modifications to improve performance
+ANSWER: B
+70. In which maintenance approach is machinery inspected and monitored to predict when maintenance should be performed?
+A. Breakdown maintenance
+B. Corrective maintenance
+C. Predictive maintenance
+D. Routine maintenance
+ANSWER: C
+71. Which one is false statement based on the assumption of air standard engine cycle?
+A. The gas mixture in the cylinder is treated as air and water for the entire cycle, and property values of air and water are used in the analysis.
+B. Compression strokes and expansion strokes are approximated by isentropic processes
+C. Exhaust blow down is approximated by a constant-volume process
+D. All processes are considered reversible
+ANSWER: A
+72. What is the primary cause of corrosion in metals?
+A. Mechanical stress
+B. High temperature
+C. Exposure to water and oxygen
+D. Chemical reactions with acids
+ANSWER: C
+73. The ratio of quantity of liquid discharged per second from the pump to the quantity of liquid passing per second through the impeller is known as
+A. manometric efficiency
+B. mechanical efficiency
+C. overall efficiency
+D. volumetric efficiency
+ANSWER: D
+74. What is the primary function of a compressor?
+A. To increase the temperature of gases
+B. To increase the pressure of gases
+C. To convert mechanical energy into electrical energy
+D. To generate steam
+ANSWER: B
+75. What are bulk loads? 
+A. Lump of material 
+B. Single rigid mass c. 
+C. Heterogeneous particles
+D. Homogeneous particles
+ANSWER: B
+76. A conveyor belt consists of which of the following elements?
+A. Idlers 
+B. Top cover, carcass and bottom cover
+C. Belt splicing idlers
+D. Plies and rubber
+ANSWER: B
+77. Which pump type uses a rotating impeller to increase the fluid pressure?
+A. Centrifugal pump
+B. Reciprocating pump
+C. Diaphragm pump
+D. Axial pump
+ANSWER: A
+78. The design of shafts made of brittle materials is based on
+A. Guest’s theory        
+B. Rankine’s theory
+C. St. Venant’s theory                                      
+D. Von Mises Theory
+ANSWER: B
+79. What is the best definition of preventive maintenance in an industrial setup?
+A. Equipment repair only after breakdown
+B. Conducting routinary inspections and servicing to prevent equipment breakdowns
+C. Maintenance jobs are done only when the machines are seen as not working properly.
+D. Subcontracting of maintenance jobs to contractors outside of the organization
+ANSWER: B
+80. Which type of turbine is most efficient at high heads and low flow rates?
+A. Francis turbine
+B. Kaplan turbine
+C. Pelton turbine
+D. Axial turbine
+ANSWER: C
+81. Which of the following statement is correct? 
+A. When the driver releases the clutch pedal, the spring pressure inside the pressure plate pushes forward on the clutch disc, this locks the flywheel, disc, pressure plate, and transmission input together.
+B. When the driver releases the clutch pedal, the clutch release mechanism pulls or pushes on the clutch fork the fork moves the release bearing into the center of the pressure plate, the pressure plate face pulls away from the clutch disc.
+C. When the driver releases the clutch pedal, the clutch disc and transmission input does not turn together.
+D. When the driver presses the clutch pedal, this mechanism is called clutch engaged.
+ANSWER: A
+82. What is a fundamental principle underlying traditional machining processes?
+A. Utilizing high-energy lasers to shape materials
+B. Applying mechanical force to remove material from a workpiece
+C. Submerging the workpiece in a chemical solution to etch desired shapes
+D. Using electric discharge to erode material from the workpiece
+ANSWER: B
+83. What is a key characteristic of subtractive manufacturing methods?
+A. Building parts layer by layer
+B. Adding material to create a final product
+C. Removing material from a solid block to shape the desired object
+D. Joining materials through welding or soldering processes
+ANSWER: C
+84. Which of the following is a characteristic of additive manufacturing methods?
+A. High material waste
+B. Limited design complexity
+C. High production speed
+D. Customization potential
+ANSWER: D
+85. What is the term for the height difference between the water level above the turbine and the turbine outlet?
+A. Water velocity
+B. Hydraulic head
+C. Penstock pressure
+D. Tailrace level
+ANSWER: B
+86. Which of the following statements best describes the basic concept of the casting process?
+A. Casting primarily relies on mechanical shaping methods to create complex metal parts.
+B. Casting is a subtractive manufacturing process that involves removing material from a solid block to create a part.
+C. Casting is a non-metallic forming process used exclusively for creating ceramic components.
+D. Casting involves pouring molten metal into a mold cavity and allowing it to solidify into the desired shape.
+ANSWER: D
+87. Which statement accurately describes the basic principles and mechanisms of shearing in metal-forming processes?
+A. Shearing involves compressive forces applied perpendicular to the surface of the material, causing it to fracture along a predetermined line.
+B. Shearing relies on tensile forces to stretch and shape the material into the desired form.
+C. Shearing primarily utilizes rotational forces to shape the metal through spinning techniques.
+D. Shearing involves applying high-pressure fluid streams to cut through the material.
+ANSWER: A
+88. In the context of material consumption in manufacturing processes, which factor primarily influences the efficiency of material utilization?
+A. Machine speed
+B. Tool wear
+C. Material thickness
+D. Ambient temperature
+ANSWER: C
+89. Two shafts will have equal strength, if
+A. diameter of both the shafts is same
+B. angle of twist of both the shafts is same
+C. material of both the shafts is same
+D. twisting moment of both the shafts is same
+ANSWER: D
+90. Which one of the following shows the correct power flow in the correct order?
+A. Propeller shaft → drive pinion → ring gear → differential case → differential pinion → sun gear → axle shaft → wheel
+B. Propeller shaft → drive pinion → differential case → ring gear →  differential pinion → sun gear → axle shaft → wheel
+C. Propeller shaft → drive pinion → ring gear → differential pinion → differential case → sun gear → axle shaft → wheel
+D. Propeller shaft → drive pinion → differential case → differential pinion → ring gear → sun gear → axle shaft → wheel
+ANSWER: A
+91. Lewis equation in spur gears is applied
+A. only to the pinion 
+B. only to the gear
+C. to stronger of the pinion or gear 
+D. to weaker of the pinion or gear
+ANSWER: D
+92. A ________ is a mechanical device that allows the output shaft to be disconnected from the rotating input shaft.
+A. Clutch
+B. Brake 
+C. Flywheel 
+D. Gear
+ANSWER: A
+93. Two shafts A and B are made of the same material. The diameter of the shaft A is twice as that of shaft B. The power transmitted by the shaft A will be                            of shaft B.
+A. twice                                                        
+B. four times
+C. eight times                                            
+D. sixteen times
+ANSWER: C
+94. A sliding bearing which can support steady loads without any relative motion between the journal and the bearing is called
+A. zero film bearing 
+B. hydrostatic lubricated bearing
+C. boundary lubricated bearing
+D. hydrodynamic lubricated bearing 
+ANSWER: B
+95. A brake commonly used in motor cars is
+A. shoe brake                     
+B. band brake
+C. band and block brake        
+D. internal expanding brake
+ANSWER: D
+96. The capacity of a pneumatic conveying system depends upon the
+A. Diameter of the conveying line
+B. Bulk density of materials
+C. Pressure of the conveying air
+D. All of the above
+ANSWER: D
+97. Which one is true about knocking reduction for spark ignition engine?
+A. Use low octane rating fuel 
+B. Retarding ignition timing 
+C. Increasing  the compression ratio
+D. Introduce lean mixture
+ANSWER: B
+98. What is a fundamental principle underlying plastics forming processes?
+A. Heating the material to a molten state and shaping it into the desired form
+B. Applying mechanical pressure to solidify the material into the desired shape
+C. Using chemical reactions to mold the material into the desired configuration
+D. Subjecting the material to high-frequency vibrations to induce shaping
+ANSWER: A
+99. What fundamental principle is involved in ceramic and glass forming processes?
+A. Applying mechanical pressure to shape the material
+B. Melting the material and shaping it through casting
+C. Using chemical reactions to induce shaping
+D. Subjecting the material to high-frequency vibrations to induce shaping
+ANSWER: B
+100. What is a foundational principle of powder metallurgy?
+A. Melting metal powders and pouring them into molds
+B. Heating metal powders to their melting point and then shaping them
+C. Compacting metal powders into a desired shape and then sintering them
+D. Applying high-pressure fluids to form metal powders into intricate shapes
+ANSWER: C
+101. Describe the steps involved in the maintenance planning process. How does effective decision-making within this process impact the overall performance and reliability of machinery?
+A. Identifying maintenance needs, scheduling tasks, allocating resources, and evaluating outcomes; effective decision-making ensures timely interventions, optimal resource use, and minimal downtime.
+B. Designing new machinery, testing prototypes, marketing the product, and selling to customers; effective decision-making boosts sales and customer satisfaction.
+C. Recruiting staff, training employees, monitoring work hours, and processing payroll; effective decision-making improves employee performance and morale.
+D. Developing new software, debugging code, launching updates, and providing user support; effective decision-making enhances software reliability and user experience.
+ANSWER: A
+102. A riser in casting is described by which one of the following statements.
+A. An insert in the casting that inhibits buoyancy of the core.
+B. Source of molten metal to feed the casting and compensate for shrinkage during solidification.
+C. Gating system in which the sprue feeds directly into the cavity.
+D. Passage that let pour molten metal to in gates.
+ANSWER: B
+103. Which one of the following casting processes is expendable-mold operations? 
+A. Centrifugal casting
+B. Die casting
+C. Low-pressure casting
+D. Sand casting
+ANSWER: D
+104. The term blanking and punching are the common sheet meal cutting operations, what are the difference between the two.
+A. In Punching the cut-out part is required,
+B. In blanking the part remain on the machine table is required;
+C. In punching the part remain on the machine table is not required
+D. In blanking the cut-out part is required;
+ANSWER: D
+105. One of the following statements is most correct while defining welding:
+A. Welding is performed generally with the application of heat and/or presser,
+B. While performing welding never used filler metal to join the two faying parts,
+C. Welding is performed most of the times with the application of heat or pressure only,
+D. Welding is performed most of the times only with the application of heat only,
+ANSWER: A
+106. One of the following statements is not correct about advantages of welding:
+A. Welding is usually the most economical way to join components in terms of material usage and fabrication costs.
+B. Some Welding types are restricted to be performed only in a factory environment.
+C. The welded joint can be stronger than the parent materials if a filler metal is used that has strength properties superior to those of the parents, and if proper welding techniques are used.
+D. Welding provides a permanent joint that make the welded parts a single entity.
+ANSWER: B 
+107. Among the lists given below could not be categorized as fusion welding: 
+A. Arc welding
+B. Oxy-fuel gas welding
+C. Resistance welding
+D. Friction welding 
+ANSWER: D
+108. From the statement given below one statement is not true about electrode that used in arc welding:
+A. It must always melt and mix with the parent metal.
+B. It is available in stick and wire form.
+C. It is available covered with flux.
+D. It is available in wire (continues) form.
+ANSWER: A
+109. On which parameters, life of cutting tool most affected 
+A. Depth of cut
+B. Feed
+C. Cutting speed
+D. Tool geometry 
+ANSWER: C
+110. In horizontal milling machines for the motion of work piece and cutting tool while machining process is taking place, which one is correct
+A. The cutting tool is rotating and work piece is stationary.
+B. The work piece is rotating and cutting tool is translating.
+C. The cutting tool is rotating and work piece is translating.
+D. The work piece is stationary and cutting tool is translating.
+ANSWER: C
+111. What is blending in powder metallurgy?
+A. Making powders from different materials;
+B. Packing powder in the die;
+C. Mixing different types of powders;
+D. Heat powder in an oven
+ANSWER: C
+112. Laminar flow is characterized by: 
+A. Random fluid particle movement
+B. Smooth, parallel fluid layers
+C. High levels of turbulence
+D. Only occurring in large pipes
+ANSWER: B
+113. As fluid velocity in a pipe increases, according to Bernoulli’s principle, the pressure: 
+A. Decreases
+B. Remains constant
+C. Increases disproportionately
+D. Depends on the pipe material
+ANSWER: A
+114. Which of the following devices is used to measure fluid pressure? 
+A. Venturi meter
+B. Orifice plate
+C. Manometer
+D. Pitot tube
+ANSWER: C
+115. When a fluid flows through a nozzle (constriction), its velocity: 
+A. Decreases
+B. Remains constant
+C. Increases
+D. Depends on the fluid density
+ANSWER: C
+116. The pressure drop in a pipe due to friction is proportional to the square of the fluid velocity according to the: 
+A. Bernoulli’s principle
+B. Pascal’s law
+C. Darcy-Weisbach equation
+D. Hagen-Poiseuille equation
+ANSWER: C
+117. In a centrifugal pump, the highest pressure is developed: 
+A. At the pump inlet
+B. At the pump outlet
+C. At the impeller
+D. At the volute casing
+ANSWER: A
+118. A long, horizontal pipe carries an incompressible fluid. Which of the following statements is ALWAYS true?
+A. The pressure at the bottom of the pipe is always higher than the pressure at the top.
+B. The velocity of the fluid is constant throughout the pipe.
+C. The mass flow rate of the fluid is constant throughout the pipe.
+D. The shear stress acting on the fluid particles is zero.
+ANSWER: C
+119. Which law describes the rate of heat transfer through a solid material based on the temperature gradient? 
+A. Fourier’s law
+B. Newton’s law of cooling
+C. Stefan-Boltzmann law
+D. Ohm’s law
+ANSWER: A
+120. In which situation is radiation heat transfer most dominant?
+A. Cooking food in a microwave oven
+B. Heating a room using a radiator
+C. Melting metal in a furnace
+D. Boiling water on a stovetop
+ANSWER: A
+121. When does the concept of “lumped capacitance” apply in transient heat conduction problems?
+A. When the Biot number is small
+B. When the Fourier number is large
+C. When the material has high thermal conductivity
+D. When the surface area is large
+ANSWER: A
+122. When water boils at atmospheric pressure (1 atm), the boiling point:
+A. Increases with higher heat input Incorrect
+B. Decreases with lower heat input Incorrect
+C. Varies depending on the container material Incorrect
+D. Remains constant at 100°C
+ANSWER: D
+123. Blackbody radiation describes the:
+A. Emissive power of a perfect absorber at any temperature
+B. Reflective properties of a polished surface
+C. Emissive power of a real object at a specific temperature
+D. Emissive power of a perfect emitter at a specific temperature
+ANSWER: D
+124. According to Newton’s law of cooling, the rate of heat transfer from a surface is proportional to:
+A. The surface area only
+B. The temperature difference only
+C. The product of surface area and temperature difference
+D. The square of the temperature difference
+ANSWER: C
+125. Refrigerant R141 is chemically classified as a(n): 
+A. Hydrochlorocarbon (HCFC)
+B. Chlorofluorocarbon (CFC)
+C. Hydrofluorocarbon (HFC)
+D. Hydrocarbon (HC)
+ANSWER: A
+126. Superheating in a refrigeration cycle:
+A. Increases the specific refrigeration effect
+B. Decreases the specific work of compression
+C. Increases the specific work of compression
+D. Decreases the compressor discharge
+ANSWER: B
+127. Absorption refrigeration systems:
+A.Water-lithium bromide systems are limited to applications above 0°C.
+B. Ammonia-water systems are limited to applications below 0°C.
+C. Water-lithium bromide systems are suitable for large-scale commercial applications.
+D. Small ammonia-water systems are used in domestic air conditioners.
+ANSWER: C
+128. Which of the following statements are TRUE?
+A. Heat transfer through a building wall may be considered as steady if its thermal capacity is very small
+B. When the thermal capacity of the wall is large, at any point of time the heat transferred to the outer surface of the wall is larger than the heat transfer from the inner surface
+C. When the thermal capacity of the wall is large, the heat transfer rate at the outer surface of the wall can be smaller than the heat transfer rate from the inner surface
+D. Due to finite thermal capacity of the wall, the outer surface temperature is always higher than the inner surface temperature
+ANSWER: C
+129. In psychrometrics, when the enthalpy of air entering an air conditioning system is equal to the enthalpy of saturated air leaving the cooling coil, the air has reached its: 
+A. Maximum cooling capacity
+B. Adiabatic saturation point
+C. Dew point temperature
+D. Minimum relative humidity
+ANSWER: C
+130. Which system allows for transfer of both matter and energy across its boundaries? 
+A. Closed system
+B. Open system
+C. Isolated system
+D. Adiabatic system
+ANSWER: B
+131. In a throttling process (also known as a Joule-Thomson expansion) through a valve in a steady-state flow, which property remains constant across the valve (assuming negligible heat transfer and kinetic/potential energy changes)? 
+A. Temperature
+B. Enthalpy
+C. Entropy
+D. Specific heat capacity
+ANSWER: B
+132. The first law of thermodynamics states that energy can neither be created nor destroyed, only transformed. How does this principle impact the analysis of cyclic processes in a closed system?
+A. It allows for the calculation of the system’s absolute entropy at any point in the cycle.
+B. It guarantees that the net work done by the system in a cyclic process will always be positive.
+C. It ensures that the total heat transferred into the system during a cyclic process must equal the total heat transferred out.
+D. It simplifies the calculation of the system’s efficiency by relating it solely to the temperature difference between the heat source and sink.
+ANSWER: C
+133. During a constant-volume process in a closed system, which of the following properties remains constant: 
+A. Enthalpy (H)
+B. Pressure (P)
+C. Temperature (T)
+D. Work (W)
+ANSWER: D
+134. In a Carnot heat engine, which statement is true?
+A. It operates between two isothermal and two adiabatic processes.
+B. It operates between two isothermal and two isentropic processes.
+C. It operates between two adiabatic and two isochoric processes.
+D. It operates between two isobaric and two isentropic processes.
+ANSWER: B
+135. Psychrometric charts are used to determine properties of: 
+A. Ideal gases only
+B. Moist air
+C. Incompressible fluids
+D. Superheated steam
+ANSWER: B
+136. The second law of thermodynamics in power generation cycles is significant because it:
+A. Defines the Carnot efficiency as the theoretical maximum.
+B. Introduces the concept of specific heat capacity.
+C. Relates pressure and temperature for ideal gases.
+D. Governs the direction of heat transfer only.
+ANSWER: A
+137. In a closed system undergoing a cyclic process, the net work done (Wnet) is related to the net heat transfer (Qnet) by the first law of thermodynamics. Which additional information is required to determine the path taken by the system during the cycle (i.e., specific processes involved)?
+A. The system’s specific heat capacity at constant pressure (Cp)
+B. The pressure-volume (P-V) diagram of the cycle
+C. The change in internal energy for one process in the cycle
+D. The mass of the system
+ANSWER: B
+138. In a single-stage vapor compression refrigeration cycle, how does the irreversibility associated with the throttling process (expansion valve) affect the system’s performance?
+A. It increases the coefficient of performance (COP), allowing for more cooling per unit work input.
+B. It reduces the pressure difference between the condenser and evaporator, leading to a decrease in refrigerant mass flow rate and cooling capacity.
+C. It increases the discharge temperature of the refrigerant from the compressor, requiring more work for compression.
+D. It increases the enthalpy of the refrigerant entering the evaporator, requiring more heat removal for cooling.
+ANSWER: B
+139. Consider a combined-cycle power plant that utilizes a gas turbine cycle followed by a steam Rankine cycle in a cogeneration setup. What are the primary benefits of such a configuration compared to a standalone gas turbine cycle?
+A. It achieves a higher overall thermal efficiency by utilizing the waste heat from the gas turbine exhaust for steam generation.
+B. It simplifies the design and operation of the power plant compared to individual gas and steam cycles.
+C. It produces only electricity and doesn’t offer any additional outputs like process heat.
+D. It is less susceptible to environmental regulations due to lower emissions compared to a standalone gas turbine cycle.
+ANSWER: A
+140. When analyzing the performance of a turbine stage, the degree of reaction is an important parameter. How does a change in the degree of reaction from purely impulse to purely reaction affect the velocity triangles at the inlet and outlet of the turbine rotor blades?
+A. The inlet and outlet relative flow velocities remain constant regardless of the degree of reaction.
+B. In a purely impulse turbine, the absolute flow velocity at the rotor outlet is significantly higher compared to a purely reaction turbine.
+C. The degree of reaction only affects the tangential component of the relative flow velocity at the rotor inlet.
+D. A higher degree of reaction leads to a decrease in the stage efficiency due to increased internal losses within the blades.
+ANSWER: B
+141. A single-stage axial compressor operates at off-design conditions due to a change in system pressure ratio. How will this primarily affect the stage work done by the compressor blades?
+A. The stage work will remain constant regardless of the pressure ratio change.
+B. The stage work will always increase, requiring more energy input to achieve the same pressure rise.
+C. The stage work will decrease, resulting in a lower pressure rise across the compressor stage.
+D. The stage work will depend solely on the rotational speed of the compressor shaft.
+ANSWER: C
+142. Which type of turbine is most suitable for low head, high flow rate applications such as hydroelectric power plants? 
+A. Francis turbine
+B. Kaplan turbine
+C. Pelton turbine
+D. Axial turbine
+ANSWER: A
+143. A centrifugal pump impeller with a large volute casing is most likely designed for:
+A. High head rise and low flow rate.
+B. High flow rate and low head rise.
+C. Both high head rise and high flow rate.
+D. The volute size has no impact on the pump's performance.
+ANSWER: C
+144. In a multi-stage axial compressor, what happens to the air velocity as it passes through each stage?
+A. The air velocity remains constant throughout all stages.
+B. The air velocity decreases significantly due to friction losses.
+C. The air velocity increases progressively with each stage due to energy addition.
+D. The air velocity fluctuates randomly between stages.
+ANSWER: D
+145. What does mohr’s stress circle radius represent 
+A. Maximum principal stress
+B. Minimum principal stress
+C. Maximum strain
+D. Maximum shear stress
+ANSWER: B
+146. A solid steel beam is subjected to both a bending moment and a twisting force. This represents a situation of: 
+A. Simple stress
+B. Complex stress
+C. Shear stress
+D. Tensile stress
+ANSWER: A
+147. Young's modulus is a material property that relates:
+A. Stress to strain within the elastic limit.
+B. Strain to force applied.
+C. Force to deformation.
+D. Deformation to area.
+ANSWER: B
+148. When analyzing complex stress, the principal stresses are the:
+A. Maximum and minimum shear stresses
+B. Maximum and minimum normal stresses
+C. Combined effect of bending and twisting moments
+D. Internal forces resisting deformation
+ANSWER: C
+149. The energy method, also known as the Castigliano’s theorem, relates the deflection of a structure at a specific point to the:
+A. Maximum stress experienced by the material
+B. Total weight of the structure
+C. Change in strain energy stored in the structure due to applied loads
+D. Material properties of the structural elements
+ANSWER: B
+150. When a beam subjected to bending moment has a cross-section that is not symmetrical about its neutral axis, what phenomenon occurs? 
+A. Pure bending
+B. Unsymmetrical bending
+C. Shear bending
+D. Torsional bending
+ANSWER: C
+151. A thick-walled cylinder is subjected to internal pressure only. Which of the following statements about the stress distribution within the cylinder wall is CORRECT?
+A. The hoop stress (stress acting circumferentially) is uniform throughout the wall thickness.
+B. The radial stress (stress acting outwards from the center) is tensile and has the highest magnitude at the inner radius.
+C. The hoop stress is maximum at the inner radius and decreases towards the outer radius.
+D. The radial stress is compressive throughout the wall thickness and has the highest magnitude at the outer radius.
+ANSWER: A
+152. A curved beam is most similar in structural behavior to which of the following options:
+A. A straight beam with a constant cross-section
+B. A straight beam with a varying cross-section
+C. A truss structure
+D. A cable under tension
+ANSWER: B
+153. Two solid shafts of the same material are subjected to the same torque. If the diameter of one shaft is twice the diameter of the other, the first shaft experiences: 
+A. Twice the shear stress
+B. Half the shear stress
+C. Four times the shear stress
+D. The same shear stress
+ANSWER: D
+154. Which of the following statements about shear stress distribution in a rectangular beam is TRUE?
+A. It is constant throughout the beam section.
+B. It is maximum at the neutral axis.
+C. It is zero at the top and bottom surfaces.
+D. It is parabolic with the maximum value at the neutral axis.
+ANSWER: D
+155. Identify the odd statement about machines and mechanisms.
+A. In any mechanism rigid bodies are connected to produce the desired motion of a machine
+B. Machines accomplish a specific objective by transmitting motion and energy
+C. The mechanical portion of a machine to transmit motion from the prime mover to the output is a linkage or a mechanism
+D. Kinematic analysis of mechanisms clearly shows the size of parts that should be used to manufacture products.
+ANSWER: A
+156. When links have more than two connection points (nodes) to connect with other links to allow rotation, the joints are called ternary or quaternary joints. For which of the following motion requirements those links are used in mechanism design?
+A. To reduce the degree of freedom to one.
+B. To maximize the degree of freedom of mechanisms
+C. Motion requirements have nothing to do with the number of connection nodes in a link
+D. To reduce the space requirement of the mechanisms
+ANSWER: B
+157. Identify the wrong statement about the automotive differential mechanism
+A. When the vehicle moves in a straight path, the differential permits the two-wheel to move at the same speed
+B. When the vehicle moves in a curved path, the differential permits the wheel inside the curve to move faster than the wheel on the outside
+C. When the vehicle moves in a curved path, the differential permits the wheel inside the curve to move slower than the wheel on the outside
+D. When the vehicle moves in an uphill straight path the differential allows the two wheels to move with the same speed
+ANSWER: A
+158. A system of rotating masses is said to be balanced statically when
+A. The mass center of the whole system lies on the axis of rotation
+B. The mass center shifts from the axis of rotation by an eccentric distance
+C. The sum of all the centrifugal forces of the rotating masses is non-zero
+D. The sum of all the couples produced by the centrifugal forces is zero
+ANSWER: C
+159. Identify the incorrect statement
+A. Kinematic inversion does not alter the relative motion between links
+B. In kinematic inversion different mechanisms can be obtained by fixing different links one at a time
+C. Kinematic inversion does not change the absolute motion of the links
+D. The number of kinematic inversions is equal to the number of links in the mechanism
+ANSWER: B
+160. A 5th-year mechanical engineering student is designing a pick-and-place robot arm. What is the MOST IMPORTANT aspect to consider during the initial design phase to ensure successful control and operation?
+A. Material selection for the robot arm components
+B. Defining the desired motion profile of the arm
+C. Selecting powerful motors for actuation
+D. Choosing aesthetically pleasing aesthetics for the robot
+ANSWER: D
+161. A pressure sensor in a hydraulic system outputs an analog voltage signal proportional to the applied pressure. What is the PRIMARY purpose of using a signal conditioning circuit before feeding this signal to the controller?
+A. To amplify the voltage signal for better visibility
+B. To convert the analog voltage signal into a digital format for the controller
+C. To filter out any electrical noise present in the signal
+D. All of the Above
+ANSWER: B
+162. An environmental monitoring system uses a temperature sensor that outputs a small analog voltage signal. To ensure accurate and reliable temperature readings, which of the following components is MOST CRUCIAL in the data acquisition system?
+A. High-resolution display for showing the temperature
+B. An analog-to-digital converter (ADC) with high resolution
+C. A powerful computer for data processing
+D. A user-friendly interface for data visualization
+ANSWER: B
+163. A robotic arm needs to precisely control the position of its end-effector. Which type of actuator is BEST SUITED for this application? 
+A. Hydraulic cylinder
+B. Stepper motor
+C. Pneumatic actuator
+D. DC motor with gearbox
+ANSWER: C
+164. Programmable Logic Controllers (PLCs) are widely used in industrial automation. What is the PRIMARY ADVANTAGE of using a PLC for controlling an automated system compared to a traditional relay-based control system?
+A. Lower cost for simple control tasks
+B. Increased complexity for programming
+C. Higher reliability and flexibility for complex control logic
+D. Easier maintenance for technicians
+ANSWER: D
+165. Material handling consists of movement of material from 
+A. One machine to another
+B. One shop to another shop
+C. Stores to shop
+D. All of the above
+ANSWER: B
+166. The following is used to transport materials having flat bottoms 
+A. Belt conveyor
+B. Roller conveyor
+C. Chain conveyor
+D. Bucket conveyor
+ANSWER: D
+167. Economy in material handling can be achieved by
+A. employing gravity feed movements
+B. minimizing distance of travel
+C. by carrying material to destination without using manual labour
+D. all of the above
+ANSWER: C
+168. Which of the following is not a hoisting equipment with lifting gear? 
+A. Cage elevators
+B. Jib cranes
+C. Troughed belts
+D. Pulleys
+ANSWER: D
+169. An essential requirement of a good MH system is :
+A. Capital cost expenditure
+B. Flexibility reduction
+C. Sale ability of Plant & equipment
+D. Storing Materials utilizing minimum space.
+ANSWER: D
+170. Which of the following statement is not correct with respect to alcohols as alternate fuel in IC engines?
+A. Alcohol contains about half the heat energy of gasoline/litre
+B. Alcohol does not vaporize as easily as gasoline
+C. Alcohols are corrosive in nature
+D. Anti-knock characteristics of alcohol is poor
+ANSWER: A
+171. Supercharging is the process of
+A. Supplying the intake of an engine with air at a density greater than the density of the surrounding atmosphere.
+B. Providing forced cooling air.
+C. Injecting excess fuel for raising more load.
+D. Supplying compressed air to remove combustion products fully.
+ANSWER: A
+172. In a typical medium speed 4-stroke cycle diesel engine the inlet valve
+A. Opens at 20° before top dead center and closes at 35° after the bottom dead center.
+B. Opens at top dead center and closes at bottom dead center.
+C. Opens at 10° after top dead center and closes 20° before the bottom dead center.
+D. May open or close anywhere.
+ANSWER: D
+173. Scavenging air in diesel engine means
+A. Air used for combustion sent under pressure.
+B. Forced air for cooling cylinder.
+C. Burnt air containing products of combustion.
+D. Air used for forcing burnt gases out of engine’s cylinder during the exhaust period.
+ANSWER: B
+174. Which one isn’t among Engine performance Parameters 
+A. Mean effective pressure
+B. Wheel speed
+C. Specific fuel consumption
+D. Calorific value of the fuel (CV)
+ANSWER: D
+175. What kind of fastener is inserted through a hole in one member to be joined and into a threaded hole in the mating member? 
+A. Screw
+B. Key
+C. Rivet
+D. Nut
+ANSWER: B
+176. The material used for brake lining should have __________ coefficient of friction. 
+A. Low
+B. High
+C. Moderate
+D. None
+ANSWER: A
+177. A transmission shaft subjected to pure bending moment should be designed on the basis of 
+A. Maximum principal stress theory
+B. Maximum shear stress theory
+C. Maximum distortion energy theory
+D. Soderberg diagrams
+ANSWER: B
+178. When the frictional force helps to apply the brake, then the brake is said to be 
+A. Shoe brake
+B. Band brake
+C. Self-energizing brake
+D. Self-locking brake
+ANSWER: C
+179. The size of gear is usually specified by 
+A. Pressure angle
+B. Pitch circle diameter
+C. Circular pitch
+D. Diametral pitch
+ANSWER: B
+180. The allowable static stress for steel gears is approximately_______ of the ultimate tensile stress.
+A. One-fourth
+B. One-third
+C. One-half
+D. Double
+ANSWER: B
+181. A sliding bearing which can support steady loads without any relative motion between the journal and the bearing is called
+A. Zero film bearing
+B. Boundary lubricated bearing
+C. Hydrodynamic lubricated bearing
+D. Hydrostatic lubricated bearing
+ANSWER: D
+182. The body-centered cubic (BCC) crystal structure has how many nearest neighbors for each atom?
+A. 6
+B. 8
+C. 12
+D. 14
+ANSWER: B
+183. Which type of crystal defect is responsible for work hardening in metals?
+A. Point defects
+B. Line defects
+C. Planar defects
+D. Volume defects
+ANSWER: B
+184. Which of the following types of diffusion involves the movement of atoms to nearby vacant lattice sites?
+A. Vacancy diffusion
+B. Interstitial diffusion
+C. Grain boundary diffusion
+D. Surface diffusion
+ANSWER: A
+185. Compared to bulk diffusion, grain boundary diffusion typically has:
+A. A lower activation energy
+B. A higher activation energy
+C. The same activation energy
+D. Cannot be determined from the information given
+ANSWER: A
+186. Which of the following statements accurately describes a phase diagram?
+A. A diagram that shows the chemical composition of a substance.
+B. A diagram that displays the changes in temperature and pressure at which different phases of a substance coexist.
+C. A diagram that represents the flow of energy during a phase change.
+D. A diagram that illustrates the molecular structure of a substance.
+ANSWER: B
+187. Which application of metal involves the process of heating and cooling to increase its strength and hardness?
+A. Metal recycling
+B. Metal casting
+C. Metal tempering
+D. Metal etching
+ANSWER: C
+188. Which of the following is a common crystal structure exhibited by ceramics?
+A. Body-centered cubic (BCC)
+B. Face-centered cubic (FCC)
+C. Hexagonal close-packed (HCP)
+D. Amorphous
+ANSWER: C
+189. What property of ceramics makes them highly resistant to heat and thermal shock?
+A. High electrical conductivity
+B. Low density
+C. Brittle fracture behavior
+D. High thermal stability
+ANSWER: D
+190. What is the process of removing water from a ceramic object and converting it into a solid called?
+A. Firing
+B. Glazing
+C. Sintering
+D. Drying
+ANSWER: C
+191. What is the term used to describe the gradual weakening of a material due to repeated loading and unloading?
+A. Creep
+B. Fatigue
+C. Corrosion fatigue
+D. Stress corrosion cracking
+ANSWER: B
+192. The activity of brings together human and physical resources in an orderly manner and arranges them in coordinated pattern to accomplish planned objectives is termed as______________.
+A. Staffing
+B. Leading
+C. Planning
+D. Organizing
+ANSWER: D
+193. How Management will achieve the predetermined goals of the organization?
+A. By execution of five basic management functions
+B. By utilizing human and non human resources in an efficient and effective manner.
+C. By create, direct, maintain and operate organization through systematic, coordinated, cooperative human efforts”.
+D. All
+ANSWER: D
+194. ____________is the quantitative relation between what we produce and we use as a resource to produce.
+A. Performance
+B. Efficiency
+C. Effective
+D. productivity
+ANSWER: D

@@ -1,0 +1,588 @@
+1.Which of the following links production planning and capacity planning? 
+A.When to produce? 
+B.How much to produce? 
+C.What products to produce? 
+D.How to produce? 
+ANSWER:B
+2.Which is not correct? 
+A.Forecasts are seldom perfect. 
+B.Product family and aggregated forecasts are more accurate than individual productforecasts 
+C.exponential smoothing needs only three values to forecast. 
+D.quantitative methods are better in predicting the demand of new products 
+ANSWER:D
+3.Which of the following statements is true when comparing and contrasting mean absolutedeviation (MAD) and mean squared error (MSE) methods for evaluating forecast accuracy? 
+A.MAD is more appropriate for situations with high variability in the data than MSE. 
+B.MAD is more appropriate than MSE because it is more sensitive to outliers. 
+C.Both MAD and MSE are equally appropriate for evaluating forecast accuracy usingthree-week historical data. 
+D.MSE is more appropriate for situations with high variability in the data than MAD. 
+ANSWER:A
+4.How much is the current demand for Ford Company if the smoothing constant is 0.2, theactual demand for the previous period and the predicted demand for the previous period was 153and 142 respectively. 
+A.144
+B.155 
+C.151
+D.165 
+ANSWER:A
+5.Which of the following is not a building block in developing operation strategy? 
+A.Operations mission 
+B.Distinctive competence 
+C.Operations objective 
+D.Operations policies 
+E.None 
+ANSWER:E
+6.What is the primary purpose of constructing the “House of Quality” matrix in QFD? 
+A.To prioritize customer requirements 
+B.To identify potential design flaws 
+C.To estimate production costs 
+D.To evaluate marketing strategies 
+ANSWER:A
+7.How would you conduct a value analysis of the smartphone? Which option maynot be advised to answer this? 
+A.You could conduct rigorous testing and quality control procedures on eachcomponent of the smartphone 
+B.Determining which functions are essential and which are not 
+C.You might identify components that can be sourced at a lower cost withcompromising their quality 
+D.You might identify opportunities to streamline the manufacturing processto reduce waste 
+ANSWER:C
+8.Which is the primary challenge in inventory management? 
+A.Balancing inventory levels 
+B.Forecasting demand 
+C.Managing lead times 
+D.Controlling the loss of inventory due to theft or damage 
+ANSWER:B
+9.Which is not correct? 
+A.To consider uncertainty in the classical Economic Order Quantity model, companies may use safety stock 
+B.In the newsboy model, the "newsboy" represents the person who decides how much inventoryto order instead of the salesperson who sells the inventory 
+C.The Pareto principle states that 80% of the effects come from 20% of the causes, and ABCanalysis is a way to identify the 20% of inventory items that account for 80% of the value. 
+D.The primary goal of controlling VED items in inventory management is to ensure that criticalitems are always available when needed 
+E.The continuous review system checks inventory levels at fixed intervals, while periodic reviewsystem monitors inventory levels continuously 
+ANSWER:E
+10.How does material requirement planning help companies to manage inventory more effectively? 
+A.By ensuring that materials are ordered in the right quantities and at the right time 
+B.By providing accurate forecasts of future demand 
+C.By reducing lead times for ordering materials 
+D.All of the above 
+ANSWER:A
+11.An end item X is composed of two Bs and one C. moreover, each Bs requires three Ds andoneE, and each D requires four Es. Similarly, each C is made up of two Es and two Fs. The available inventory on hand of each items B, C, D, and E are 4, 10, 8, and 60 respectively.Which of the following is not correct about the quantities of these components that will be required to assemble 10 Xs? 
+A.The quantities of B is 16 
+B.The quantities of C is 1 
+C.The quantities of D is 40 
+D.The quantities of E is 116 
+E.The quantities of F is 0 
+ANSWER:B
+12.Which is correct? 
+A.The production activity with the highest critical ratio is scheduled first 
+B.Shortest Processing Time (SPT), Earliest Due Date (EDD), and Critical Ratio (CR) are somecommon priority rules used in single dimension dispatching. 
+C.The purpose of using priority rules in single dimension dispatching is to determine the optimalsequence for completing production activities 
+D.The task with CR>1 is behind schedule.
+ANSWER:C 
+13.How can companies determine which priority rule to use in production scheduling? 
+A.By choosing the priority rule with the highest accuracy rate 
+B.By analyzing the characteristics of the production process and the specific goals of thecompany 
+C.By selecting the priority rule that is most commonly used in the industry 
+D.By using trial and error to determine which priority rule works best?
+ANSWER:B 
+14.A production facility has five jobs to complete. The processing times for the jobs are asfollows:Job A - 3 days, Job B - 6 days, Job C - 2 days, Job D - 5 days, and Job E - 4 days. Added to this,the due date for all jobs is 10 days from now. If the facility wants to minimize the average jobcompletion time, what would be the optimal sequence for scheduling these jobs? 
+A.C, A, E, B, D, 
+B.C, E, A, D, B 
+C.C, A, E, D, B 
+D.C, E, A, B, D 
+ANSWER:C
+15.It is a concept that integrates all the activities of planning,scheduling and controlling materials from design through production and including delivery to the customer. 
+A.Material flow
+B.Material management
+C.Inventory management
+D.Material handling
+ANSWER:B
+16.The one is not the function of store department
+A.To receive items and goods manufactured in the organization
+B.To record and update receipts and issues of materials
+C.To control quality of goods during manufacturing
+D.To dispose obsolete and non-moving items
+ANSWER:C
+17.One of the following questions might be answered by facilities location except one 
+A.How much of each product will be produced?
+B.Where are the products to be produced? 
+C.How are the products to be produced?
+D.All 
+ANSWER:B
+18.All of the following are the concepts of Process design except one:
+A.It is the design of new facilities, modification or expansion of existing facilities
+B.It is the activity of representing processes of an industry
+C.it shows events, actions and links in the sequence from end to end
+D.All
+ANSWER:D 
+19.Which statement is correct about the concept of EOQ
+A.The holding cost is greater than the ordering cost
+B.The ordering cost is greater than the holding cost
+C.The ordering cost is equal to the holding cost
+D.Total inventory cost is equal to zero
+E.None 
+ANSWER:C
+20.Problems in learning, often related to communication in the supply chain and how the supply chain is structured is the concept of
+A.Incentive obstacles
+B.Behavioral obstacles
+C.Pricing obstacles
+D.Operational obstacle
+ANSWER:B
+21.Fleet management in logistics industries is essential to except
+A.Improve efficiency and productivity
+B.Reduce cost, and enhance customer satisfaction 
+C.Enhance drivers’ safety and health
+D.Protect any unethical activity
+E.None 
+ANSWER:D
+22.___________ is a warehouse sharing model that allows companies that have excess space in their warehouses to share it with another company that needs extra space for inventory purposes
+A.Product warehouse
+B.On demand warehouse
+C.Automated warehouse
+D.Material warehouse
+ANSWER:B
+23.A supply chain which includes the distribution of finished product and service? 
+A.Outbound logistics
+B.Inbound logistics
+C.Supply of goods
+D.Transportation 
+ANSWER:A
+24.__________ encompasses all activities associated with the flow and transformation of goods from the raw material stage, through to end user, as well as the associated information flows.
+A.Production line
+B.Supply chain
+C.Marketing channel
+D.Warehouse 
+ANSWER:B
+25.Which formula is applicable to calculate the reorder level of item when lead time is lower than cycle time? 
+A.L*d
+B.(TL-TC)*d
+C.(TC-TL)*d
+D.L*d + SS
+ANSWER:A
+26.The time taken by a trained worker to perform an operation, while working a steady pace is known as
+A.Standard time
+B.Representative time                                
+C.Normal time
+D.None of the above
+ANSWER:A
+27.Work study consists of
+A.Effective use of plant and equipment                 	
+B.Evaluation of human work 
+C.Effective use of human effort                                   	
+D.All of the above
+ANSWER:D
+28.The observed time for an element is 2.4 minutes. The pace rate is 90 percent and the sum of all the secondary adjustment amounts is to 40 percent. The normal time is of an element
+A.3.73-minute                      				
+B.4.01-minute  
+C.3.02 minute           				
+D.2.16 minute
+ANSWER:C
+29.Which one of the following charts gives simultaneously information about the progress of work and machine loading?
+A.Process chart 
+B.Man-machine chart                        			
+C.Machine load chart           			
+D.Gantt chart
+ANSWER:B
+30.In micro-motion study, therblig is described by
+A.a symbol 
+B.an activity                           				
+C.an event                          			
+D.Standard symbol and color
+ANSWER:D
+31.‘Value’ for value engineering and analysis purposes is defined as
+A.Purchase values 
+B.Depreciated value                             			
+C.Saleable value                        			
+D.Function/cost
+ANSWER:D
+32.Which one of the following statements concerning work sampling is not true?
+A.Observations are made at random intervals.
+B.A detailed description of activities is obtained.
+C.Multiple observations are necessary.
+D.It can be used to estimate the percentage of delay
+ANSWER:B
+33.Which one of the following is considered as the goal of RCM?
+A.To develop post design-associated priorities that can facilitate PM.
+B.To gather information useful for improving the design of items
+C.To develop corrective-related tasks that can reinstate reliability and safety
+D.To achieve the RCM with average total cost.
+ANSWER:B
+34.The informational sources which are not required for efficient maintenance planning.
+A.Prints, Drawings and Sketches
+B.Product selling Catalogues
+C.Standard Operating Procedures
+D.Labor Estimating System
+ANSWER:B
+35.The following is not a classification of maintenance
+A.Corrective maintenance
+B.Timely maintenance
+C.Scheduled maintenance
+D.Preventive maintenance
+ANSWER:B
+36.With the increase in preventive maintenance cost, breakdown maintenance cost
+A.Increases
+B.Decreases
+C.Remain same
+D.Any of the above
+ANSWER:B
+37.The down time cost consists of
+A.Loss of production
+B.Wages paid to the workers
+C.Reduction in sales
+D.All of the above
+ANSWER:D
+38.Which performance result best shows a maintenance and reliability manager that the scheduled maintenance activities being implemented are effective?
+A.Hours spent on unscheduled maintenance have decreased
+B.Maintenance cost per unit of production has decreased
+C.Total annual maintenance cost has decreased
+D.Production rate has increased
+ANSWER:A
+39.Which of the following metrics definitions is not accurate?
+A.Uptime – % of time you run producing quality product at design rate
+B.Schedule compliance – how often mechanics are pulled off their current work to another task
+C.MTBF – a measure or indicator of equipment life expectancy
+D.Backlog – how long it takes to fix broken equipment
+ANSWER:D
+40.In the quality improvement effort using statistical thinking, one of the following is correct except:
+A.Control is defined as the complete absence of variation
+B.Control is simply a state where all variation is predictable variation
+C.A controlled process isn't necessarily a sign of good management, nor is an out-of-control process necessarily producing non-conforming product
+D.We control the process through the use of past experience and to predict/expect the variation in the future at least within limits
+ANSWER:A
+41.One is correct about ‘Variation’ in a process. 
+A.All variations are caused and are a natural phenomenon
+B.All processes will be subject to variation in performance
+C.Non-random variations are not usually a planned part of the process variations
+D.All variations are considered to be caused by chance
+ANSWER:D
+42.One is a wrong statement about systematic error of data.
+A.It affects all measurements in the same way i.e., the accuracy of the measurement
+B.They are avoided, i.e., they are determinate errors
+C.They are inherent in the measuring system, and are unavoidable, i.e., they are indeterminate errors
+D.None of the above
+ANSWER:C 
+43.Of the following, chose the wrong statement.
+A.The key aspect of SPC is to obtain predictable processes that produce consistent results by quickly detecting the occurrence of assignable causes of process shifts
+B.Predetermined control limits are defined by the capability of the process, whereas specification limits are determined by the customer needs
+C.Control Limits are used to determine if the process is in a state of statistical control (i.e., is producing consistent output)
+D.Specification Limits are used to determine if the product will function in the intended fashion
+E.None of the above
+ANSWER:E
+44.Pick the wrong statement.
+A.A process is capable if individual products consistently meet specification
+B.A process is stable (in control) only if common variation is present in the process 
+C.A process in statistical control will necessarily meet the design specifications
+D.Process capability compares the output of an in-control process to the specification limits by using capability indices
+E.None of the above
+ANSWER:C 
+45.One is correctly matched.
+A.Quality control- Are we doing the job correctly?
+B.Quality control- Can we done the job correctly?
+C.Process control- Have we done the job correctly?
+D.Process capability- Can we done the job correctly?
+ANSWER:D
+46.The review of the successes and the mistakes is normally held during _____ phase of a project?
+A.Initiation
+B.Planning
+C.Execution
+D.Closure
+ANSWER:D
+47.Of the following, one is correct except:
+A.Process performance is not predictable unless the process behavior is stable.
+B.Control chart is a useful off-line quality control tool.
+C.The standard deviation does not reflect the magnitude of the sample data, only the scatter about the average.
+D.The average value of the quality characteristic corresponding to in-control state is represented by center line (CL).
+ANSWER:B
+48.In a process, 18 out of 20 points are plotted above the center line (CL) but below the upper control limit, and only 2 of 20 are plotted between the center line and the lower control limit. The process state is said to be:
+A.In-control
+B.Out-of-control
+C.Data is not enough to predict
+D.Process state is not dependent over this data
+ANSWER:B
+49.A statistical process tool which facilitates systematic record keeping or data collection as they happen, which reveals patterns or trends is named as:
+A.Check sheet or Tally sheet
+B.Histogram
+C.Flow chart
+D.Scatter plot diagram
+E.Control chart or Run chart
+ANSWER:A
+50.The size of sample is 5 for a process. If the process standard deviation is 0.15 mm, and the mean of process is 1.5 mm, the standard deviation of the sample average will be:
+A.0.0500					
+B.0.1000
+C.0.6710					
+D.0.0671
+ANSWER:D
+51.The graphical representation of the total frequencies of occurrence of each type of defects type against the various defect types is:
+A.Check sheet
+B.Pareto chart
+C.Histogram
+D.Control charts
+ANSWER:B
+52.For a process, the upper specification limit and lower specification limits are 62 and 38 respectively. If the process has its mean equal to 53, and its standard deviation 2, what is the value of Cpk for this process?
+A.1.7					
+B.2.5
+C.1.0					
+D.1.5
+ANSWER:D
+54.Total solidification time is defined as which one of the following:
+A.Time between pouring and cooling to room temperature, 
+B.Time between solidification and cooling to room temperature, 
+C.Time between pouring and complete solidification, 
+D.Time to give up the heat of fusion?
+ANSWER:C
+55.A riser in casting is described by which one of the following statements: 
+A.An insert in the casting that inhibits buoyancy of the core;
+B.Source of molten metal to feed the casting and compensate for shrinkage during solidification, 
+C.Gating system in which the sprue feeds directly into the cavity, 
+D.Passage that let pour molten metal to in gates,  
+ANSWER:B
+56.Which one of the following casting processes is expendable mold operations 
+A. Centrifugal casting	
+B.Die casting			
+C.Low pressure casting	
+D.Sand casting
+ANSWER:D
+57.Which of the following are classified as forging operations: 
+A.Swaging			
+B.Impact extrusion		
+C.Roll piercing
+D.Thread rolling
+ANSWER:A
+58.The term blanking and punching are the common sheet meal cutting operations, what are the difference between the two:
+A.In Punching the cut-out part is required, 
+B.In blanking the part remain on the machine table is required; 
+C.In punching the part remain on the machine table is not required 
+D.In blanking the cut-out part is required;
+ANSWER:D
+59.One of the following statements is most correct while defining welding:
+A.Welding is performed generally with the application of heat and/or presser,
+B.While performing welding never used filler metal to join the two faying parts, 
+C.Welding is performed most of the times with the application of heat or pressure only, 
+D.Welding is performed most of the times only with the application of heat only,
+ANSWER:A
+60.One of the following statements is not correct about advantages of welding:
+A.Welding is usually the most economical way to join components in terms of material usage and fabrication costs, 
+B.Some Welding types are restricted to be performed only in a factory environment, 
+C.The welded joint can be stronger than the parent materials if a filler metal is used that has strength properties superior to those of the parents, and if proper welding techniques are used
+D.Welding provides a permanent joint that make the welded parts a single entity
+ANSWER:B
+61.Among the lists given below could not be categorized as fusion welding:
+A.Arc welding, 	
+B.Oxy-fuel gas welding, 	
+C.Resistancewelding,         	
+D.Friction welding,
+ANSWER:D
+62.From the statement given below one statement is not true about electrode that used in arc welding:
+A.It must always melt and mix with the parent metal, 
+B.It is available in stick and wire form,
+C.It is available covered with flux;
+D.It is available in wire (continues) form
+ANSWER:A
+63.On which parameters, life of cutting tool most affected
+A.Depth of cut	
+B.Feed	
+C.Cutting speed	
+D.Tool geometry
+ANSWER:C
+64.In horizontal milling machines for the motion of work piece and cutting tool while machining process is taking place, which one is correct
+A.The cutting tool is rotating and work piece is stationary	
+B.The work piece is rotating and cutting tool is translating
+C.The cutting tool is rotating and work piece is translating
+D.The work piece is stationary and cutting tool is translating
+ANSWER:C
+65.What is blending in powder metallurgy?
+A.Making powders from different materials
+B. Packing powder in the die
+C.Mixing different types of powders
+D.Heat powder in an oven
+ANSWER:C
+66.Project risk management is best described as?
+A.Managing responses to threats 
+B.Identifying and acknowledging threats and opportunities
+C.Planning responses to threats
+D.Minimizing threats and maximizing opportunities
+ANSWER:D
+67.All of the following are closeness rating factors except one 
+A.Need for contact between personnel
+B.Material flow
+C.Sharing of technical staff 
+D.Uses of different resources
+ANSWER:D
+68.The basic outputs from the process selection procedure are
+A.Progressed processes, 
+B.Equipment, and 
+C.Raw materials 
+D.All 
+ANSWER:D
+69.----------involve determining the location of one or more new facilities in one or more of several potential sites
+A.Allocation Problems
+B.Location Problems
+C.Location - Allocation Problems
+D.All 
+ANSWER:B
+71.Which one of following are the reason are for separating of one department from the other 
+A.High nose level  
+B.Emissions of fumes
+C.High Oder 
+D.All
+ANSWER:D
+72.ABC company sells shoes for $450. The variable cost is $200 per unit. The fixed costs are $750,000. The company wants to have a profit of $250,000. How many units do they have to sell to achieve this goal?  
+A.3,000
+B.4,000 
+C.5,000 
+D.6,000
+ANSWER:B
+73.The annuity which refers to debt payment for recovering the initial amount or capital in equal periodical payments, is known as
+A.capital recovery annuity
+B.present worth annuity
+C.sinking fund annuity
+D.compound annuity 
+ANSWER:A
+74.The decision rule for project acceptance is that 
+A.if IRR > 0
+B.if IRR > MARR
+C.if IRR = 0
+D.if IRR>= MARR
+ANSWER:B
+75.A bookstore purchased a best-selling book at P200.00 per copy. At what price should this book be sold so that by giving a 20% discount, the profit is 30%.
+A.P200.00
+B.P300.00 
+C.P400.00 
+D.P500.00
+ANSWER:C
+76.P5,000 is borrowed for 75 days at 16% per annum simple interest. How much will be due at the end of 75 days?  
+A.P5,066.67 
+B.P5,133.33 
+C.P5,050.00 
+D.P5,166.67
+ANSWER:D
+77.Mr. J. Dela Cruz borrowed money from a bank. He receives from the bank P1,340.00 and promised to pay P1,500.00 at the end of 9 months. Determine the corresponding discount rate or often referred to as the "banker's discount."
+A.13.15% 
+B.13.32%
+C.13.46% 
+D.13.73%
+ANSWER:D
+78.In which of the following occupation and industry does musculoskeletal disorder occur?
+A.Service industry
+B.Textile industry
+C.Construction Industry
+D.All
+ANSWER:B
+79.An accident can be called hazardous only when?
+A.Stressor has the potential to cause harm humans and ecological systems
+B.Poses threat to the surrounding
+C.Monitoring is failed 
+D.Outburst chemicals
+ANSWER:A
+80.____________ is used to determine the range of adjustability for adjustable chairs.
+A.Elbow height
+B.Shoulder height
+C.Popliteal height
+D.Knuckle height
+E.All
+ANSWER:C
+81.If you notice tingling, soreness or stiffness in your hands and wrists while typing you should: 
+A.Correct your typing technique
+B.Adjust your workstation. 
+C.Take frequent mini-breaks 
+D.All of the Above.
+ANSWER:D
+82.The main categories of ergonomic risk are: 
+A.Environment – risks found in your work environment 
+B.Equipment – risks associated with the equipment you use and proper fit/adjustment 
+C.Work practices – risks caused by work requirements, processes or procedures 
+D.Individual – risks that are unique to you as an individual, such as a physical characteristic, habits and behavior 
+E.All the above
+ANSWER:E
+83.A 12-year-old male hurts his ankle while playing football. Then he went to the clinic and a test reveals that he tore a ligament. This condition is known as ___________.
+A.Sprain 
+B.Strain
+C.Disunion
+D.Subluxation
+ANSWER:A
+84.Ergonomics principle suggests that: 
+A.Monitoring displays should be placed outside peripheral limitations 
+B.Glow-in-the dark dials made of reflective substances are good for viewing in the nights
+C.Visual systems should be preferred over auditory systems in noisy locations 
+D.All of the above
+ANSWER:D
+85.Scheduling can best be defined as the process used to determine?
+A.Overall project duration
+B.Project cost estimating
+C.The project management plan
+D.Sub-contractor’s responsibilities.
+ANSWER:A
+86.Which one of the following statements is true?
+A.An increase in project scope is likely to increase project cost
+B.A decrease in the project time is likely to increase project quality
+C.An increase in the project quality requirements is likely to decrease project cost
+D.A decrease in the project cost is likely to decrease project time
+ANSWER:A
+87.Which statement best describes a responsibility of the project manager?
+A.To be the sole source of expertise for estimating techniques on cost and time
+B.To deliver the project objectives to enable benefits to be realized
+C.To take ultimate accountability for the delivery of the business benefits
+D.To delegate all accountability for managing time, cost and quality to team leaders.
+ANSWER:B
+88.Which one is a true statement relating to project communications? 
+A.A project sponsor is responsible for all communication methods and media
+B.Different stakeholders typically have different communication needs
+C.It is best to have a standard set of project reports used for every project
+D.Email is the only way to communicate with large numbers of people.
+ANSWER:B
+89.The main outcome of risk identification, in a risk management process, is to?
+A.Identify and determine the relative importance of the project risks
+B.Identify and describe all risks that might occur on the project
+C.Identify and determine the responses to the project risks
+D.Identify and describe risks that have occurred on previous projects
+ANSWER:B
+90.Which one of the following is true about operation research?
+A.It is a quantitative approach to decision making based on the scientific method of problem solving
+B.It is the combination of the activities carried out in an organization and the process of observation and testing characterized by the scientific method
+C.OR is the application of the methods of science to complex problems in the direction and management of large systems of 4Ms
+D.All
+ANSWER:D
+91.All the statements are correct about goal programming concept except
+A.If the original ithinequality is of the type <= and its di- > 0, the ithgoal is not satisfied
+B.If the original ithinequality is of the type >= and its di+ > 0, the ithgoal is satisfied
+C.If the original ithinequality is of the type <= and its di+ > 0, the ithgoal is not satisfied
+D.If the original ithinequality is of the type <= and its di- > 0, the ithgoal is satisfied
+ANSWER:A
+92.Which one is not the advantage of linear programming model?
+A.It helps decision - makers to use their productive resource effectively.
+B.In order to make the decision-making approach of the user becomes more objective and less subjective.
+C.In a production process, it’s important in highlighting of bottle necks.
+D.None
+ANSWER:D
+93.Optimal solution of an assignment problem can be obtained only if
+A.Each row & column has only one zero element 
+B.Each row & column has at least one zero element
+C.The data is arrangement in a square matrix 
+D.None of the above
+ANSWER:A
+94.Which one is not correct about goal programming
+A.It provides a way of striving toward several objectives simultaneously.
+B.The objective is to minimize the deviation between goals and actual result
+C.Deviational variables are real
+D.Optimizing the objective functions
+ANSWER:D
+95.Which one is the limitation of linear programming model? 
+A.Factors such as uncertainty and time are not taken into consideration
+B.Parameters in the model are assumed to be constant but in real life situations they are not constants
+C.Linear programming deals with only single objective
+D.All
+ANSWER:D
+96.Consider the linear equation x1 + 3 x2 - 4 x3 + 2 x4 = 12. How many decision variables and constraints are defined by this equation respectively?
+A.2 and 4
+B.4 and 1
+C.4 and 2
+D.1 and 4
+ANSWER:B
+97.Suppose that the chance of rain tomorrow depends on previous weather conditions only through whether or not it is raining today and not on past weather condition. If it is raining today, then it will rain tomorrow with probability 0.75. If it is not raining today, then it will rain tomorrow with probability of 0.4. Calculate the probability that it will not rain two days from today given that it is raining today. 
+A.0.3375 
+B.0.4600 
+C.0.6625 
+D.0.54 
+ANSWER:B
+100.Arrivals at telephone booth are considered to be Poisson with an average time of 10 minutes between one arrival and the next. The length of phone call is assumed to be distributed exponentially, with mean 3 minutes. They are served in single server with infinite queue length. What is the probability that a person arriving at the booth will have to wait? 
+A.0.33 
+B. 0.67 
+C.0.25 
+D.0.45 
+ANSWER:A
+
+

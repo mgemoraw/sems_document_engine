@@ -1,0 +1,593 @@
+For a vehicle climbing uphill, the engine governor responds because one of the following happens.
+A.The centrifugal force of the fly balls of the governor increase
+B.The fly balls move closer to the axis of rotation
+C.The sleeve of the governor moves up
+D.The crankshaft speed increases 
+ANSWER:B
+Suppose the cam raises the follower with a Uniform acceleration and retardation motion where the uniform acceleration is twice the uniform deceleration. One of the following relations holds true
+A.Time of acceleration is twice the time of deceleration 
+B.Time of deceleration is twice the time of acceleration 
+C.Time of deceleration is half of the total time of the rise
+D.Time of acceleration is two-thirds of the total time of rise
+ANSWER:B
+It is only possible to create a four-bar linkage if 
+A.The length of one of the links is not greater than the sum of the length of the other three
+B.The length of one of the links is greater than the sum of the length of the other three
+C.The length of one of the links is equal to the sum of the length of the other three
+D.The length of links does not affect the generation of a four-bar linkage 
+ANSWER:A
+Suppose in a space mechanism assembly of N number of links is required where one of the links is to be fixed.  How many restraints on the DOF will be imposed by each pair having three dofs?
+A.5
+B.2 
+C.3
+D.4
+ANSWER:B
+If the shear force equation of a certain beam is given as; y=ax^2+bx+c, where (a, b and c are constants, x is arbitrary location on the beam length), the bending moment equation is_____________
+A.Parabolic 
+B.Linear C.Cubic 
+D.ConstantANSWER:C
+The shear stress at the center of a circular solid shaft under torsion is
+A.Maximum
+B.Minimum C.Infinity 
+D.Zero ANSWER:D
+When a horizontally oriented cantilever beam is loaded by an upward concentrated load at its free end:
+A.The beam will have maximum deflection at its free end
+B.The beam will have maximum slope at its fixed end
+C.The bottom layer of the beam will be subjected to compressive load
+D.Bending stress will be constant along the spanANSWER:A
+Torsional rigidity does mean
+A.Product of shear modulus of a material and polar moment of inertia of the cross-section
+B.Shear modulus of a material 
+C.Product of angle of twist of the shaft and polar moment of inertia of the cross-section
+D.Product of angle of twist of the shaft and Shear modulus of a material ANSWER:A
+A steel bar of 5 mm is cooled from 45° C to 40° C and it is free to compress. The bar will induce
+A.Compressive stress
+B.Tensile stressC.No stress
+D.Shear stressANSWER:C
+In cyclic loading, stress concentration is more serious in 
+A.Brittle materials                                    
+B.Ductile Materials                                   
+C.Brittle as well as ductile materials
+D.Elastic Materials
+ANSWER:B
+The design of shafts made of brittle materials is based on………
+A.Guest’s theory      
+B.St. Venant’s theory       
+C.Rankine’s theory       
+D.Von Mises theory
+ANSWER:C
+The tension in the slack side of the belt is ............ The tension in the tight side of the belt
+A.Greater than      
+B.Less than                    
+C.Equal to                   
+D.None
+ANSWER:B
+In thrust bearings, the load acts ---------. 
+A.Along the axis of rotation                                        
+B.Inclined to the axis of rotation 
+C.Perpendicular to the axis of rotation
+D.In any direction
+ANSWER:A
+The size of gear is usually specified by----------
+A.Pressure angle        
+B.Pitch circle diameter    
+C.Circular Pitch      
+D.Diametral pitch
+ANSWER:B
+In the design of machine elements, breakeven points will be defined when we compare two design approaches for 
+A.Strength 
+B.Geometry
+C.Cost
+D.Aesthetics
+ANSWER:B
+One of the following should be false
+A.Fatigue failure is due to time-varying loads
+B.Fatigue failure occurs at a stress level greater than the yield strength of the material
+C.Fatigue failure occurs at a stress level lower than the yield strength of the material
+D.Fatigue failures begin at a crack. 
+ANSWER:B
+The ------- gears are used for transmitting power at a constant velocity ratio between two shafts whose axes intersect at a certain angle?
+A.Spur   
+B.Bevel   
+C.Worm 
+D.Helical 
+ANSWER:B
+In Measurement systems, which of the following characteristics are undesirable static Characteristics?
+A.Sensitivity and accuracy
+B.Hysteresis and precision
+C.Reproducibility and non-linearity
+D.Dead zone, drift, static error and none linearity
+ANSWER:D
+In Light Dependent Resistor (LDR) sensor, if the intensity of light applied is less, its resistance value becomes ________.
+A.Less                          
+B.High                     
+C.Zero                     
+D.Infinity
+ANSWER:B
+Infrared (IR)/Proximity sensor works on ________ principle.
+A.Object detection          
+B.Object breaking       
+C.Object radiation       
+D.All the above
+ANSWER:A
+The principle of operation used in capacitive transducers to measure level of liquid is change of
+A.Area of plates   
+B.Dielectric Strength   
+C.Distance between plates   
+D.Shape of plates
+ANSWER:B
+What is a control system?
+A.A system that only monitors another system
+B.A system that can regulate itself and another system
+C.A system that operates without external input
+D.A system that cannot influence another system 
+ANSWER:B
+What is an example of a continuous-time control system?
+A.A washing machine that operates in preset cycles
+B.A microprocessor-based motor speed control
+C.An electric heating system with a thermostat
+D.A manually operated car window
+ANSWER:C
+Which test input signal is used if the control system is frequently subjected to a gradually changing input?
+A.Step function
+B.Ramp function
+C.Impulse function
+D.Sinusoidal function
+ANSWER:B
+In an open loop control system
+A.The control action depends on the size of the system
+B.The control action depends on system variables
+C.The control action depends on the input signal
+D.The control action is independent of the output
+ANSWER:D
+The overall transfer function from block diagram reduction for cascaded blocks is:
+A.Sum of individual gain 
+B.Product of individual gain 
+C.Difference of individual gain 
+D.Division of individual gain 
+ANSWER:B
+What does the damping ratio (?\zeta) of a second-order system influence?
+A.Only the amplitude of oscillations
+B.Only the frequency of oscillations
+C.Both the amplitude and frequency of oscillations
+D.The gain of the system
+ANSWER:C
+In a first-order system, what percentage of the final value is reached in one time constant (T)?
+A.63.2%
+B.50%
+C.75%
+D.90%
+ANSWER:A
+What is the main function of a transducer?
+A.To convert physical quantity into an electrical signal 
+B.To convert electrical signal into a physical quantity
+C.Convert physical quantity into mechanical quantity  
+D.To convert physical quantity into a chemical quantity
+ANSWER:A
+Among the following, identify the most powerful controller.
+A.PD controller
+B.PID controller
+C.PI-PI controller
+D.Both a and c are correct
+ANSWER:B
+Which one of the following is false about Strengthen of an electromagnet in electromagnetic induction. 
+A.Increasing the cross-sectional area              
+B.Increasing the number of turns                     
+C.Increasing current supply
+D.Use of paramagnetic material
+ANSWER:D
+Which one of the following is correct about transformer
+A.It is a dynamic machine that the voltage induced on it is formed by either moving a coil or magnetic field
+B.It is a machine used to generate voltage on its armature
+C.It is an electrical machine used to step up or step-down voltage, current and power
+D.It is a machine that is important to use as sensor (voltage and current transformer) 
+ANSWER:D
+Which one of the following electrical machines works by the principles of self-induction
+A.Motor                  
+B.Generator         
+C.Solenoid         
+D.Transformer
+ANSWER:C
+Among the following alternative which one is true
+A.The similarity between electrical circuit and magnetic circuit is that both circuits can transfer flux and current respectively even there is small air gap in the circuit.
+B.Increasing the core thickness in the magnetic circuit can increase the production of flux in magnetic circuit
+C.Increasing the cross-sectional area of the core can increase the flux in magnetic circuit
+D.Hysteresis and eddy current are important for production of flux
+ANSWER:C
+A 6-pole induction motor operates at a supply frequency of 50 Hz. If the slip of the motor is 4%, what will be the rotor speed?
+A.1000 RPM          
+B.960RPM               
+C.400RPM          
+D.14.4RPM
+ANSWER:B
+Which one of the following is true?
+A.Before a diode fully conducts, the bias must overcome the barrier potential
+B.The process of converting ac to pulsating dc is called filtering.
+C.If one diode is open in a bridge rectifier, the output will drop to zero.
+D.None
+ANSWER:A
+Which of the following conditions are needed to properly bias an NPN transistor amplifier?
+A.Forward bias the base/emitter junction and reverse bias the base/collector junction.
+B.Forward bias the collector/base junction and reverse bias the emitter/base junction.
+C.Apply a positive voltage on the n-type material and a negative voltage on the p-type material.
+D.Apply a large voltage on the base.
+ANSWER:A
+Which one of the following is true about MOSFET?
+A.MOSFET is uncontrolled device
+B.MOSFET is a voltage-controlled device
+C.MOSFET is a current-controlled device
+D.MOSFET is a temperature-controlled device
+ANSWER:B
+If the frequency of the input voltage applied to a full wave bridge rectifier is 60Hz, the output voltage will have a frequency of________________.
+A.120HZ	    
+B.60HZ	    
+C.180HZ	             
+D.None
+ANSWER:A
+If you want to study a fluid that is in motion, what will you call your field of study?
+A.Fluid Dynamics
+B.Fluid Mechanics
+C.Fluid Statics
+D.Fluid Viscosity
+ANSWER:A
+The pressure at any given point of a non-moving fluid is called the ______.
+A.Gauge pressure            		
+B.Atmospheric pressure 		
+C.Differential pressure
+D.Hydrostatic pressure
+ANSWER:D
+In a fully developed laminar flow in a circular pipe, what is the velocity profile?
+A.Uniform across the pipe diameter
+B.Parabolic
+C.Linear
+D.Exponential
+ANSWER:B
+Minor losses in pipe flow are caused by:
+A.Friction along the pipe wall
+B.Sudden changes in pipe diameter or direction
+C.Changes in fluid density
+D.Changes in fluid viscosity
+ANSWER:B
+What is the relationship between the velocity of a fluid and its pressure in a pipe?
+A.As the velocity of a fluid increases, its pressure decreases.
+B.As the velocity of a fluid decreases, its pressure decreases.
+C.The velocity of a fluid has no effect on its pressure.
+D.None of the above
+ANSWER:A
+Which one of the following is not a common characteristic for work and heat transfer;
+A.They can be possessed by a system a given state.
+B.Both of them are path functions.
+C.Both of them are boundary phenomena.
+D.They are inexact differentials.
+ANSWER:A
+Which of the following steady flow devices could be taken to have an isenthalpic process?
+A.Turbines            
+B.Expansion devices           
+C.Nozzles         
+D.Mixing chambers
+ANSWER:C
+If same amount of heat is stored in two different temperature reservoirs of a heat engine (one higher, one lower), which one has the more conversion to work if both were used as a source for heat engine for the same energy sink?
+A.The higher temperature reservoir       
+B.The lower temperature reservoir  
+C.They will have same conversion         
+D.can’t determine
+ANSWER:C
+Entropy of a system decreases possibly when a system undergoes a/an __________ process;
+A.Heat losing        
+B.Heat gaining           
+C.Reversible      
+D.Irreversible
+ANSWER:A
+If two system are separately in thermal equilibrium with the third system then they themselves are in the thermal equilibrium with each other. This is …………
+A.First law of thermodynamics
+B.Second law of thermodynamics
+C.Law of equilibrium
+D.Zeroth law of thermodynamics
+ANSWER:D
+The refrigerator and heat pump works on principle_____
+A.Second law of thermodynamics
+B.First law of thermodynamics
+C.Zero law of thermodynamics
+D.Third law of thermodynamics
+ANSWER:A
+The path followed in a vapor power cycle is_____
+A.Boiler-condenser-turbine-pump
+B.Boiler-turbine-condenser-pump
+C.Boiler-turbine-pump-condenser
+D.Boiler-pump-turbine-condenser
+ANSWER:B
+Which of the following is not an advantage of electronic instruments using semiconductor-based transducers? 
+A.Non-contact measurements 
+B.Remote indication 
+C.Transient response 
+D.Low amplification 
+ANSWER:D
+How does a linear power supply maintain a constant output voltage?
+A.By converting AC to DC and then using a transformer to adjust voltage levels.
+B.Through the use of a voltage regulator that adjusts resistance to maintain steady voltage.
+C.By switching the input voltage on and off rapidly to regulate output.
+D.By filtering high-frequency noise from the input power source.
+ANSWER:B
+Which of the following is a characteristic feature of Switch-Mode Power Supplies?
+A.They operate with a high-frequency switching mechanism to efficiently convert power.
+B.They use large transformers to step down voltage, resulting in a bulky design.
+C.They provide a constant output voltage by dissipating excess energy as heat.
+D.They are typically less efficient due to continuous conduction of current.
+ANSWER:A
+In the context of power supplies, what does the term "ripple" refer to?
+A.The fluctuation in output voltage caused by incomplete filtering of the rectified signal.
+B.The smooth, steady DC output voltage provided by the power supply.
+C.The high-frequency noise generated by the switching action of SMPS.
+D.The process of converting AC to DC voltage.
+ANSWER:A
+Why are linear power supplies often preferred for powering sensitive audio equipment?
+A.They are more efficient, reducing energy consumption.
+B.They produce less electrical noise, maintaining signal integrity.
+C.They are capable of providing higher output currents.
+D.They can easily convert AC to various DC voltage levels.
+ANSWER:B
+What is a potential disadvantage of using a linear power supply in applications requiring high efficiency?
+A.They tend to be more complex and costlier to design.
+B.They can generate significant electromagnetic interference (EMI).
+C.They are less efficient, leading to higher energy consumption and heat generation.
+D.They require more maintenance due to moving parts.
+ANSWER:C
+Which of the following is not a component of an electric drive system?
+A.Electric motor
+B.Power modulator
+C.Hydraulic pump
+D.Control unit
+ANSWER:C
+What is the primary function of an actuator in an electromechanical system? 
+A.Store energy
+B.Convert energy into motion
+C.Measure electrical current
+D.Reduce friction 
+ANSWER:B
+Which material is commonly used for electrical conductors in electromechanical systems?
+A.Copper
+B.Plastic
+C.Rubber
+D.Glass 
+ANSWER:A
+How does increasing the voltage in a motor affect its speed?
+A.Increases speed
+B.Decreases speed
+C.No effect
+D.Stops the motor 
+ANSWER:A
+What is the purpose of a gearbox in an electromechanical system?
+A.Increase speed only
+B.Control torque and speed
+C.Generate electricity 
+D.Reduce weight
+ANSWER:B
+Which type of motor is best suited for precision positioning in robotics? 
+A.Stepper motor
+B.Induction motor
+C.DC motor 
+D.Synchronous motor 
+ANSWER:A
+What sensor is used to measure angular position in a robotic system? 
+A.Accelerometer
+B.Encoder
+C.Thermistor
+D.Proximity sensor 
+ANSWER:B
+What is the primary function of an electromechanical relay in a circuit?
+A.To store electrical energy
+B.To amplify signals
+C.To switch electrical loads
+D.To generate magnetic fields
+ANSWER:C
+Which of the following is an example of an electromechanical energy conversion device?
+A.Transformer
+B.Resistor
+C.DC Motor
+D.Capacitor
+ANSWER:C
+What is the function of a PLC in an automation system?
+A.Manual control
+B.Automated process control
+C.Increase power supply
+D.Reduce signal noise
+ANSWER:B
+Which device is used for real-time monitoring of industrial processes?
+A.Thermostat
+B.SCADA system
+C.Resistor
+D.Inductor 
+ANSWER:B
+How does a PID controller improve process control?
+A.By reducing error over time
+B.By increasing response time
+C.By amplifying noise
+D.By eliminating sensors
+ANSWER:A
+What type of sensor is used to detect the presence of an object on a conveyor belt?
+A.Infrared sensor
+B.Thermocouple
+C.Pressure sensor
+D.Potentiometer
+ANSWER:A
+In a PLC-controlled system, an emergency stops button fails to respond. Which of the following is the most likely cause?
+A.The actuator is defective
+B.The sensor is misaligned
+C.The PLC program logic does not include emergency stop handling
+D.The SCADA system is not connected
+ANSWER:C
+When comparing a relay-based control systems with a PLC-based control system, which of the following is the biggest advantage of PLCS?
+A.PLCs consume more power
+B.PLCs are less flexible
+C.PLCs allow easier programming and modification
+D.PLCs require manual rewiring for each new process
+ANSWER:C
+You are designing an automation system for a factory that needs real-time monitoring, fault detection, and remote operation. Which combination of technologies is most suitable?
+A.Relays and timers
+B.PLC and HMI
+C.Hydraulic actuators and sensors
+D.VFD and stepper motors
+ANSWER:B
+A microcontroller at-least should consist of:
+A.RAM, ROM, I/O ports and timers
+B.CPU, RAM, I/O ports and timers
+C.CPU, RAM, ROM, I/O ports and timers
+D.CPU, ROM, I/O ports and timers
+ANSWER:C
+What is the most appropriate criterion for choosing the right microcontroller of our choice?
+A.Speed
+B.Availability
+C.Ease with the product
+D.All of the mentioned
+ANSWER:D
+Why microcontrollers are not called general purpose computers?
+A.Because they have built in RAM and ROM
+B.Because they design to perform dedicated task
+C.Because they are cheap
+D.Because they consume low power
+ANSWER:B
+The device that generates the basic timing clock signal for the operation of the circuit using crystal oscillator is
+A.Timing unit
+B.Timing and control unit
+C.Oscillator
+D.Clock generator
+ANSWER:C
+Arduino IDE consists of 2 functions. What are they?
+A.Loop() and build() and setup()
+B.Build() and loop()
+C.Setup() and build()
+D.Setup() and loop()
+ANSWER:D
+What is the microcontroller used in Arduino UNO?
+A.Atmega32114
+B.AT91SAM3x8E
+C.Atmega2560
+D.Atmega328p
+ANSWER:D
+__________ is a CPU built into a single chip.
+A.Microcontroller
+B.Microprocessor
+C.Controller
+D.Microchip
+ANSWER:B
+______ is a small computer usually implemented on a single IC that contains a processor core, some memory, and programmable input/output peripherals.
+A.Microcontroller
+B.Microprocessor
+C.Controller
+D.Microchip
+ANSWER:A
+Which of the following is true about microprocessors?
+A.It has an internal memory
+B.It has interfacing circuits
+C.It contains ALU, CU, and registers
+D.It uses Harvard architecture
+ANSWER:C
+Which of the following tools is commonly used to test and debug code for microcontrollers without the need for physical hardware, providing a virtual environment for development?
+A.Simulator
+B.Programmer
+C.Debugger
+D.Oscilloscope
+ANSWER:A
+Which tool is used to load compiled code onto a microcontroller's memory, enabling the microcontroller to run the programmed software?
+A.Simulator
+B.Programmer
+C.Debugger
+D.Logic Analyzer
+ANSWER:B
+In Hydraulic system;
+A.The mechanical energy is transferred to the oil and then converted into mechanical energy
+B.The electrical energy is transferred to the oil and then converted into mechanical energy
+C.The mechanical energy is transferred to the oil and converted into electrical energy                             
+D.None of the above
+ANSWER:A
+The resistance offered to the flow of fluid inside a piston develops in to;
+A.Pressure
+B.Force 
+C.Stress
+D.All
+ANSWER:A
+What is the function of flow control valve?
+A.Flow control valve changes the direction of oil flow
+B.Flow control valve can adjust the flow rate of hydraulic oil
+C.Both a. And b
+D.None of the above
+ANSWER:A
+What does the number in 4/2 valve mean?
+A.Four position and two way.
+B.Four way and two position .
+C.Four valve and two connecting line.
+D.All.
+ANSWER:B
+Which of the following factors is/are considered while selecting a pump? 
+A.Viscosity of liquid
+B.Types of oil 
+C.Volumetric efficiency
+D.All.
+ANSWER:D
+In a hydraulic circuit a pump is provided with two outlet paths, one where load is attached and the other to the reservoir. Which path will the oil chose to flow first? 
+A.To the load.
+B.To the reservoir.
+C.Oil will flow equally to the load and reservoir.
+D.None of the above.
+ANSWER:B
+What type of motor is typically used in mobile robots for continuous motion with speed control, providing a balance between efficiency and ease of control?
+A.Stepper Motor
+B.Servo Motor
+C.Brushed DC Motor
+D.Synchronous Motor, 
+ANSWER:C
+For a robotic gripper requiring controlled gripping force to handle delicate objects, which actuator is preferred for achieving precise force control?
+A.Stepper Motor
+B.Pneumatic Actuator
+C.A Hydraulic Actuator
+D.A Linear Induction Motor
+ANSWER:B
+Which type of drive system is commonly used in robotic arms to achieve smooth, continuous, and precise motion across multiple axes?
+A.A Chain Drive, which is used in power transmission systems 
+B.A Belt Drive, which is used for transmitting motion in some robots, 
+C.A Direct Drive, which is offers the high level of precision and eliminates mechanical backlash, leading to smoother and more accurate movement.
+D.A Rack and Pinion Drive, typically used in linear motion applications.
+ANSWER:C
+Which sensor is best for object detection in an autonomous mobile robot, enabling it to navigate obstacles effectively in its environment?
+A.An Ultrasonic Sensor, which is commonly used for detecting objects in the robot's path by emitting sound waves and measuring the reflection time, offering good range and reliability.
+B.A Thermocouple, typically used for measuring temperature, but not suitable for detecting obstacles or objects in the robot's environment.
+C.A Hall Effect Sensor, primarily used for detecting magnetic fields, but not effective for object detection in mobile robots.
+D.A Pressure Sensor, which is useful for measuring force or pressure but not ideal for detecting objects in the path of a mobile robot.
+ANSWER:A
+What type of sensor is used in industrial robots for high-precision positioning, ensuring the robot moves with minimal deviation from its desired path?
+A.Gyroscope
+B.Optical Encoder
+C.Accelerometer
+D.Load Cell
+ANSWER:B
+Which sensor is most suitable for SLAM (Simultaneous Localization and Mapping) in mobile robots, allowing them to build accurate maps while simultaneously navigating?
+A.Light Detection and Ranging, 
+B.Humidity Sensor,
+C.Thermistor
+D.A Capacitive Sensor
+ANSWER:A
+Which of the following best defines forward kinematics in robotic systems?
+A.It is the process of determining the joint angles given the desired end-effector position.
+B.It is the process of determining the end-effector position based on given joint parameters.
+C.It involves solving the dynamic equations of motion for a robot manipulator.
+D.It refers to analyzing the effects of external forces on a robotic system.
+ANSWER:B
+In robotic motion analysis, inverse kinematics is used to:
+A.Compute the required joint angles to achieve a specific end-effector position.
+B.Find the trajectory of the end-effector when joint positions are known.
+C.Measure the velocity of a robotic manipulator at different positions.
+D.Identify the effect of torque on each robotic joint.
+ANSWER:A
+Which of the following bridges is commonly used for measuring unknown resistances accurately by comparing them with known standard resistors in a balanced condition?
+A.Whetstone's Bridge
+B.Anderson's Bridge
+C.Schering Bridge
+D.Maxwell Bridge
+ANSWER:A
+What is the primary function of a microcontroller in a robotic system?tse
+A.The microcontroller serves as a power supply, providing energy to all electrical components.
+B.The microcontroller converts mechanical energy into electrical energy, enabling the robot to recharge itself.
+C.The microcontroller is used only for display purposes, showing sensor readings on a screen.
+D.The microcontroller acts as the brain of the robot, processing inputs from sensors and sending control signals to actuators.
+ANSWER:D 
+

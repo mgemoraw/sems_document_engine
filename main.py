@@ -7,7 +7,8 @@ from docx2python import docx2python
 
 from PySide6.QtWidgets import (
     QWidget, QLabel, QVBoxLayout, QHBoxLayout, QFormLayout, 
-    QPushButton, QFileDialog, QLineEdit, QProgressBar, 
+    QPushButton, QFileDialog, QLineEdit, QProgressBar,
+    QComboBox, 
     QFrame, QTextEdit, QApplication
 )
 from PySide6.QtCore import Qt, QThread, Signal
@@ -15,6 +16,7 @@ from PySide6.QtGui import QTextCursor
 
 from pathlib import Path 
 from docx2json import DocxProcessor
+from text2json import TextToJson
 
 sys.stdout.reconfigure(encoding='utf-8')
 
@@ -32,10 +34,11 @@ class DocumentExtractorWorker(QThread):
     extraction_complete = Signal(str, int)  # Output folder path, total questions found
     extraction_failed = Signal(str)
 
-    def __init__(self, docx_path, text_answer_path):
+    def __init__(self, docx_path, text_answer_path, department=None):
         super().__init__()
         self.docx_path = os.path.normpath(docx_path)
         self.text_answer_path = os.path.normpath(text_answer_path)
+        self.department = department
 
     def map_answers(self, questions, answers_path=None):
         answers_path=self.answer_text2json(self.text_answer_path)
@@ -94,11 +97,24 @@ class DocumentExtractorWorker(QThread):
             self.progress_percentage.emit(10)
             self.progress_status.emit("Initializing targeted input file structures...")
 
-            engine = DocxProcessor(self.docx_path, self.text_answer_path)
-            # processor.prepare_output_folder()
-            # processor.extract_images()
-            question = engine.extract_questions(self.docx_path)
+            file_type = Path(self.docx_path).suffix
+            if file_type == ".txt":
+                engine = TextToJson(
+                    self.docx_path,
+                    department=self.department,
+                    # exam_year=2026,
+                )
+                engine.start_processing()
 
+            elif file_type == ".docx":    
+                engine = DocxProcessor(self.docx_path, self.text_answer_path)
+                # processor.prepare_output_folder()
+                # processor.extract_images()
+
+                self.progress_status.emit("Starting extracting questions")
+
+                questions = engine.extract_questions(self.docx_path)
+            self.progress_status.emit("completed extracting questions")
             
             source_path = Path(self.docx_path).resolve()
             folder = os.path.join(source_path.parent, "outputs")
@@ -125,10 +141,12 @@ class DocumentExtractorWorker(QThread):
             # with open(output_json_path, 'w', encoding='utf-8') as file:
             #     json.dump(questions, file, ensure_ascii=False, indent=4)
 
+
             self.progress_percentage.emit(100)
             self.extraction_complete.emit(folder, qno)
 
         except Exception as e:
+            # print(f"Exception raised {e}")
             self.extraction_failed.emit(str(e))
 
 
@@ -171,6 +189,28 @@ class DocumentConverterPage(QWidget):
         form_layout.setContentsMargins(16, 16, 16, 16)
         form_layout.setSpacing(12)
 
+        self.department = QComboBox()
+        self.department.addItems([
+            "Civil Engineering", 
+            "Hydraulic and Water Resources Engineering",
+            "Water Resources and Irrigation Engineering",
+            "Computer Science",
+            "Software Engineering",
+            "Information System",
+            "Information Technology",
+            "Cuber Security",
+            "Electrical Engineering",
+            "Computer Engineering",
+            "Eectromechanical Engineering",
+            "Mechanical Engineering",
+            "Automotive Engineering",
+            "Industrial Engineering",
+            "Material Science",
+            "Chemical Engineering",
+            "Food Engineering",
+            "Human Nutrition",
+        ])
+
         self.input_display = QLineEdit()
         self.input_display.setPlaceholderText("Target file track map path...")
         self.input_display.setReadOnly(True)
@@ -193,6 +233,9 @@ class DocumentConverterPage(QWidget):
             QPushButton { background-color: #2563eb; color: white; padding: 6px 14px; font-weight: bold; border-radius: 5px; }
             QPushButton:hover { background-color: #1d4ed8; }
         """)
+        
+        department_row = QHBoxLayout()
+        department_row.addWidget(self.department)
 
         input_row = QHBoxLayout()
         input_row.addWidget(self.input_display, stretch=1)
@@ -207,6 +250,7 @@ class DocumentConverterPage(QWidget):
         self.output_display.setReadOnly(True)
         self.output_display.setStyleSheet("background-color: #f8fafc; color: #64748b;")
 
+        form_layout.addRow("Choose File Type:", department_row)
         form_layout.addRow("Source Assessment File:", input_row)
         form_layout.addRow("Source Answer text File: ", answer_input_row)
         form_layout.addRow("Configured Output Path Target:", self.output_display)
@@ -314,7 +358,20 @@ class DocumentConverterPage(QWidget):
         """)
 
     def select_source_document(self):
-        file_path, _ = QFileDialog.getOpenFileName(self, "Identify Target Examination File", "", "Word Documents (*.docx)")
+
+        file_filter = (
+            "Word Documents (*.docx, *.doc)",
+            "Text Documents (*.txt)",
+            "Text Documents (*.json)",
+            "Text Documents (*.csv)",
+        )
+        file_path, _ = QFileDialog.getOpenFileName(
+            self, 
+            "Identify Target Examination File", 
+            "", 
+            "Questions file (*.*)",
+            "Text Documents (*.docx, *doc, *.txt, *.json, *.md)" )
+        
         if file_path:
             self.input_display.setText(file_path)
             base_dir = os.path.dirname(file_path)
@@ -363,7 +420,7 @@ class DocumentConverterPage(QWidget):
         self.progress_bar.setValue(0)
         self.log_html("<br><span style='color: #38bdf8; font-weight: bold;'>--- Starting Extraction Sequence ---</span>")
 
-        self.worker = DocumentExtractorWorker(docx_target, text_ansewrs)
+        self.worker = DocumentExtractorWorker(docx_target, text_ansewrs, self.department.currentText())
         self.worker.progress_status.connect(lambda msg: self.log_html(f"<span style='color: #94a3b8;'>[PROCESS]: {msg}</span>"))
         self.worker.progress_percentage.connect(self.progress_bar.setValue)
         self.worker.extraction_complete.connect(self.handle_pipeline_success)

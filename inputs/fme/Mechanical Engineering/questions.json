@@ -1,0 +1,6210 @@
+[
+    {
+        "qid": 1,
+        "qno": 1,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which sensor should one prefer for accurate measurement of distance up to 1 meter?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Ultrasonic sensor",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Infrared sensor",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "PIR sensor",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Photo resistor sensor",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 2,
+        "qno": 2,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In a closed system undergoing a cyclic process, the net work done (Wnet) is related to the net heat transfer (Qnet) by the first law of thermodynamics. Which additional information is required to determine the path taken by the system during the cycle (i.e., specific processes involved)?",
+        "options": [
+            {
+                "label": "A",
+                "content": "The system's specific heat capacity at constant pressure (Cp)",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The pressure-volume (P-V) diagram of the cycle",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The change in internal energy for one process in the cycle",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The mass of the system",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 3,
+        "qno": 3,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In a single-stage vapor compression refrigeration cycle, how does the irreversibility associated with the throttling process (expansion valve) affect the system's performance?",
+        "options": [
+            {
+                "label": "A",
+                "content": "It increases the coefficient of performance (COP), allowing for more cooling per unit work input.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It reduces the pressure difference between the condenser and evaporator, leading to a decrease in refrigerant mass flow rate and cooling capacity.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It increases the discharge temperature of the refrigerant from the compressor, requiring more work for compression.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "It increases the enthalpy of the refrigerant entering the evaporator, requiring more heat removal for cooling.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 4,
+        "qno": 4,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What are some common indicators of damage in machinery components, and how can these indicators be used to assess the state of damage of the machinery as a whole?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Unusual noises, vibration, and increased temperature; they indicate potential issues in specific components, helping in timely repairs.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Regular operational sounds, steady vibration, and constant temperature; these signs show that the machinery is functioning normally.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Smooth operation, no noise, and no need for lubrication; they suggest that the machinery is in perfect condition.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Sudden shutdowns, no vibration, and decreased temperature; indicate that the machinery is well-maintained and does not need any repairs.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 5,
+        "qno": 5,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The product of stiffness of material and moment of inertia of a cross-section is;",
+        "options": [
+            {
+                "label": "A",
+                "content": "Elasticity",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Flexural rigidity",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Shear modulus",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Torsional rigidity",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 6,
+        "qno": 6,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " As fluid velocity in a pipe increases, according to Bernoulli's principle, the pressure:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Decreases",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Remains constant",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Increases disproportionately",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Depends on the pipe material",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 7,
+        "qno": 7,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The simplification principle in M.H method deals with",
+        "options": [
+            {
+                "label": "A",
+                "content": "Make optimum use of equipment",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Reduce combine or eliminate unnecessary movement.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Eliminate obstacles from materials flow",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Integrate operations into Handling systems",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 8,
+        "qno": 8,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following statements is false for troughed belt conveyors? I, Troughed belt conveyors use flexible belts II, They contain five idlers III, Depth of trough decreases with increasing number of idlers IV, Flexibility of belt increases as depth of trough decreases",
+        "options": [
+            {
+                "label": "A",
+                "content": "III and IV",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "II and III",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "I and II",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "None of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 9,
+        "qno": 9,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following devices is used to measure fluid pressure?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Venturi meter",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Orifice plate",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Manometer",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Pitot tube",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 10,
+        "qno": 10,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " When a fluid flows through a nozzle (constriction), its velocity:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Decreases",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Remains constant",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Increases",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Depends on the fluid density",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 11,
+        "qno": 11,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A material is said to be yielded if",
+        "options": [
+            {
+                "label": "A",
+                "content": "It loses its plastic nature",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It strained with appreciable increase in stress",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It can\u2019t regain its original shape/size after the load is removed",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "None of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 12,
+        "qno": 12,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Laminar flow is characterized by:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Random fluid particle movement",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Smooth, parallel fluid layers",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "High levels of turbulence",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Only occurring in large pipes",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 13,
+        "qno": 13,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The pressure drop in a pipe due to friction is proportional to the square of the fluid velocity according to the:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Bernoulli's principle",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Pascal's law",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Darcy-Weisbach equation",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Hagen-Poiseuille equation",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 14,
+        "qno": 14,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In a centrifugal pump, the highest pressure is developed:",
+        "options": [
+            {
+                "label": "A",
+                "content": "At the pump inlet",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "At the pump outlet",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "At the impeller",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "At the volute casing",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 15,
+        "qno": 15,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which is the most common load cell used in the force sensors?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Hydraulic load cells",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Strain-Gauge based load cells",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Pneumatic load cells",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Capacitive load cells",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 16,
+        "qno": 16,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A cross-section of vertical column has two moments of inertia (i.e. Ixx and Iyy ). The column will tend to buckle in the direction of the",
+        "options": [
+            {
+                "label": "A",
+                "content": "Axis of load",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Minimum moment of inertia",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Maximum moment of inertia",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Perpendicular to the axis of load",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 17,
+        "qno": 17,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following statements accurately describes the effective length for a column supported by pin and rolling supports?",
+        "options": [
+            {
+                "label": "A",
+                "content": "The effective length is reduced by a factor of 0.7.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The effective length is equal to the actual length of the column.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The effective length is doubled compared to a fixed-fixed support condition.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The effective length is unaffected by the support conditions.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 18,
+        "qno": 18,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A steel bar of 5 mm is cooled from 45\u00b0 C to 40\u00b0 C and it is free to compress. The bar will induce",
+        "options": [
+            {
+                "label": "A",
+                "content": "Compressive stress",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Tensile stress",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "No stress",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "shear stress",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 19,
+        "qno": 19,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which maintenance strategy emphasizes the use of real-time data and condition monitoring techniques to predict equipment failures before they occur?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Corrective Maintenance",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Preventive Maintenance",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Predictive Maintenance",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Proactive Maintenance",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 20,
+        "qno": 20,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A curved beam is most similar in structural behavior to which of the following options:",
+        "options": [
+            {
+                "label": "A",
+                "content": "A straight beam with a constant cross-section",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "A straight beam with a varying cross-section",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "A truss structure",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "A cable under tension",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 21,
+        "qno": 21,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " When does the concept of \u201clumped capacitance\u201d apply in transient heat conduction problems?",
+        "options": [
+            {
+                "label": "A",
+                "content": "When the Biot number is small",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "When the Fourier number is large",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "When the material has high thermal conductivity",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "When the surface area is large",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 22,
+        "qno": 22,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " When water boils at atmospheric pressure (1 atm), the boiling point:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Increases with higher heat input Incorrect",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Decreases with lower heat input Incorrect",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Varies depending on the container material Incorrect",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Remains constant at 100\u00b0C",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 23,
+        "qno": 23,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which law describes the rate of heat transfer through a solid material based on the temperature gradient?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Fourier's law",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Newton's law of cooling",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Stefan-Boltzmann law",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Ohm's law",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 24,
+        "qno": 24,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which filter contains entirely passive elements?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Electrical filter",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Mechanical filter",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Digital filter",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Optical filter",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 25,
+        "qno": 25,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In thick-walled cylinders, what is a significant consideration regarding stress distribution?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Stress is highest at the outer surface.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Stress is uniform throughout the cylinder.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Stress is highest at the longitudinal axis.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Stress is highest at the inner surface.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 26,
+        "qno": 26,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Blackbody radiation describes the:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Emissive power of a perfect absorber at any temperature",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Reflective properties of a polished surface",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Emissive power of a real object at a specific temperature",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Emissive power of a perfect emitter at a specific temperature",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 27,
+        "qno": 27,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " According to Newton's law of cooling, the rate of heat transfer from a surface is proportional to:",
+        "options": [
+            {
+                "label": "A",
+                "content": "The surface area only",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The temperature difference only",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The product of surface area and temperature difference",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The square of the temperature difference",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 28,
+        "qno": 28,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which theory of failure in materials is based on the assumption that failure occurs when the maximum normal stress reaches the ultimate tensile strength of the material?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Maximum Shear Stress Theory",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Maximum Distortion Energy Theory",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Maximum Shear Strain Energy Theory",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Maximum Principal Stress Theory",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 29,
+        "qno": 29,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following performs Logical and Arithmetic Operations in Mechatronics System?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Sensors",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Input Signal Conditioning Unit",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Digital Control Unit",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Output Display",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 30,
+        "qno": 30,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Refrigerant R141 is chemically classified as a(n):",
+        "options": [
+            {
+                "label": "A",
+                "content": "Hydrochlorocarbon (HCFC)",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Chlorofluorocarbon (CFC)",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Hydrofluorocarbon (HFC)",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Hydrocarbon (HC)",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 31,
+        "qno": 31,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Superheating in a refrigeration cycle:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Increases the specific refrigeration effect",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Decreases the specific work of compression",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Increases the specific work of compression",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Decreases the compressor discharge",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 32,
+        "qno": 32,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Absorption refrigeration systems:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Water-lithium bromide systems are limited to applications above 0\u00b0C.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Ammonia-water systems are limited to applications below 0\u00b0C.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Water-lithium bromide systems are suitable for large-scale commercial applications.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Small ammonia-water systems are used in domestic air conditioners.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 33,
+        "qno": 33,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following statements are TRUE?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Heat transfer through a building wall may be considered as steady if its thermal capacity is very small",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "When the thermal capacity of the wall is large, at any point of time the heat transferred to the outer surface of the wall is larger than the heat transfer from the inner surface",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "When the thermal capacity of the wall is large, the heat transfer rate at the outer surface of the wall can be smaller than the heat transfer rate from the inner surface",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Due to finite thermal capacity of the wall, the outer surface temperature is always higher than the inner surface temperature",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 34,
+        "qno": 34,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In psychrometrics, when the enthalpy of air entering an air conditioning system is equal to the enthalpy of saturated air leaving the cooling coil, the air has reached its:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Maximum cooling capacity",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Adiabatic saturation point",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Dew point temperature",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Minimum relative humidity",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 35,
+        "qno": 35,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is the main function of a transducer?",
+        "options": [
+            {
+                "label": "A",
+                "content": "To convert physical quantity into an electrical signal",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "To convert electrical signal into a physical quantity",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Convert physical quantity into mechanical quantity",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "To convert physical quantity into a chemical quantity",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 36,
+        "qno": 36,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In a kinematic inversion of four bar mechanisms, which of the following correctly states Grashof\u2019s law?",
+        "options": [
+            {
+                "label": "A",
+                "content": "If any of the links  adjacent to the shortest link is fixed, a double rocker  mechanism is obtained",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Grashof\u2019s law of inversion does not consider the arrangement of the links",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "If the shortest link is fixed crank rocker mechanism is obtained",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "If the link opposite to the shortest link is fixed double crank mechanism is obtained",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 37,
+        "qno": 37,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Variation in the speed of an engine over some revolutions  is corrected by incorporating",
+        "options": [
+            {
+                "label": "A",
+                "content": "governor on the shaft",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "flywheel on the shaft",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "flywheel and governor on the shaft",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "clutch on the shaft",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 38,
+        "qno": 38,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Suppose in a four-bar mechanism the sum of the lengths of the largest and the shortest links is less than the sum of the other two links. What kind of motion do we get if the shortest link is fixed?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Crank rocker",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Crank - Crank",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Double rocker",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Rocker - Rocker",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 39,
+        "qno": 39,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which system allows for transfer of both matter and energy across its boundaries?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Closed system",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Open system",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Isolated system",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Adiabatic system",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 40,
+        "qno": 40,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In a throttling process (also known as a Joule-Thomson expansion) through a valve in a steady-state flow, which property remains constant across the valve (assuming negligible heat transfer and kinetic/potential energy changes)?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Temperature",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Enthalpy",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Entropy",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Specific heat capacity",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 41,
+        "qno": 41,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The first law of thermodynamics states that energy can neither be created nor destroyed, only transformed. How does this principle impact the analysis of cyclic processes in a closed system?",
+        "options": [
+            {
+                "label": "A",
+                "content": "It allows for the calculation of the system's absolute entropy at any point in the cycle.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It guarantees that the net work done by the system in a cyclic process will always be positive.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It ensures that the total heat transferred into the system during a cyclic process must equal the total heat transferred out.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "It simplifies the calculation of the system's efficiency by relating it solely to the temperature difference between the heat source and sink.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 42,
+        "qno": 42,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " During a constant-volume process in a closed system, which of the following propertY or interaction remains constant:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Enthalpy (H)",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Pressure (P)",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Temperature (T)",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Work (W)",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 43,
+        "qno": 43,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A construction company has a request to make for the young mechanical engineering graduates of BiT.  The request from the company indicates that the machine in need is going to be used for painting the walls of a high tower building. The need identification also specifies the machine will be supported by cables from a crane and is observed to be in space. The main mechanical features requested include a low-speed slider with a brush attached to its end for painting, misaligned input and output shafts to save a horizontal space parallel to the walls, a means to solve the fluctuation of the machine\u2019s speed for the moment the buckets are full of paint, a means to solve the fluctuation of the machine\u2019s speed in each cycle of rotation due to forces like friction between components, a means to identify and correct the location or orientation of the whole machine when observed from the crane since it is in space. Based on the request, if you are expected to send a to\u2013design list for the company, your list will include the following machine elements in the order they are described by the company.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Gearbox \u2013 Cam and follower \u2013 Governor \u2013 Universal Joint \u2013 Gyroscope",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Gearbox \u2013 Cam and follower \u2013 Universal joint \u2013 Governor \u2013 Gyroscope",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Governor \u2013 Universal joint \u2013  Gearbox  \u2013  Cam and follower \u2013 Gyroscope",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Gyroscope \u2013 Governor \u2013 universal joint \u2013 Gearbox \u2013 Cam and follower",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 44,
+        "qno": 44,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Suppose in a workshop full of machinery, a machine was running at high speed. The team observing the machine deduced that unbalanced forces of high magnitude were causing the machine to vibrate and produce a lousy noise.  With the problem being mechanical unbalance, among the following options, what do you think will not be the initial cause of the unbalance?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Probably there are mechanical members in the machine  loaded eccentrically",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Probably there are reciprocating elements inside the machine",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Probably there are faults made during the mounting of components",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Probably the geometric centers of some of the  components in motion does not change due to wear",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 45,
+        "qno": 45,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In a Carnot heat engine, which statement is true?",
+        "options": [
+            {
+                "label": "A",
+                "content": "It operates between two isothermal and two adiabatic processes.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It operates between two isothermal and two isentropic processes.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It operates between two adiabatic and two isochoric processes.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "It operates between two isobaric and two isentropic processes.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 46,
+        "qno": 46,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Psychrometric charts are used to determine properties of:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Ideal gases only",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Moist air",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Incompressible fluids",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Superheated steam",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 47,
+        "qno": 47,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The second law of thermodynamics in power generation cycles is significant because it:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Defines the Carnot efficiency as the theoretical maximum.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Introduces the concept of specific heat capacity.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Relates pressure and temperature for ideal gases.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Governs the direction of heat transfer only.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 48,
+        "qno": 48,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Ergonomics in plant design focuses on:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Minimizing employee engagement",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Maximizing physical strain on workers",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Improving efficiency and safety of workspaces",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Ignoring human factors in workplace design",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 49,
+        "qno": 49,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is a fundamental principle of material management in industrial engineering?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Stockpiling excess inventory",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Reducing lead times for procurement",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Ignoring supplier relationships",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Increasing transportation costs",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 50,
+        "qno": 50,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is a primary focus of project management in industrial management?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Increasing project scope without considering resources",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Ignoring project timelines and deadlines",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Balancing project constraints such as time, cost, and quality",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Minimizing stakeholder communication",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 51,
+        "qno": 51,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is a critical aspect of basic management concepts in industrial organization?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Disregarding employee morale and motivation",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Neglecting customer satisfaction",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Emphasizing hierarchical structures over teamwork",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Promoting effective leadership and decision-making",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 52,
+        "qno": 52,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Consider a combined-cycle power plant that utilizes a gas turbine cycle followed by a steam Rankine cycle in a cogeneration setup. What are the primary benefits of such a configuration compared to a standalone gas turbine cycle?",
+        "options": [
+            {
+                "label": "A",
+                "content": "It achieves a higher overall thermal efficiency by utilizing the waste heat from the gas turbine exhaust for steam generation.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It simplifies the design and operation of the power plant compared to individual gas and steam cycles.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It produces only electricity and doesn't offer any additional outputs like process heat.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "It is less susceptible to environmental regulations due to lower emissions compared to a standalone gas turbine cycle.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 53,
+        "qno": 53,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What happens to the temperature during a phase transformation?",
+        "options": [
+            {
+                "label": "A",
+                "content": "It remains constant.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It always increases.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It always decreases.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "It varies randomly.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 54,
+        "qno": 54,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is the process of converting raw metal into a desired shape by using compressive force called?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Welding",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Casting",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Forging",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Extrusion",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 55,
+        "qno": 55,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which metal is used to make aircraft bodies due to its lightweight and high strength-to-weight ratio?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Copper",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Titanium",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Gold",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Brass",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 56,
+        "qno": 56,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following is a common crystal structure exhibited by ceramics?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Body-centered cubic (BCC)",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Face-centered cubic (FCC)",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Hexagonal close-packed (HCP)",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Amorphous",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 57,
+        "qno": 57,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What concept in maintenance technology helps in predicting plant performance by assessing the ease of repairing equipment and minimizing downtime?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Reliability",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Maintainability",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Availability",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Predictability",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 58,
+        "qno": 58,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which practical skill is essential for maintenance personnel?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Software programming",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Advanced calculus",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Troubleshooting and diagnostic techniques",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Graphic design",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 59,
+        "qno": 59,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is the primary objective of plant layout design in industrial management?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Maximizing material handling costs",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Enhancing employee satisfaction",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Minimizing production efficiency",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Optimizing workflow and space utilization",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 60,
+        "qno": 60,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which one is true about pour point of fuels",
+        "options": [
+            {
+                "label": "A",
+                "content": "Fuel catches fire without spark",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Temperature at which the fuel solidifies or coagulates",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Temperature at which fuel catches fire with help of spark",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "None",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 61,
+        "qno": 61,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A spur gear with pitch circle diameter D has number of teeth T. The module m is defined as",
+        "options": [
+            {
+                "label": "A",
+                "content": "m = D/T",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "m = T/D",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "m = \u03c0D/T",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "m = D*T",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 62,
+        "qno": 62,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The power transmitted by means of a belt depends upon",
+        "options": [
+            {
+                "label": "A",
+                "content": "velocity of the belt",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "tension under which the belt is placed on the pulleys",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "arc of contact between the belt and the smaller pulley",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "all of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 63,
+        "qno": 63,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What property of ceramics makes them highly resistant to heat and thermal shock?",
+        "options": [
+            {
+                "label": "A",
+                "content": "High electrical conductivity",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Low density",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Brittle fracture behavior",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "High thermal stability",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 64,
+        "qno": 64,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which polymer processing technique involves forcing molten polymer through a die to create a continuous profile?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Injection molding",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Blow molding",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Extrusion",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Compression molding",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 65,
+        "qno": 65,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which polymer is widely used in packaging materials, such as plastic bags and food containers, due to its low cost and versatility?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Polyethylene",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Polypropylene",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Polystyrene",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Polyvinyl chloride",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 66,
+        "qno": 66,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Composite materials are known for their:",
+        "options": [
+            {
+                "label": "A",
+                "content": "High ductility",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Low density",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "High electrical conductivity",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Low strength",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 67,
+        "qno": 67,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The process of combining fibers and matrix materials to create a composite is called:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Filament winding",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Injection molding",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Vacuum bagging",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Lay-up",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 68,
+        "qno": 68,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In welding processes, what is the principle behind gas welding techniques?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Melting the base materials using a high-energy laser beam",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Creating a high-temperature arc between the electrode and workpiece",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Heating the workpiece with an oxyfuel flame to melt and join metals",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Passing an electric current through the workpiece to generate heat for fusion",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 69,
+        "qno": 69,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is a primary objective of preventive maintenance for machinery?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Repairing equipment after it breaks down",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Maximizing uptime and minimizing unexpected downtime",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Replacing machinery components only when they fail",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Implementing upgrades and modifications to improve performance",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 70,
+        "qno": 70,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In which maintenance approach is machinery inspected and monitored to predict when maintenance should be performed?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Breakdown maintenance",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Corrective maintenance",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Predictive maintenance",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Routine maintenance",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 71,
+        "qno": 71,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which one is false statement based on the assumption of air standard engine cycle?",
+        "options": [
+            {
+                "label": "A",
+                "content": "The gas mixture in the cylinder is treated as air and water for the entire cycle, and property values of air and water are used in the analysis.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Compression strokes and expansion strokes are approximated by isentropic processes",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Exhaust blow down is approximated by a constant-volume process",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All processes are considered reversible",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 72,
+        "qno": 72,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is the primary cause of corrosion in metals?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Mechanical stress",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "High temperature",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Exposure to water and oxygen",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Chemical reactions with acids",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 73,
+        "qno": 73,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The ratio of quantity of liquid discharged per second from the pump to the quantity of liquid passing per second through the impeller is known as",
+        "options": [
+            {
+                "label": "A",
+                "content": "manometric efficiency",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "mechanical efficiency",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "overall efficiency",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "volumetric efficiency",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 74,
+        "qno": 74,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is the primary function of a compressor?",
+        "options": [
+            {
+                "label": "A",
+                "content": "To increase the temperature of gases",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "To increase the pressure of gases",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "To convert mechanical energy into electrical energy",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "To generate steam",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 75,
+        "qno": 75,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What are bulk loads?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Lump of material",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Single rigid mass c.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Heterogeneous particles",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Homogeneous particles",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 76,
+        "qno": 76,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A conveyor belt consists of which of the following elements?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Idlers",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Top cover, carcass and bottom cover",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Belt splicing idlers",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Plies and rubber",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 77,
+        "qno": 77,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which pump type uses a rotating impeller to increase the fluid pressure?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Centrifugal pump",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Reciprocating pump",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Diaphragm pump",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Axial pump",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 78,
+        "qno": 78,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The design of shafts made of brittle materials is based on",
+        "options": [
+            {
+                "label": "A",
+                "content": "Guest\u2019s theory",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Rankine\u2019s theory",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "St. Venant\u2019s theory",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Von Mises Theory",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 79,
+        "qno": 79,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is the best definition of preventive maintenance in an industrial setup?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Equipment repair only after breakdown",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Conducting routinary inspections and servicing to prevent equipment breakdowns",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Maintenance jobs are done only when the machines are seen as not working properly.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Subcontracting of maintenance jobs to contractors outside of the organization",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 80,
+        "qno": 80,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which type of turbine is most efficient at high heads and low flow rates?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Francis turbine",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Kaplan turbine",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Pelton turbine",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Axial turbine",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 81,
+        "qno": 81,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following statement is correct?",
+        "options": [
+            {
+                "label": "A",
+                "content": "When the driver releases the clutch pedal, the spring pressure inside the pressure plate pushes forward on the clutch disc, this locks the flywheel, disc, pressure plate, and transmission input together.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "When the driver releases the clutch pedal, the clutch release mechanism pulls or pushes on the clutch fork the fork moves the release bearing into the center of the pressure plate, the pressure plate face pulls away from the clutch disc.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "When the driver releases the clutch pedal, the clutch disc and transmission input does not turn together.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "When the driver presses the clutch pedal, this mechanism is called clutch engaged.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 82,
+        "qno": 82,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is a fundamental principle underlying traditional machining processes?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Utilizing high-energy lasers to shape materials",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Applying mechanical force to remove material from a workpiece",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Submerging the workpiece in a chemical solution to etch desired shapes",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Using electric discharge to erode material from the workpiece",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 83,
+        "qno": 83,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is a key characteristic of subtractive manufacturing methods?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Building parts layer by layer",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Adding material to create a final product",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Removing material from a solid block to shape the desired object",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Joining materials through welding or soldering processes",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 84,
+        "qno": 84,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following is a characteristic of additive manufacturing methods?",
+        "options": [
+            {
+                "label": "A",
+                "content": "High material waste",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Limited design complexity",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "High production speed",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Customization potential",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 85,
+        "qno": 85,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is the term for the height difference between the water level above the turbine and the turbine outlet?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Water velocity",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Hydraulic head",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Penstock pressure",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Tailrace level",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 86,
+        "qno": 86,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following statements best describes the basic concept of the casting process?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Casting primarily relies on mechanical shaping methods to create complex metal parts.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Casting is a subtractive manufacturing process that involves removing material from a solid block to create a part.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Casting is a non-metallic forming process used exclusively for creating ceramic components.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Casting involves pouring molten metal into a mold cavity and allowing it to solidify into the desired shape.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 87,
+        "qno": 87,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which statement accurately describes the basic principles and mechanisms of shearing in metal-forming processes?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Shearing involves compressive forces applied perpendicular to the surface of the material, causing it to fracture along a predetermined line.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Shearing relies on tensile forces to stretch and shape the material into the desired form.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Shearing primarily utilizes rotational forces to shape the metal through spinning techniques.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Shearing involves applying high-pressure fluid streams to cut through the material.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 88,
+        "qno": 88,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In the context of material consumption in manufacturing processes, which factor primarily influences the efficiency of material utilization?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Machine speed",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Tool wear",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Material thickness",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Ambient temperature",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 89,
+        "qno": 89,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Two shafts will have equal strength, if",
+        "options": [
+            {
+                "label": "A",
+                "content": "diameter of both the shafts is same",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "angle of twist of both the shafts is same",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "material of both the shafts is same",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "twisting moment of both the shafts is same",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 90,
+        "qno": 90,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which one of the following shows the correct power flow in the correct order?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Propeller shaft \u2192 drive pinion \u2192 ring gear \u2192 differential case \u2192 differential pinion \u2192 sun gear \u2192 axle shaft \u2192 wheel",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Propeller shaft \u2192 drive pinion \u2192 differential case \u2192 ring gear \u2192  differential pinion \u2192 sun gear \u2192 axle shaft \u2192 wheel",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Propeller shaft \u2192 drive pinion \u2192 ring gear \u2192 differential pinion \u2192 differential case \u2192 sun gear \u2192 axle shaft \u2192 wheel",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Propeller shaft \u2192 drive pinion \u2192 differential case \u2192 differential pinion \u2192 ring gear \u2192 sun gear \u2192 axle shaft \u2192 wheel",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 91,
+        "qno": 91,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Lewis equation in spur gears is applied",
+        "options": [
+            {
+                "label": "A",
+                "content": "only to the pinion",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "only to the gear",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "to stronger of the pinion or gear",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "to weaker of the pinion or gear",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 92,
+        "qno": 92,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A ________ is a mechanical device that allows the output shaft to be disconnected from the rotating input shaft.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Clutch",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Brake",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Flywheel",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Gear",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 93,
+        "qno": 93,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Two shafts A and B are made of the same material. The diameter of the shaft A is twice as that of shaft B. The power transmitted by the shaft A will be                            of shaft B.",
+        "options": [
+            {
+                "label": "A",
+                "content": "twice",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "four times",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "eight times",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "sixteen times",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 94,
+        "qno": 94,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A sliding bearing which can support steady loads without any relative motion between the journal and the bearing is called",
+        "options": [
+            {
+                "label": "A",
+                "content": "zero film bearing",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "hydrostatic lubricated bearing",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "boundary lubricated bearing",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "hydrodynamic lubricated bearing",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 95,
+        "qno": 95,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A brake commonly used in motor cars is",
+        "options": [
+            {
+                "label": "A",
+                "content": "shoe brake",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "band brake",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "band and block brake",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "internal expanding brake",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 96,
+        "qno": 96,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The capacity of a pneumatic conveying system depends upon the",
+        "options": [
+            {
+                "label": "A",
+                "content": "Diameter of the conveying line",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Bulk density of materials",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Pressure of the conveying air",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 97,
+        "qno": 97,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which one is true about knocking reduction for spark ignition engine?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Use low octane rating fuel",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Retarding ignition timing",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Increasing  the compression ratio",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Introduce lean mixture",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 98,
+        "qno": 98,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is a fundamental principle underlying plastics forming processes?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Heating the material to a molten state and shaping it into the desired form",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Applying mechanical pressure to solidify the material into the desired shape",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Using chemical reactions to mold the material into the desired configuration",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Subjecting the material to high-frequency vibrations to induce shaping",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 99,
+        "qno": 99,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What fundamental principle is involved in ceramic and glass forming processes?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Applying mechanical pressure to shape the material",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Melting the material and shaping it through casting",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Using chemical reactions to induce shaping",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Subjecting the material to high-frequency vibrations to induce shaping",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 100,
+        "qno": 100,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is a foundational principle of powder metallurgy?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Melting metal powders and pouring them into molds",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Heating metal powders to their melting point and then shaping them",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Compacting metal powders into a desired shape and then sintering them",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Applying high-pressure fluids to form metal powders into intricate shapes",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 101,
+        "qno": 101,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Describe the steps involved in the maintenance planning process. How does effective decision-making within this process impact the overall performance and reliability of machinery?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Identifying maintenance needs, scheduling tasks, allocating resources, and evaluating outcomes; effective decision-making ensures timely interventions, optimal resource use, and minimal downtime.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Designing new machinery, testing prototypes, marketing the product, and selling to customers; effective decision-making boosts sales and customer satisfaction.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Recruiting staff, training employees, monitoring work hours, and processing payroll; effective decision-making improves employee performance and morale.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Developing new software, debugging code, launching updates, and providing user support; effective decision-making enhances software reliability and user experience.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 102,
+        "qno": 102,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A riser in casting is described by which one of the following statements.",
+        "options": [
+            {
+                "label": "A",
+                "content": "An insert in the casting that inhibits buoyancy of the core.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Source of molten metal to feed the casting and compensate for shrinkage during solidification.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Gating system in which the sprue feeds directly into the cavity.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Passage that let pour molten metal to in gates.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 103,
+        "qno": 103,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which one of the following casting processes is expendable-mold operations?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Centrifugal casting",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Die casting",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Low-pressure casting",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Sand casting",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 104,
+        "qno": 104,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The term blanking and punching are the common sheet meal cutting operations, what are the difference between the two.",
+        "options": [
+            {
+                "label": "A",
+                "content": "In Punching the cut-out part is required,",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "In blanking the part remain on the machine table is required;",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "In punching the part remain on the machine table is not required",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "In blanking the cut-out part is required;",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 105,
+        "qno": 105,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " One of the following statements is most correct while defining welding:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Welding is performed generally with the application of heat and/or presser,",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "While performing welding never used filler metal to join the two faying parts,",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Welding is performed most of the times with the application of heat or pressure only,",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Welding is performed most of the times only with the application of heat only,",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 106,
+        "qno": 106,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " One of the following statements is not correct about advantages of welding:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Welding is usually the most economical way to join components in terms of material usage and fabrication costs.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Some Welding types are restricted to be performed only in a factory environment.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The welded joint can be stronger than the parent materials if a filler metal is used that has strength properties superior to those of the parents, and if proper welding techniques are used.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Welding provides a permanent joint that make the welded parts a single entity.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 107,
+        "qno": 107,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Among the lists given below could not be categorized as fusion welding:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Arc welding",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Oxy-fuel gas welding",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Resistance welding",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Friction welding",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 108,
+        "qno": 108,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " From the statement given below one statement is not true about electrode that used in arc welding:",
+        "options": [
+            {
+                "label": "A",
+                "content": "It must always melt and mix with the parent metal.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It is available in stick and wire form.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It is available covered with flux.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "It is available in wire (continues) form.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 109,
+        "qno": 109,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " On which parameters, life of cutting tool most affected",
+        "options": [
+            {
+                "label": "A",
+                "content": "Depth of cut",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Feed",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Cutting speed",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Tool geometry",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 110,
+        "qno": 110,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In horizontal milling machines for the motion of work piece and cutting tool while machining process is taking place, which one is correct",
+        "options": [
+            {
+                "label": "A",
+                "content": "The cutting tool is rotating and work piece is stationary.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The work piece is rotating and cutting tool is translating.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The cutting tool is rotating and work piece is translating.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The work piece is stationary and cutting tool is translating.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 111,
+        "qno": 111,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is blending in powder metallurgy?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Making powders from different materials;",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Packing powder in the die;",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Mixing different types of powders;",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Heat powder in an oven",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 112,
+        "qno": 112,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Laminar flow is characterized by:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Random fluid particle movement",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Smooth, parallel fluid layers",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "High levels of turbulence",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Only occurring in large pipes",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 113,
+        "qno": 113,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " As fluid velocity in a pipe increases, according to Bernoulli\u2019s principle, the pressure:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Decreases",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Remains constant",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Increases disproportionately",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Depends on the pipe material",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 114,
+        "qno": 114,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following devices is used to measure fluid pressure?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Venturi meter",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Orifice plate",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Manometer",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Pitot tube",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 115,
+        "qno": 115,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " When a fluid flows through a nozzle (constriction), its velocity:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Decreases",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Remains constant",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Increases",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Depends on the fluid density",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 116,
+        "qno": 116,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The pressure drop in a pipe due to friction is proportional to the square of the fluid velocity according to the:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Bernoulli\u2019s principle",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Pascal\u2019s law",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Darcy-Weisbach equation",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Hagen-Poiseuille equation",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 117,
+        "qno": 117,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In a centrifugal pump, the highest pressure is developed:",
+        "options": [
+            {
+                "label": "A",
+                "content": "At the pump inlet",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "At the pump outlet",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "At the impeller",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "At the volute casing",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 118,
+        "qno": 118,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A long, horizontal pipe carries an incompressible fluid. Which of the following statements is ALWAYS true?",
+        "options": [
+            {
+                "label": "A",
+                "content": "The pressure at the bottom of the pipe is always higher than the pressure at the top.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The velocity of the fluid is constant throughout the pipe.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The mass flow rate of the fluid is constant throughout the pipe.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The shear stress acting on the fluid particles is zero.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 119,
+        "qno": 119,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which law describes the rate of heat transfer through a solid material based on the temperature gradient?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Fourier\u2019s law",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Newton\u2019s law of cooling",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Stefan-Boltzmann law",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Ohm\u2019s law",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 120,
+        "qno": 120,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In which situation is radiation heat transfer most dominant?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Cooking food in a microwave oven",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Heating a room using a radiator",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Melting metal in a furnace",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Boiling water on a stovetop",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 121,
+        "qno": 121,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " When does the concept of \u201clumped capacitance\u201d apply in transient heat conduction problems?",
+        "options": [
+            {
+                "label": "A",
+                "content": "When the Biot number is small",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "When the Fourier number is large",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "When the material has high thermal conductivity",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "When the surface area is large",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 122,
+        "qno": 122,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " When water boils at atmospheric pressure (1 atm), the boiling point:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Increases with higher heat input Incorrect",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Decreases with lower heat input Incorrect",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Varies depending on the container material Incorrect",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Remains constant at 100\u00b0C",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 123,
+        "qno": 123,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Blackbody radiation describes the:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Emissive power of a perfect absorber at any temperature",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Reflective properties of a polished surface",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Emissive power of a real object at a specific temperature",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Emissive power of a perfect emitter at a specific temperature",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 124,
+        "qno": 124,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " According to Newton\u2019s law of cooling, the rate of heat transfer from a surface is proportional to:",
+        "options": [
+            {
+                "label": "A",
+                "content": "The surface area only",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The temperature difference only",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The product of surface area and temperature difference",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The square of the temperature difference",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 125,
+        "qno": 125,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Refrigerant R141 is chemically classified as a(n):",
+        "options": [
+            {
+                "label": "A",
+                "content": "Hydrochlorocarbon (HCFC)",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Chlorofluorocarbon (CFC)",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Hydrofluorocarbon (HFC)",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Hydrocarbon (HC)",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 126,
+        "qno": 126,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Superheating in a refrigeration cycle:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Increases the specific refrigeration effect",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Decreases the specific work of compression",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Increases the specific work of compression",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Decreases the compressor discharge",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 127,
+        "qno": 127,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Absorption refrigeration systems:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Water-lithium bromide systems are limited to applications above 0\u00b0C.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Ammonia-water systems are limited to applications below 0\u00b0C.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Water-lithium bromide systems are suitable for large-scale commercial applications.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Small ammonia-water systems are used in domestic air conditioners.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 128,
+        "qno": 128,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following statements are TRUE?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Heat transfer through a building wall may be considered as steady if its thermal capacity is very small",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "When the thermal capacity of the wall is large, at any point of time the heat transferred to the outer surface of the wall is larger than the heat transfer from the inner surface",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "When the thermal capacity of the wall is large, the heat transfer rate at the outer surface of the wall can be smaller than the heat transfer rate from the inner surface",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Due to finite thermal capacity of the wall, the outer surface temperature is always higher than the inner surface temperature",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 129,
+        "qno": 129,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In psychrometrics, when the enthalpy of air entering an air conditioning system is equal to the enthalpy of saturated air leaving the cooling coil, the air has reached its:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Maximum cooling capacity",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Adiabatic saturation point",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Dew point temperature",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Minimum relative humidity",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 130,
+        "qno": 130,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which system allows for transfer of both matter and energy across its boundaries?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Closed system",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Open system",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Isolated system",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Adiabatic system",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 131,
+        "qno": 131,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In a throttling process (also known as a Joule-Thomson expansion) through a valve in a steady-state flow, which property remains constant across the valve (assuming negligible heat transfer and kinetic/potential energy changes)?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Temperature",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Enthalpy",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Entropy",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Specific heat capacity",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 132,
+        "qno": 132,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The first law of thermodynamics states that energy can neither be created nor destroyed, only transformed. How does this principle impact the analysis of cyclic processes in a closed system?",
+        "options": [
+            {
+                "label": "A",
+                "content": "It allows for the calculation of the system\u2019s absolute entropy at any point in the cycle.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It guarantees that the net work done by the system in a cyclic process will always be positive.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It ensures that the total heat transferred into the system during a cyclic process must equal the total heat transferred out.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "It simplifies the calculation of the system\u2019s efficiency by relating it solely to the temperature difference between the heat source and sink.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 133,
+        "qno": 133,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " During a constant-volume process in a closed system, which of the following properties remains constant:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Enthalpy (H)",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Pressure (P)",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Temperature (T)",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Work (W)",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 134,
+        "qno": 134,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In a Carnot heat engine, which statement is true?",
+        "options": [
+            {
+                "label": "A",
+                "content": "It operates between two isothermal and two adiabatic processes.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It operates between two isothermal and two isentropic processes.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It operates between two adiabatic and two isochoric processes.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "It operates between two isobaric and two isentropic processes.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 135,
+        "qno": 135,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Psychrometric charts are used to determine properties of:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Ideal gases only",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Moist air",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Incompressible fluids",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Superheated steam",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 136,
+        "qno": 136,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The second law of thermodynamics in power generation cycles is significant because it:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Defines the Carnot efficiency as the theoretical maximum.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Introduces the concept of specific heat capacity.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Relates pressure and temperature for ideal gases.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Governs the direction of heat transfer only.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 137,
+        "qno": 137,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In a closed system undergoing a cyclic process, the net work done (Wnet) is related to the net heat transfer (Qnet) by the first law of thermodynamics. Which additional information is required to determine the path taken by the system during the cycle (i.e., specific processes involved)?",
+        "options": [
+            {
+                "label": "A",
+                "content": "The system\u2019s specific heat capacity at constant pressure (Cp)",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The pressure-volume (P-V) diagram of the cycle",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The change in internal energy for one process in the cycle",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The mass of the system",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 138,
+        "qno": 138,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In a single-stage vapor compression refrigeration cycle, how does the irreversibility associated with the throttling process (expansion valve) affect the system\u2019s performance?",
+        "options": [
+            {
+                "label": "A",
+                "content": "It increases the coefficient of performance (COP), allowing for more cooling per unit work input.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It reduces the pressure difference between the condenser and evaporator, leading to a decrease in refrigerant mass flow rate and cooling capacity.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It increases the discharge temperature of the refrigerant from the compressor, requiring more work for compression.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "It increases the enthalpy of the refrigerant entering the evaporator, requiring more heat removal for cooling.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 139,
+        "qno": 139,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Consider a combined-cycle power plant that utilizes a gas turbine cycle followed by a steam Rankine cycle in a cogeneration setup. What are the primary benefits of such a configuration compared to a standalone gas turbine cycle?",
+        "options": [
+            {
+                "label": "A",
+                "content": "It achieves a higher overall thermal efficiency by utilizing the waste heat from the gas turbine exhaust for steam generation.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It simplifies the design and operation of the power plant compared to individual gas and steam cycles.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It produces only electricity and doesn\u2019t offer any additional outputs like process heat.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "It is less susceptible to environmental regulations due to lower emissions compared to a standalone gas turbine cycle.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 140,
+        "qno": 140,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " When analyzing the performance of a turbine stage, the degree of reaction is an important parameter. How does a change in the degree of reaction from purely impulse to purely reaction affect the velocity triangles at the inlet and outlet of the turbine rotor blades?",
+        "options": [
+            {
+                "label": "A",
+                "content": "The inlet and outlet relative flow velocities remain constant regardless of the degree of reaction.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "In a purely impulse turbine, the absolute flow velocity at the rotor outlet is significantly higher compared to a purely reaction turbine.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The degree of reaction only affects the tangential component of the relative flow velocity at the rotor inlet.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "A higher degree of reaction leads to a decrease in the stage efficiency due to increased internal losses within the blades.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 141,
+        "qno": 141,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A single-stage axial compressor operates at off-design conditions due to a change in system pressure ratio. How will this primarily affect the stage work done by the compressor blades?",
+        "options": [
+            {
+                "label": "A",
+                "content": "The stage work will remain constant regardless of the pressure ratio change.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The stage work will always increase, requiring more energy input to achieve the same pressure rise.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The stage work will decrease, resulting in a lower pressure rise across the compressor stage.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The stage work will depend solely on the rotational speed of the compressor shaft.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 142,
+        "qno": 142,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which type of turbine is most suitable for low head, high flow rate applications such as hydroelectric power plants?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Francis turbine",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Kaplan turbine",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Pelton turbine",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Axial turbine",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 143,
+        "qno": 143,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A centrifugal pump impeller with a large volute casing is most likely designed for:",
+        "options": [
+            {
+                "label": "A",
+                "content": "High head rise and low flow rate.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "High flow rate and low head rise.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Both high head rise and high flow rate.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The volute size has no impact on the pump's performance.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 144,
+        "qno": 144,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In a multi-stage axial compressor, what happens to the air velocity as it passes through each stage?",
+        "options": [
+            {
+                "label": "A",
+                "content": "The air velocity remains constant throughout all stages.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The air velocity decreases significantly due to friction losses.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The air velocity increases progressively with each stage due to energy addition.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The air velocity fluctuates randomly between stages.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 145,
+        "qno": 145,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What does mohr\u2019s stress circle radius represent",
+        "options": [
+            {
+                "label": "A",
+                "content": "Maximum principal stress",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Minimum principal stress",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Maximum strain",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Maximum shear stress",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 146,
+        "qno": 146,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A solid steel beam is subjected to both a bending moment and a twisting force. This represents a situation of:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Simple stress",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Complex stress",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Shear stress",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Tensile stress",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 147,
+        "qno": 147,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Young's modulus is a material property that relates:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Stress to strain within the elastic limit.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Strain to force applied.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Force to deformation.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Deformation to area.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 148,
+        "qno": 148,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " When analyzing complex stress, the principal stresses are the:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Maximum and minimum shear stresses",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Maximum and minimum normal stresses",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Combined effect of bending and twisting moments",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Internal forces resisting deformation",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 149,
+        "qno": 149,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The energy method, also known as the Castigliano\u2019s theorem, relates the deflection of a structure at a specific point to the:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Maximum stress experienced by the material",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Total weight of the structure",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Change in strain energy stored in the structure due to applied loads",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Material properties of the structural elements",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 150,
+        "qno": 150,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " When a beam subjected to bending moment has a cross-section that is not symmetrical about its neutral axis, what phenomenon occurs?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Pure bending",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Unsymmetrical bending",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Shear bending",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Torsional bending",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 151,
+        "qno": 151,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A thick-walled cylinder is subjected to internal pressure only. Which of the following statements about the stress distribution within the cylinder wall is CORRECT?",
+        "options": [
+            {
+                "label": "A",
+                "content": "The hoop stress (stress acting circumferentially) is uniform throughout the wall thickness.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The radial stress (stress acting outwards from the center) is tensile and has the highest magnitude at the inner radius.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The hoop stress is maximum at the inner radius and decreases towards the outer radius.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The radial stress is compressive throughout the wall thickness and has the highest magnitude at the outer radius.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 152,
+        "qno": 152,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A curved beam is most similar in structural behavior to which of the following options:",
+        "options": [
+            {
+                "label": "A",
+                "content": "A straight beam with a constant cross-section",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "A straight beam with a varying cross-section",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "A truss structure",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "A cable under tension",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 153,
+        "qno": 153,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Two solid shafts of the same material are subjected to the same torque. If the diameter of one shaft is twice the diameter of the other, the first shaft experiences:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Twice the shear stress",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Half the shear stress",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Four times the shear stress",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The same shear stress",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 154,
+        "qno": 154,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following statements about shear stress distribution in a rectangular beam is TRUE?",
+        "options": [
+            {
+                "label": "A",
+                "content": "It is constant throughout the beam section.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It is maximum at the neutral axis.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It is zero at the top and bottom surfaces.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "It is parabolic with the maximum value at the neutral axis.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 155,
+        "qno": 155,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Identify the odd statement about machines and mechanisms.",
+        "options": [
+            {
+                "label": "A",
+                "content": "In any mechanism rigid bodies are connected to produce the desired motion of a machine",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Machines accomplish a specific objective by transmitting motion and energy",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The mechanical portion of a machine to transmit motion from the prime mover to the output is a linkage or a mechanism",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Kinematic analysis of mechanisms clearly shows the size of parts that should be used to manufacture products.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 156,
+        "qno": 156,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " When links have more than two connection points (nodes) to connect with other links to allow rotation, the joints are called ternary or quaternary joints. For which of the following motion requirements those links are used in mechanism design?",
+        "options": [
+            {
+                "label": "A",
+                "content": "To reduce the degree of freedom to one.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "To maximize the degree of freedom of mechanisms",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Motion requirements have nothing to do with the number of connection nodes in a link",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "To reduce the space requirement of the mechanisms",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 157,
+        "qno": 157,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Identify the wrong statement about the automotive differential mechanism",
+        "options": [
+            {
+                "label": "A",
+                "content": "When the vehicle moves in a straight path, the differential permits the two-wheel to move at the same speed",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "When the vehicle moves in a curved path, the differential permits the wheel inside the curve to move faster than the wheel on the outside",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "When the vehicle moves in a curved path, the differential permits the wheel inside the curve to move slower than the wheel on the outside",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "When the vehicle moves in an uphill straight path the differential allows the two wheels to move with the same speed",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 158,
+        "qno": 158,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A system of rotating masses is said to be balanced statically when",
+        "options": [
+            {
+                "label": "A",
+                "content": "The mass center of the whole system lies on the axis of rotation",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The mass center shifts from the axis of rotation by an eccentric distance",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The sum of all the centrifugal forces of the rotating masses is non-zero",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The sum of all the couples produced by the centrifugal forces is zero",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 159,
+        "qno": 159,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Identify the incorrect statement",
+        "options": [
+            {
+                "label": "A",
+                "content": "Kinematic inversion does not alter the relative motion between links",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "In kinematic inversion different mechanisms can be obtained by fixing different links one at a time",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Kinematic inversion does not change the absolute motion of the links",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The number of kinematic inversions is equal to the number of links in the mechanism",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 160,
+        "qno": 160,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A 5th-year mechanical engineering student is designing a pick-and-place robot arm. What is the MOST IMPORTANT aspect to consider during the initial design phase to ensure successful control and operation?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Material selection for the robot arm components",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Defining the desired motion profile of the arm",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Selecting powerful motors for actuation",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Choosing aesthetically pleasing aesthetics for the robot",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 161,
+        "qno": 161,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A pressure sensor in a hydraulic system outputs an analog voltage signal proportional to the applied pressure. What is the PRIMARY purpose of using a signal conditioning circuit before feeding this signal to the controller?",
+        "options": [
+            {
+                "label": "A",
+                "content": "To amplify the voltage signal for better visibility",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "To convert the analog voltage signal into a digital format for the controller",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "To filter out any electrical noise present in the signal",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All of the Above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 162,
+        "qno": 162,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " An environmental monitoring system uses a temperature sensor that outputs a small analog voltage signal. To ensure accurate and reliable temperature readings, which of the following components is MOST CRUCIAL in the data acquisition system?",
+        "options": [
+            {
+                "label": "A",
+                "content": "High-resolution display for showing the temperature",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "An analog-to-digital converter (ADC) with high resolution",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "A powerful computer for data processing",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "A user-friendly interface for data visualization",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 163,
+        "qno": 163,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A robotic arm needs to precisely control the position of its end-effector. Which type of actuator is BEST SUITED for this application?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Hydraulic cylinder",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Stepper motor",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Pneumatic actuator",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "DC motor with gearbox",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 164,
+        "qno": 164,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Programmable Logic Controllers (PLCs) are widely used in industrial automation. What is the PRIMARY ADVANTAGE of using a PLC for controlling an automated system compared to a traditional relay-based control system?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Lower cost for simple control tasks",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Increased complexity for programming",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Higher reliability and flexibility for complex control logic",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Easier maintenance for technicians",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 165,
+        "qno": 165,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Material handling consists of movement of material from",
+        "options": [
+            {
+                "label": "A",
+                "content": "One machine to another",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "One shop to another shop",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Stores to shop",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 166,
+        "qno": 166,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The following is used to transport materials having flat bottoms",
+        "options": [
+            {
+                "label": "A",
+                "content": "Belt conveyor",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Roller conveyor",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Chain conveyor",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Bucket conveyor",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 167,
+        "qno": 167,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Economy in material handling can be achieved by",
+        "options": [
+            {
+                "label": "A",
+                "content": "employing gravity feed movements",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "minimizing distance of travel",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "by carrying material to destination without using manual labour",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "all of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 168,
+        "qno": 168,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following is not a hoisting equipment with lifting gear?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Cage elevators",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Jib cranes",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Troughed belts",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Pulleys",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 169,
+        "qno": 169,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " An essential requirement of a good MH system is :",
+        "options": [
+            {
+                "label": "A",
+                "content": "Capital cost expenditure",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Flexibility reduction",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Sale ability of Plant & equipment",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Storing Materials utilizing minimum space.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 170,
+        "qno": 170,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following statement is not correct with respect to alcohols as alternate fuel in IC engines?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Alcohol contains about half the heat energy of gasoline/litre",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Alcohol does not vaporize as easily as gasoline",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Alcohols are corrosive in nature",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Anti-knock characteristics of alcohol is poor",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 171,
+        "qno": 171,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Supercharging is the process of",
+        "options": [
+            {
+                "label": "A",
+                "content": "Supplying the intake of an engine with air at a density greater than the density of the surrounding atmosphere.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Providing forced cooling air.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Injecting excess fuel for raising more load.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Supplying compressed air to remove combustion products fully.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 172,
+        "qno": 172,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " In a typical medium speed 4-stroke cycle diesel engine the inlet valve",
+        "options": [
+            {
+                "label": "A",
+                "content": "Opens at 20\u00b0 before top dead center and closes at 35\u00b0 after the bottom dead center.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Opens at top dead center and closes at bottom dead center.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Opens at 10\u00b0 after top dead center and closes 20\u00b0 before the bottom dead center.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "May open or close anywhere.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 173,
+        "qno": 173,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Scavenging air in diesel engine means",
+        "options": [
+            {
+                "label": "A",
+                "content": "Air used for combustion sent under pressure.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Forced air for cooling cylinder.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Burnt air containing products of combustion.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Air used for forcing burnt gases out of engine\u2019s cylinder during the exhaust period.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 174,
+        "qno": 174,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which one isn\u2019t among Engine performance Parameters",
+        "options": [
+            {
+                "label": "A",
+                "content": "Mean effective pressure",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Wheel speed",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Specific fuel consumption",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Calorific value of the fuel (CV)",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 175,
+        "qno": 175,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What kind of fastener is inserted through a hole in one member to be joined and into a threaded hole in the mating member?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Screw",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Key",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Rivet",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Nut",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 176,
+        "qno": 176,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The material used for brake lining should have __________ coefficient of friction.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Low",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "High",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Moderate",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "None",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 177,
+        "qno": 177,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A transmission shaft subjected to pure bending moment should be designed on the basis of",
+        "options": [
+            {
+                "label": "A",
+                "content": "Maximum principal stress theory",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Maximum shear stress theory",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Maximum distortion energy theory",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Soderberg diagrams",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 178,
+        "qno": 178,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " When the frictional force helps to apply the brake, then the brake is said to be",
+        "options": [
+            {
+                "label": "A",
+                "content": "Shoe brake",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Band brake",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Self-energizing brake",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Self-locking brake",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 179,
+        "qno": 179,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The size of gear is usually specified by",
+        "options": [
+            {
+                "label": "A",
+                "content": "Pressure angle",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Pitch circle diameter",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Circular pitch",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Diametral pitch",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 180,
+        "qno": 180,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The allowable static stress for steel gears is approximately_______ of the ultimate tensile stress.",
+        "options": [
+            {
+                "label": "A",
+                "content": "One-fourth",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "One-third",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "One-half",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Double",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 181,
+        "qno": 181,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " A sliding bearing which can support steady loads without any relative motion between the journal and the bearing is called",
+        "options": [
+            {
+                "label": "A",
+                "content": "Zero film bearing",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Boundary lubricated bearing",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Hydrodynamic lubricated bearing",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Hydrostatic lubricated bearing",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 182,
+        "qno": 182,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The body-centered cubic (BCC) crystal structure has how many nearest neighbors for each atom?",
+        "options": [
+            {
+                "label": "A",
+                "content": "6",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "8",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "12",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "14",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 183,
+        "qno": 183,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which type of crystal defect is responsible for work hardening in metals?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Point defects",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Line defects",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Planar defects",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Volume defects",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 184,
+        "qno": 184,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following types of diffusion involves the movement of atoms to nearby vacant lattice sites?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Vacancy diffusion",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Interstitial diffusion",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Grain boundary diffusion",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Surface diffusion",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 185,
+        "qno": 185,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Compared to bulk diffusion, grain boundary diffusion typically has:",
+        "options": [
+            {
+                "label": "A",
+                "content": "A lower activation energy",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "A higher activation energy",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The same activation energy",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Cannot be determined from the information given",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 186,
+        "qno": 186,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following statements accurately describes a phase diagram?",
+        "options": [
+            {
+                "label": "A",
+                "content": "A diagram that shows the chemical composition of a substance.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "A diagram that displays the changes in temperature and pressure at which different phases of a substance coexist.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "A diagram that represents the flow of energy during a phase change.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "A diagram that illustrates the molecular structure of a substance.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 187,
+        "qno": 187,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which application of metal involves the process of heating and cooling to increase its strength and hardness?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Metal recycling",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Metal casting",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Metal tempering",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Metal etching",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 188,
+        "qno": 188,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " Which of the following is a common crystal structure exhibited by ceramics?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Body-centered cubic (BCC)",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Face-centered cubic (FCC)",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Hexagonal close-packed (HCP)",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Amorphous",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 189,
+        "qno": 189,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What property of ceramics makes them highly resistant to heat and thermal shock?",
+        "options": [
+            {
+                "label": "A",
+                "content": "High electrical conductivity",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Low density",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Brittle fracture behavior",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "High thermal stability",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 190,
+        "qno": 190,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is the process of removing water from a ceramic object and converting it into a solid called?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Firing",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Glazing",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Sintering",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Drying",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 191,
+        "qno": 191,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " What is the term used to describe the gradual weakening of a material due to repeated loading and unloading?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Creep",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Fatigue",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Corrosion fatigue",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Stress corrosion cracking",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 192,
+        "qno": 192,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " The activity of brings together human and physical resources in an orderly manner and arranges them in coordinated pattern to accomplish planned objectives is termed as______________.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Staffing",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Leading",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Planning",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Organizing",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 193,
+        "qno": 193,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " How Management will achieve the predetermined goals of the organization?",
+        "options": [
+            {
+                "label": "A",
+                "content": "By execution of five basic management functions",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "By utilizing human and non human resources in an efficient and effective manner.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "By create, direct, maintain and operate organization through systematic, coordinated, cooperative human efforts\u201d.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 194,
+        "qno": 194,
+        "department": "Mechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": " ____________is the quantitative relation between what we produce and we use as a resource to produce.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Performance",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Efficiency",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Effective",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "productivity",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    }
+]

@@ -66,9 +66,13 @@ class DocxProcessor:
             with open(answers_path, 'r', encoding='utf-8') as f:
                 answers_data = json.load(f)
                 for q in questions:
-                    qno = q.get('qid')
-                    if qno is not None:
-                        q['answer'] = answers_data.get(str(qno))
+                    q_number = q.get('qno')
+                    if q_number is not None:
+                        q['answer'] = answers_data.get(str(q_number))
+
+                    # qid = q.get('qid')
+                    # if qid is not None:
+                    #     q['answer'] = answers_data.get(str(qid))
                         # print(f"answer to {qno} is set {q['answer']}")
                 return True
         except FileNotFoundError:
@@ -171,8 +175,10 @@ class DocxProcessor:
                                 # print("question:", line)
                                 pos = re.search(r'^\d+[.)]', line)
                                 end_pos = pos.end()
+                                q_num_str = pos.group()
+                                actual_q_num = int(q_num_str.rstrip('.)'))
                                 # print(pos)
-                                question = {'qid': qno+1, 'department': department, 'module': module_name, 'course': course_name, 'content': line.strip()[end_pos:], 'options': [], 'image': None, 'answer': None}
+                                question = {'qid': qno+1, "qno": actual_q_num, 'department': department, 'module': module_name, 'course': course_name, 'content': line.strip()[end_pos:], 'options': [], 'image': None, 'answer': None}
                                 # # options = []
                                 questions.append(question)
                                 qno += 1
@@ -198,7 +204,9 @@ class DocxProcessor:
                                         # questions[qno-1]['image'] = found_image_path
                                 # print(f"Image placeholder: {line}")
                                 # continue
-
+                                # for subline in line.split('\n'):
+                                #     if not subline:
+                                #         continue
                                 pos = re.search(r'^[(A-Za-z][.)]|[A-Za-z][.)]', line)
                                 end_pos = 0
                                 
@@ -281,7 +289,7 @@ class DocxProcessor:
                                 
                         except Exception as e:
                             print(e)
-                            raise e
+                            raise Exception(f"Unknown Error: {str(e)}")
 
         # befire saving, map answers if answer key file is provided
         docx_dir = Path(docx_path).parent

@@ -1,0 +1,604 @@
+1.Many manufacturers recommend that valves be ground with an interference angle. This angle is the difference between the ______________.
+A.valve margin and valve face angles 
+B.valve face and valve seat angles 
+C.valve guide and valve face angles 
+D.valve head and margin angles
+ANSWER:D
+2.Camshaft bearings in a cam-in block engine are being discussed. Technician A says that Plastigage should be used to check for proper bearing clearance. Technician B says that a special tool is required to install cam bearings in a cam-in-block engine. Which technician is correct? 
+A.A only 
+B.B only 
+C.Both A and B
+D.Neither A nor B
+ANSWER:B
+3.Piston ring end gap can be increased by ______________. 
+A.filing the ring to make the gap larger 
+B.installing oversize rings 
+C.sleeving the cylinder 
+D.knurling the piston
+ANSWER:A
+4.To check a crankshaft journal for taper and out-of-round, the journal should be measured in at least how many locations? 
+A.One 
+B.Two 
+C.Four 
+D.Six
+ANSWER:D
+5.Piston ring side clearance is a measure taken between the ______ and the _______. 
+A.piston (side skirt); cylinder wall 
+B.piston pin; piston pin retainer (clip) 
+C.piston ring; piston ring land 
+D.compression ring; oil control ring
+ANSWER:C
+6.A misaligned connecting rod causes what type of engine wear? 
+A.Cylinder taper 
+B.Barrel-shaped cylinders 
+C.Ridge wear 
+D.Angle wear on the piston skirt
+ANSWER:D
+7.If the bore of an engine is increased without any other changes except for the change to proper size replacement pistons, the displacement will ______________ and the compression ratio will ______________. 
+A.increase; increase 
+B.increase; decrease 
+C.decrease; increase 
+D.decrease; decrease
+ANSWER:A
+8.Which statement is true about thermostats? 
+A.The temperature marked on the thermostat is the temperature at which the thermostat should be fully open 
+B.Thermostats often cause overheating 
+C.The temperature marked on the thermostat is the temperature at which the thermostat should start to open 
+D.Both a and b
+ANSWER:C
+9.When aligning the timing marks on an overhead valve (cam-in-block) engine, what is the most likely method? 
+A.The timing mark on the camshaft should be at the 12 o’clock position and the mark on the crankshaft should be at the 6 o’clock position.
+B.The timing mark on the camshaft should be at the 12 o’clock position and the mark on the crankshaft should be at the 12 o’clock position. 
+C.The timing mark on the camshaft should be at the 6 o’clock position and the mark on the crankshaft should be at the 12 o’clock position. 
+D.The timing mark on the camshaft should be at the 6 o’clock position and the mark on the crankshaft should be at the 6 o’clock position.
+ANSWER:C
+10.Before the valves are removed from the cylinder head, what operation is NOT needed to be done? 
+A.Remove valve locks (keepers) 
+B.Remove cylinder head(s) from the engine 
+C.Remove burrs from the stem of the valve(s) 
+D.Remove the valve stem seals
+ANSWER:D
+11.Two technicians are diagnosing a problem with an OHV V-8 with flat-bottom lifters. The valve covers have been removed and the engine is running. One pushrod is not rotating. Technician A says that the camshaft is worn and must be replaced. Technician B says that the lifter is worn and must be replaced. Which technician is correct? 
+A.A only 
+B.B only 
+C.Both A and B 
+D.Neither A nor B
+ANSWER:C
+12.Which one of the following is false about integral frame type? 
+A.There is no frame and all the assembly units are attached to the body. 
+B.It is cheaper and due to less weight it is most economical 
+C.Repairing is difficult 
+D.Half frame is fixed in the front end on which engine and front suspension is mounted
+ANSWER:D
+13.Which one of the following is not a type of independent suspension system? 
+A.Macpherson strut 
+B.Double wishbone 
+C.Twist Beam strut
+D.Multi-link
+ANSWER:C
+14.The main function of master cylinder is to 
+A.Adjust the extent of brake pedal free ply 
+B.Boost the force applied by brake pedal 
+C.Ensure that all the wheel brakes are supplied with the same of fluid pressure 
+D.Convert brake pedal force to hydraulic pressure
+ANSWER:D
+15.From the tire number P222/75R16, what does the number 222 indicates 
+A.Aspect ratio 
+B.Rim diameter 
+C.Load range 
+D.Tire width
+ANSWER:D
+16.The following are signs of a worn steering linkage EXCEPT 
+A.Vehicle pulling to one side while driving 
+B.Steering drifting during turns 
+C.Vibrations in steering wheel 
+D.Uniform tire wear
+ANSWER:D
+17.In a front Double Wishbone suspension, which component allows the front steering knuckle to rotate on its axis? 
+A.Lower control arm
+B.Ball joints 
+C.Rubber bushings 
+D.Upper control arm
+ANSWER:B
+18.___________ is welded on the axle housing to provide a flat surfaces to contact the spring and has a hole drilled through it to receive the head of the center bolt. 
+A.Shackle 
+B.Saddle 
+C.Bushing 
+D.Rebound clips
+ANSWER:B
+19.Which one of the following is not advantage of rubber spring over conventional springs? 
+A.Self-damping properties 
+B.Fixed spring rate 
+C.Space-saving 
+D.Vibration damping & noise reduction
+ANSWER:B
+20.Which one of the following is true about Ackerman steering system 
+A.Consists of sliding pairs 
+B.Subject to more wear and tear 
+C.Steering gear mechanism is placed on the back of the front wheel axle 
+D.Steering gear mechanism is placed on the front of the front wheel axle.
+ANSWER:C
+21.Which one the following is dead axle? 
+A.The rear axle of a front wheel drive 
+B.The rear axle of a rear wheel drive 
+C.The front axle of a four wheel drive 
+D.The front axle of all wheel drive
+ANSWER:A
+22.Which one of the following is not true about Tubeless tires 
+A.Less maintenance is required as probability of puncture is low 
+B.Less costly 
+C.Lighter than tubed 
+D.More traction with the ground
+ANSWER:B
+23.Why the fuse or relays are numbered?
+A.For identification of which relay is used for which circuit
+B.To replace the fuse or the relay based on that number
+C.To buy the fuse or relay using number
+D.The above all are right
+ANSWER:D
+24.Which h one of the following is not a part of distributor less ignition system?
+A.Ignition coil    
+B.Spark plug    
+C.Contact point   
+D.Igniter
+ANSWER:C      
+25.An open fault in the pull in winding of a star solenoid switch will cause 
+A.The battery to run down        
+B.The solenoid plunger will never move out
+C.The solenoid to move in and out, or chatter     
+D.Excessively high current draw from the starter
+ANSWER:B
+26.Which tester used to determined battery state to charge by measuring the specific gravity of the electrolyte?
+A.Peak load tester
+B.Leakage tester
+C.Hydrometer tester
+D.Drive tester
+ANSWER:C
+27.Which system used to handle the load of the lights, ignition, radio and other electrical and electronic equipment's while the engine is running?
+A.Starting system 
+B.Charging system
+C.Ignition system
+D.Head light system
+ANSWER:B
+28.A component composed of two cores, a field coil slip rings and use as a polarity?
+A.Charging system Rotor
+B.Filed coil housing
+C.Stator coil
+D.Diode
+ANSWER:A
+29.When performing a battery capacity (heavy-load) test on a 12-volt battery, the voltage should not fall below
+A.12.0 volts.           
+B.10.6 volts.          
+C.9.6 volts. 
+D.8.6 volts
+ANSWER:C
+30.Which of the following is correct current path during ignition switch start position?
+A.Battery –ignition switch-terminal 50-hold in-ground
+B.Battery-ignition switch –terminal 50-pull in coil-terminal C-filed coil –armature-ground.
+C.Battery –ignition switch- terminal D-hold in-ground.
+D.A and B
+ANSWER:D
+31.Which of the following is taken as continuous (Permanent) load?
+A.Starter motor         
+B.Ignition coil              
+C.Head lamp           
+D.All
+ANSWER:D 
+32.Where in an AC system would you expect finding a high-pressure liquid?
+A.Between the compressor and the Thermal expansion Valve 
+B.Between the Thermal expansion Valve and the Evaporator 
+C.Between the compressor and the condenser 
+D.Between the Condenser and the Thermal expansion Valve
+ANSWER:A 
+33.The main components of the Air conditioning system are 
+A.Thermistor, condenser, flow control and an evaporator. 
+B.Fan blower, condenser, flow control and an evaporator. 
+C.Compressor, condenser, flow control device and an evaporator.
+D.Drainage, condenser, flow control and an evaporator.
+ANSWER:C
+34.The two major functions of the compressor are to circulate refrigerant and to compress ____________. 
+A.Low-pressure refrigerant vapor into hot, high temperature vapor 
+B.High-pressure refrigerant vapor into high-temperature, low temperature liquid 
+C.Low-pressure refrigerant liquid into hot, high temperature vapor 
+D.Low-pressure refrigerant liquid into hot, high temperature liquid
+ANSWER:A
+35.On a manual air conditioning system without automatic control, the compressor clutch does not operate. Technician A says there is an incorrectly adjusted temperature door. Technician B says there is a failed compressor thermal protector. Who is right? 
+A.A only 
+B.B only
+C.Both A and B
+D.Neither A nor B
+ANSWER:B
+36.Which one is the function of an orifice tube in an A/C system?
+A.Regulates the flow of refrigerant into the evaporator 
+B.Regulates the flow of refrigerant into the compressor 
+C.Regulates the flow of refrigerant into the condenser 
+D.Regulates the flow of coolant into the heater core
+ANSWER:A
+37.On an A/C compressor the magnetic clutch: 
+A.Traps magnetic particles that might damage the system 
+B.Cycles on and off to drive the compressor as needed 
+C.Cannot be replaced separately from the compressor 
+D.Contains lubricant for the compressor
+ANSWER:B
+38.Technician A says a defective resistor trio can cause a no high blower condition. Technician B says a misadjusted temperature door could cause a poor heat complaint. Who is right? 
+A.A only 
+B.B only 
+C.Both A and B 
+D.Neither A nor B
+ANSWER:B
+39.If a cooling system operates at too cool an operating temperature, the engine will do which of the following? 
+A.Have more torque 
+B.Have less efficiency 
+C.Have ignition detonate 
+D.Produce higher emissions
+ANSWER:D
+40.What high-side and low-side pressure gauge readings would a technician find if the condenser fan were inoperative? 
+A.High-side high and low-side low
+B.High-side low and low-side high 
+C.Both high-side high and low-side are low 
+D.Both high-side high and low-side are high
+ANSWER:D
+41.If the vehicle is moving at high altitude, generally over 5,000 feet (1,500 meters), the PCM will: 
+A.Reduce fuel delivery and retard the ignition timing.
+B.Increase fuel delivery and advance the ignition timing.
+C.Reduce fuel delivery and advance the ignition timing.
+D.Increase fuel delivery and retard the ignition timing.
+ANSWER:C
+42.Which airflow sensor has a dampening chamber?
+A.A vane airflow 
+B.A hot wire MAF
+C.A hot film MAF
+D.A Karman Vortex
+ANSWER:A
+43.The voltage output of a zirconia oxygen sensor when the exhaust stream is lean (excess oxygen) is _____________ 
+A.Relatively high (close to 1 volt)
+B.About in the middle of the voltage range
+C.Relatively low (close to 0 volt)
+D.Either a or b, depending on atmospheric pressure
+ANSWER:C
+44.A P0118 DTC is being discussed.Technician A says that the ECT sensor could be shorted internally. Technician B says that the signal wire could be open. Which technician is correct?
+A.Technician A only
+B.Technician B only
+C.Both Technicians A and B
+D.Neither Technician A nor B
+ANSWER:B
+45.Acceleration enrichment is used for what purpose?
+A.reduce fuel consumption
+B.reduce exhaust emissions
+C.provide maximum torque
+D.provide minimum fuel economy
+ANSWER:C
+46.When an emission related malfunction occurs that illuminates the MIL, vehicle-operating parameters are to be stored in the Engine Control Module (ECM), Such stored data are called:
+A.DTC
+B.Freeze Frame Data 
+C.Active Stored Data
+D.Continuous Data
+ANSWER:B
+47.The purpose of Supercharging is to
+A.Increase compression ratio
+B.Utilize exhaust gas energy
+C.Increase charge density
+D.Increase speed of engine
+ANSWER:C
+48.Which one of the following statement is true while comparing CI and SI engines?
+A.SI engines are relatively noisy
+B.The pressure drop inside the cylinder during intake stroke is more on CI engine
+C.The pressure drop inside the cylinder during intake stroke is more on SI engine
+D.SI engines have more running costs
+ANSWER:B
+49.To which of the following the number of radial holes equal in a distributor type fuel injection pump?
+A.To the float valve
+B.To the number of the engine cylinder
+C.To the number of gears
+D.To the number of governors
+ANSWER:B
+50.Which one of the following statement is true regarding to ignition delay, diesel knock and cetane number?
+A.The higher the cetane number the shorter the ignition delay and the higher diesel knock probability
+B.The higher the cetane number the longer the ignition delay and the higher diesel knock probability
+C.The higher the cetane number the shorter the ignition delay and the lower diesel knock probability
+D.The lower the cetane number the shorter the ignition delay and the lower diesel knock probability
+ANSWER:C
+51.For the diesel engine to have high thermal efficiency;
+A.Lower compression ratio is required 
+B.Heat loss during combustion must be low 
+C.Good scavenging of the intake air is required 
+D.All
+ANSWER:B 
+52.What is the function of a diesel engine's glow plugs?
+A.To ignite the fuel-air mixture
+B.To preheat the combustion chamber
+C.To regulate fuel flow
+D.To cool the engine
+ANSWER:B
+53.What is the function of the diesel fuel filter in the engine?
+A.To regulate fuel flow
+B.To filter out impurities from the fuel
+C.To filter out impurities from the air
+D.To mix fuel and air
+ANSWER:B
+54.With EFI (ELECTRONIC FUEL INJECTION) of diesel engines
+A.sharp start and stop is not possible 
+B.very high injection pressure can be obtained
+C.sudden cylinder cut-off is impossible
+D.diagnostic properties are poor
+ANSWER:B
+55.A noisy valve train is being diagnosed. Technician A says that the rocker arm may be adjusted too tightly. Technician B says that the rocker arm may be adjusted too loosely or may be worn. Which technician is correct? 
+A.A only 
+B.B only 
+C.Both A and B 
+D.Neither A nor B
+ANSWER:B
+56.Technician A says that black exhaust smoke is an indication of a too-rich air-fuel mixture. Technician B says that white smoke (steam) is an indication of coolant being burned in the engine. Which technician is correct? 
+A.A only 
+B.B only 
+C.Both A and B 
+D.Neither A nor B
+ANSWER:C
+57.A cylinder head should be removed by loosening the head bolts in which order? a. 
+A.Any order as long as all bolts are removed 
+B.In the same order as the tightening sequence 
+C.In the reverse order of the tightening sequence 
+D.Loosen each a quarter of a turn and then one-half a turn in the same order as the tightening sequence
+ANSWER:C
+58.Which statement is true about surface finish? 
+A.Cast-iron surfaces should be smoother than aluminum surfaces. 
+B.The rougher the surface is, the higher the micro inch finish measurement. 
+C.The smoother the surface is, the higher the micro inch finish measurement. 
+D.A cylinder head should be a lot smoother than a crankshaft journal
+ANSWER:B
+59.When aligning the timing marks on an overhead valve (cam-in-block) engine, what is the most likely method? 
+A.The timing mark on the camshaft should be at the 12 o’clock position and the mark on the crankshaft should be at the 6 o’clock position. 
+B.The timing mark on the camshaft should be at the 12 o’clock position and the mark on the crankshaft should be at the 12 o’clock position. 
+C.The timing mark on the camshaft should be at the 6 o’clock position and the mark on the crankshaft should be at the 12 o’clock position. 
+D.The timing mark on the camshaft should be at the 6 o’clock position and the mark on the crankshaft should be at the 6 o’clock position.
+ANSWER:C
+60.An aluminum cylinder head is checked for warpage using a straight edge and a feeler (thickness) gauge. The amount of warpage on a V-8 cylinder head was 0.002 inch (0.05 millimeter). Technician A says that the cylinder head should be resurfaced. Technician B says that the cylinder head should be replaced. Which technician is correct? 
+A.A only 
+B.B only 
+C.Both A and B 
+D.Neither A nor B
+ANSWER:D
+61.The feeler gauge shown is thinner than specification. Technician A says that the cylinder should be honed until the piston ring end gap is within specifications. Technician B says the piston ring should be replaced with an oversize ring. Which technician is correct? 
+A.A only 
+B.B only 
+C.Both A and B 
+D.Neither A nor B
+ANSWER:D
+62.Piston ring side clearance is a measure taken between the ______ and the _______. 
+A.piston (side skirt); cylinder wall 
+B.piston pin; piston pin retainer (clip) 
+C.piston ring; piston ring land 
+D.compression ring; oil control ring
+ANSWER:C
+63.Which axles require a Locking Hub?
+A.Front drive axle of a rear-wheel drive axle
+B.Front drive axle of a four-wheel drive axle    
+C.Rear drive axle of a two-wheel drive axle      
+D.Rear drive axle of a front-wheel drive axle
+ANSWER:B
+64.The drive shafts are connected to the differential and wheel hubs through universal joints because the universal joints
+A.Compensate for variations in the relative positions of the differential and the wheels which result from bumpy road surface or other similar driving conditions.
+B.Absorb any difference in speed between the left and right wheels when the vehicle is turning.
+C.Absorb the vibrations transferred from the surface of the road 
+D.None of the above
+ANSWER:A
+65.Why are the helical gears used commonly in transmission over spur gears?
+A.Low noise level and high strength
+B.Low noise level and low cost
+C.Low cost and high strength
+D.Low noise level and economy
+ANSWER:A
+66.In which of the configuration of epicyclic gearbox output will be forward and fast output speed?
+A.Sun gear driving, ring gear driven, planet carrier stationary
+B.Sun gear driven, ring gear stationary, planet carrier driving
+C.Sun gear stationary, ring gear stationary, planet carrier driving
+D.Sun gear stationary, ring gear driven, planet carrier driving
+ANSWER:D
+67.Which of the following is the disadvantage of the cone clutch?
+A.It is silent in operation
+B.It becomes difficult to disengage the clutch when the cone angle is less than 20°
+C.The normal force on the contact surface is larger than the axial force
+D.Same torque can be transmitted for the same size as the plate clutch
+ANSWER:B
+68.What is running resistance of the vehicle?
+A.Rolling resistance
+B.Aerodynamic resistance
+C.Sum of rolling and aerodynamic resistance
+D.Traction force
+ANSWER:C
+69.A four-cylinder four-stroke spark ignition engine has a maximum engine speed of 6,000 rpm. How many times does each intake valve of this engine opens per second?
+A.50 times
+B.25 times 2 
+C.100 times 
+D.75 times
+ANSWER:A
+70.A four-stroke diesel engine has stroke length and engine speed of 80 mm and 6000 rpm respectively. What will be the mean piston speed of the engine? 
+A.15 m/s 
+B.14 m/s 
+C.16 m/s 
+D.13 m/s
+ANSWER:C
+71.Which one of the following develop high fuel pressure in common rail diesel injection system? 
+A.Inline injection pump
+B.Distributor injection pump
+C.High pressure pump
+D.Injector
+ANSWER:C
+72.Which device is used to maintain high fuel pressure in fuel line of inline injection pump fuel system?
+A.Delivery valve 
+B.Control rack 
+C.Spill ring 
+D.Helix groove
+ANSWER:A
+73.Any of the following methods can be used to find a refrigerant leak except.
+A.Using a Refrigerant identifier to check for leaks 
+B.Spraying Soapy Water on suspected leaks and watching for bubbles 
+C.Adding leak detection dye to the refrigerant 
+D.Using an Electronic Leak Detector to check hoses, connections and components
+ANSWER:A
+74.Where is the LOW SIDE (low pressure) of an A/C system? 
+A.Between the compressor outlet and condenser inlet 
+B.Between the compressor outlet and evaporator inlet 
+C.Between the evaporator inlet and compressor inlet 
+D.Between the evaporator outlet and compressor inlet 
+ANSWER:D
+75.The MAGNETIC CLUTCH on an A/C compressor: 
+A.Traps magnetic particles that might damage the system 
+B.Cycles on and off to drive the compressor as needed 
+C.Cannot be replaced separately from the compressor 
+D.Contains lubricant for the compressor 
+ANSWER:B
+76.The over-all curvature of the leaf spring is called
+A.Camber 
+B.Nip 
+C.Inter-leaf 
+D.Master leaf
+ANSWER:A
+77.Which one of the following is true about Ackerman steering system 
+A.Consists of sliding pairs
+B.Subject to more wear and tear
+C.Steering gear mechanism is placed on the back of the front wheel axle
+D.Steering gear mechanism is placed on the front of the front wheel axle.
+ANSWER:C
+78.Which one of the following is not a type of independent suspension system?
+A.Macpherson strut
+B.Double wishbone
+C.Twist Beam
+D.Multi-link
+ANSWER:C
+79.____________ Chassis has half portion of the engine is in the driver cabin and the remaining half is outside the cabin?
+A.Forward control
+B.Semi-forward control
+C.Full-Forward control
+D.B and C
+ANSWER:B
+80.A VARIABLE orifice tube does what? 
+A.Improves low speed cooling 
+B.Improves high speed cooling 
+C.Has no effect on cooling performance 
+D.Filters out contaminants
+ANSWER:A
+81.The tendency to detonate during combustion process increases rapidly with?
+A.Atmospheric Humidity                                        
+B.Water-Alcohol Injection
+C.Deposit accumulation                                           
+D.All
+ANSWER:C
+82.Optical sensors used for the displacement measurement works on the principal that:
+A.Intensity of light increases with distance
+B.Intensity of light remains constant with distance
+C.Intensity of light increases with time
+D.Intensity of light decreases with distance
+ANSWER:D
+83.The frictional force is directly proportional to? 
+A.Applied load
+B.Type of surface used
+C.The normal force
+D.The horizontal load
+ANSWER:C
+84.What is meant by closed system?
+A.System has both heat and work transfer
+B.System has only mass transfer 
+C.System has heat transfer but not work transfer 
+D.A and B
+ANSWER:A
+85.How exhaust gas recirculation (EGR) control engine emission?
+A.By reducing the combustion temperature inside the combustion chamber
+B.By reducing the exhaust temperature inside the exhaust manifold
+C.By reducing the combustion temperature inside the combustion chamber
+D.By reducing the exhaust temperature inside the exhaust manifold
+ANSWER:A
+86.Which type of vehicle consists of two or more rigid sections connected together? 
+A.Split‐level bus 
+B.Articulated bus 
+C.Double decker 
+D.Single decker
+ANSWER:B
+87.The following is also known as flywheel or coupling
+A.Fluid clutch
+B.Cone clutch
+C.Centrifugal clutch
+D.All of the above
+ANSWER:C
+88.Technician A says that the paper test could detect a burned valve. Technician B says that a grayish white stain on the engine could be a coolant leak. Which technician is correct?
+A.Technician A only 
+B.Technician B only 
+C.Both Technicians A and B 
+D.Neither Technician A nor B
+ANSWER:C
+89.Two technicians are discussing oil leaks. Technician A says that an oil leak can be found using a fluorescent dye in the oil with a black light to check for leaks. Technician B says that a white spray powder can be used to locate oil leaks. Which technician is correct? 
+A.Technician A only 
+B.Technician B only 
+C.Both Technicians A and B 
+D.Neither Technician A nor B
+ANSWER:C
+90.Technician A says a supercharger uses an intercooler to keep the engine's oil cool. Technician B says intercoolers are used on turbochargers to keep the oil cool. Who is correct? 
+A.Technician A only 
+B.Technician B only 
+C.Both Technicians A and B 
+D.Neither Technician A nor B
+ANSWER:D 
+91.A wet compression test is being performed on a four-cylinder engine. The number two cylinder's compression is below specifications and remains the same after injecting oil. This result indicates: 
+A.Worn piston rings. 
+B.A faulty valve. 
+C.A hole in the piston. 
+D.Excessive carbon buildup on
+ANSWER:B 
+92.Two technicians are discussing how to perform a road test to verify the customer's concerns about noise from the engine. Technician A says that the owner should drive and the technician ride along to verify the problem. Technician B says that the vehicle should be driven next to a building to better hear engine noise as it bounces off the walls. Which technician is correct? 
+A.Technician A only 
+B.Technician B only 
+C.Both Technicians A and B 
+D.Neither Technician A nor B
+ANSWER:C 
+93.Technician A says that the first step in the diagnostic process is to verify the problem (concern). Technician B says the second step is to perform a thorough visual inspection. Which technician is correct? 
+A.Technician A only 
+B.Technician B only 
+C.Both Technicians a and B 
+D.Neither Technician a nor B
+ANSWER:C 
+94.Which item is not important to know before starting the diagnosis of an engine performance problem? 
+A.List of previous repairs 
+B.The brand of engine oil used 
+C.The temperature of the engine when the problem occurs 
+D.None
+ANSWER:D
+95.Technician A says that if the opposite DTC can be set, the problem is the component itself. Technician B says if the opposite DTC cannot be set, the problem is with the wiring or grounds. Which technician is correct? 
+A.Technician A only 
+B.Technician B only 
+C.Both Technicians a and B 
+D.Neither Technician a nor B
+ANSWER:B 
+96.Technician a says that knowing if there are any stored diagnostic trouble codes may be helpful when checking for related technical service bulletins. Technician B says that only a factory scan tool should be used to retrieve DTCs. Which technician is correct? 
+A.Technician A only 
+B.Technician B only 
+C.Both Technicians a and B 
+D.Neither Technician a nor B
+ANSWER:A
+97.What are the elements of drug testing programs is composed? 
+A.Testing 
+B.Record Retention 
+C.Employee Assistance Program 
+D.Medical Review Officer 
+E.All
+ANSWER:E
+98.What are the most popular types of cover offered by insurance companies in Ethiopia include? 
+A.The Road Traffic Act (Ethiopian Third Party Risks): 
+B.Third Party Only 
+C.Third Party, Fire, and Theft Cover 
+D.Comprehensive Motor Insurance 
+E.All
+ANSWER:E 
+99.What is the purpose Fleet Management? 
+A.Fleet Management Systems optimize processes and improve efficiency of adopters. 
+B.Growing popularity of mobile devices are expected to drive the market. 
+C.Increasing expenditures on maintenance. 
+D.Rising demand for utility vehicles. 
+E.All
+ANSWER:E 
+100.Which is not a complex system for fleet management is built of different segments? 
+A.Operational Fleet Monitoring and Management 
+B.Vehicle Dispatch 
+C.Driver unscheduled 
+D.Asset tracking 
+E.Condition based maintenance
+ANSWER:E

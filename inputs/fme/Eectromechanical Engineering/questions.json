@@ -1,0 +1,3202 @@
+[
+    {
+        "qid": 1,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "For a vehicle climbing uphill, the engine governor responds because one of the following happens.",
+        "options": [
+            {
+                "label": "A",
+                "content": "The centrifugal force of the fly balls of the governor increase",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The fly balls move closer to the axis of rotation",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The sleeve of the governor moves up",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The crankshaft speed increases",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 2,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Suppose the cam raises the follower with a Uniform acceleration and retardation motion where the uniform acceleration is twice the uniform deceleration. One of the following relations holds true",
+        "options": [
+            {
+                "label": "A",
+                "content": "Time of acceleration is twice the time of deceleration",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Time of deceleration is twice the time of acceleration",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Time of deceleration is half of the total time of the rise",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Time of acceleration is two-thirds of the total time of rise",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 3,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "It is only possible to create a four-bar linkage if",
+        "options": [
+            {
+                "label": "A",
+                "content": "The length of one of the links is not greater than the sum of the length of the other three",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The length of one of the links is greater than the sum of the length of the other three",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The length of one of the links is equal to the sum of the length of the other three",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The length of links does not affect the generation of a four-bar linkage",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 4,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Suppose in a space mechanism assembly of N number of links is required where one of the links is to be fixed.  How many restraints on the DOF will be imposed by each pair having three dofs?",
+        "options": [
+            {
+                "label": "A",
+                "content": "5",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "2",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "3",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "4",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 5,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "If the shear force equation of a certain beam is given as; y=ax^2+bx+c, where (a, b and c are constants, x is arbitrary location on the beam length), the bending moment equation is_____________",
+        "options": [
+            {
+                "label": "A",
+                "content": "Parabolic",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Linear",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Cubic",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Constant",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 6,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "The shear stress at the center of a circular solid shaft under torsion is",
+        "options": [
+            {
+                "label": "A",
+                "content": "Maximum",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Minimum",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Infinity",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Zero",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 7,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "When a horizontally oriented cantilever beam is loaded by an upward concentrated load at its free end:",
+        "options": [
+            {
+                "label": "A",
+                "content": "The beam will have maximum deflection at its free end",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The beam will have maximum slope at its fixed end",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The bottom layer of the beam will be subjected to compressive load",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Bending stress will be constant along the span",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 8,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Torsional rigidity does mean",
+        "options": [
+            {
+                "label": "A",
+                "content": "Product of shear modulus of a material and polar moment of inertia of the cross-section",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Shear modulus of a material",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Product of angle of twist of the shaft and polar moment of inertia of the cross-section",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Product of angle of twist of the shaft and Shear modulus of a material",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 9,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "A steel bar of 5 mm is cooled from 45 C to 40 C and it is free to compress. The bar will induce",
+        "options": [
+            {
+                "label": "A",
+                "content": "Compressive stress",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Tensile stress",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "No stress",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Shear stress",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 10,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "In cyclic loading, stress concentration is more serious in",
+        "options": [
+            {
+                "label": "A",
+                "content": "Brittle materials",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Ductile Materials",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Brittle as well as ductile materials",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Elastic Materials",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 11,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "The design of shafts made of brittle materials is based on",
+        "options": [
+            {
+                "label": "A",
+                "content": "Guests theory",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "St. Venants theory",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Rankines theory",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Von Mises theory",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 12,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "The tension in the slack side of the belt is ............ The tension in the tight side of the belt",
+        "options": [
+            {
+                "label": "A",
+                "content": "Greater than",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Less than",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Equal to",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "None",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 13,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "In thrust bearings, the load acts ---------.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Along the axis of rotation",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Inclined to the axis of rotation",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Perpendicular to the axis of rotation",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "In any direction",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 14,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "The size of gear is usually specified by----------",
+        "options": [
+            {
+                "label": "A",
+                "content": "Pressure angle",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Pitch circle diameter",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Circular Pitch",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Diametral pitch",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 15,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "In the design of machine elements, breakeven points will be defined when we compare two design approaches for",
+        "options": [
+            {
+                "label": "A",
+                "content": "Strength",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Geometry",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Cost",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Aesthetics",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 16,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "One of the following should be false",
+        "options": [
+            {
+                "label": "A",
+                "content": "Fatigue failure is due to time-varying loads",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Fatigue failure occurs at a stress level greater than the yield strength of the material",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Fatigue failure occurs at a stress level lower than the yield strength of the material",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Fatigue failures begin at a crack.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 17,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "The ------- gears are used for transmitting power at a constant velocity ratio between two shafts whose axes intersect at a certain angle?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Spur",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Bevel",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Worm",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Helical",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 18,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "In Measurement systems, which of the following characteristics are undesirable static Characteristics?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Sensitivity and accuracy",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Hysteresis and precision",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Reproducibility and non-linearity",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Dead zone, drift, static error and none linearity",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 19,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "In Light Dependent Resistor (LDR) sensor, if the intensity of light applied is less, its resistance value becomes ________.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Less",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "High",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Zero",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Infinity",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 20,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Infrared (IR)/Proximity sensor works on ________ principle.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Object detection",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Object breaking",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Object radiation",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 21,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "The principle of operation used in capacitive transducers to measure level of liquid is change of",
+        "options": [
+            {
+                "label": "A",
+                "content": "Area of plates",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Dielectric Strength",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Distance between plates",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Shape of plates",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 22,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What is a control system?",
+        "options": [
+            {
+                "label": "A",
+                "content": "A system that only monitors another system",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "A system that can regulate itself and another system",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "A system that operates without external input",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "A system that cannot influence another system",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 23,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What is an example of a continuous-time control system?",
+        "options": [
+            {
+                "label": "A",
+                "content": "A washing machine that operates in preset cycles",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "A microprocessor-based motor speed control",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "An electric heating system with a thermostat",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "A manually operated car window",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 24,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which test input signal is used if the control system is frequently subjected to a gradually changing input?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Step function",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Ramp function",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Impulse function",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Sinusoidal function",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 25,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "In an open loop control system",
+        "options": [
+            {
+                "label": "A",
+                "content": "The control action depends on the size of the system",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The control action depends on system variables",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The control action depends on the input signal",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The control action is independent of the output",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 26,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "The overall transfer function from block diagram reduction for cascaded blocks is:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Sum of individual gain",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Product of individual gain",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Difference of individual gain",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Division of individual gain",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 27,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What does the damping ratio (?\\zeta) of a second-order system influence?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Only the amplitude of oscillations",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Only the frequency of oscillations",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Both the amplitude and frequency of oscillations",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The gain of the system",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 28,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "In a first-order system, what percentage of the final value is reached in one time constant (T)?",
+        "options": [
+            {
+                "label": "A",
+                "content": "63.2%",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "50%",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "75%",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "90%",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 29,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What is the main function of a transducer?",
+        "options": [
+            {
+                "label": "A",
+                "content": "To convert physical quantity into an electrical signal",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "To convert electrical signal into a physical quantity",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Convert physical quantity into mechanical quantity",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "To convert physical quantity into a chemical quantity",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 30,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Among the following, identify the most powerful controller.",
+        "options": [
+            {
+                "label": "A",
+                "content": "PD controller",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "PID controller",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "PI-PI controller",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Both a and c are correct",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 31,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one of the following is false about Strengthen of an electromagnet in electromagnetic induction.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Increasing the cross-sectional area",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Increasing the number of turns",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Increasing current supply",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Use of paramagnetic material",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 32,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one of the following is correct about transformer",
+        "options": [
+            {
+                "label": "A",
+                "content": "It is a dynamic machine that the voltage induced on it is formed by either moving a coil or magnetic field",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It is a machine used to generate voltage on its armature",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It is an electrical machine used to step up or step-down voltage, current and power",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "It is a machine that is important to use as sensor (voltage and current transformer)",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 33,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one of the following electrical machines works by the principles of self-induction",
+        "options": [
+            {
+                "label": "A",
+                "content": "Motor",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Generator",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Solenoid",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Transformer",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 34,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Among the following alternative which one is true",
+        "options": [
+            {
+                "label": "A",
+                "content": "The similarity between electrical circuit and magnetic circuit is that both circuits can transfer flux and current respectively even there is small air gap in the circuit.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Increasing the core thickness in the magnetic circuit can increase the production of flux in magnetic circuit",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Increasing the cross-sectional area of the core can increase the flux in magnetic circuit",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Hysteresis and eddy current are important for production of flux",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 35,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "A 6-pole induction motor operates at a supply frequency of 50 Hz. If the slip of the motor is 4%, what will be the rotor speed?",
+        "options": [
+            {
+                "label": "A",
+                "content": "1000 RPM",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "960RPM",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "400RPM",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "14.4RPM",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 36,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one of the following is true?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Before a diode fully conducts, the bias must overcome the barrier potential",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The process of converting ac to pulsating dc is called filtering.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "If one diode is open in a bridge rectifier, the output will drop to zero.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "None",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 37,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which of the following conditions are needed to properly bias an NPN transistor amplifier?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Forward bias the base/emitter junction and reverse bias the base/collector junction.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Forward bias the collector/base junction and reverse bias the emitter/base junction.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Apply a positive voltage on the n-type material and a negative voltage on the p-type material.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Apply a large voltage on the base.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 38,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one of the following is true about MOSFET?",
+        "options": [
+            {
+                "label": "A",
+                "content": "MOSFET is uncontrolled device",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "MOSFET is a voltage-controlled device",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "MOSFET is a current-controlled device",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "MOSFET is a temperature-controlled device",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 39,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "If the frequency of the input voltage applied to a full wave bridge rectifier is 60Hz, the output voltage will have a frequency of________________.",
+        "options": [
+            {
+                "label": "A",
+                "content": "120HZ",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "60HZ",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "180HZ",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "None",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 40,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "If you want to study a fluid that is in motion, what will you call your field of study?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Fluid Dynamics",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Fluid Mechanics",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Fluid Statics",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Fluid Viscosity",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 41,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "The pressure at any given point of a non-moving fluid is called the ______.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Gauge pressure",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Atmospheric pressure",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Differential pressure",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Hydrostatic pressure",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 42,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "In a fully developed laminar flow in a circular pipe, what is the velocity profile?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Uniform across the pipe diameter",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Parabolic",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Linear",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Exponential",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 43,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Minor losses in pipe flow are caused by:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Friction along the pipe wall",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Sudden changes in pipe diameter or direction",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Changes in fluid density",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Changes in fluid viscosity",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 44,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What is the relationship between the velocity of a fluid and its pressure in a pipe?",
+        "options": [
+            {
+                "label": "A",
+                "content": "As the velocity of a fluid increases, its pressure decreases.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "As the velocity of a fluid decreases, its pressure decreases.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The velocity of a fluid has no effect on its pressure.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "None of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 45,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which one of the following is not a common characteristic for work and heat transfer;",
+        "options": [
+            {
+                "label": "A",
+                "content": "They can be possessed by a system a given state.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Both of them are path functions.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Both of them are boundary phenomena.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "They are inexact differentials.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 46,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which of the following steady flow devices could be taken to have an isenthalpic process?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Turbines",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Expansion devices",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Nozzles",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Mixing chambers",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 47,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "If same amount of heat is stored in two different temperature reservoirs of a heat engine (one higher, one lower), which one has the more conversion to work if both were used as a source for heat engine for the same energy sink?",
+        "options": [
+            {
+                "label": "A",
+                "content": "The higher temperature reservoir",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The lower temperature reservoir",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "They will have same conversion",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "cant determine",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 48,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Entropy of a system decreases possibly when a system undergoes a/an __________ process;",
+        "options": [
+            {
+                "label": "A",
+                "content": "Heat losing",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Heat gaining",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Reversible",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Irreversible",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 49,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "If two system are separately in thermal equilibrium with the third system then they themselves are in the thermal equilibrium with each other. This is",
+        "options": [
+            {
+                "label": "A",
+                "content": "First law of thermodynamics",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Second law of thermodynamics",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Law of equilibrium",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Zeroth law of thermodynamics",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 50,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "The refrigerator and heat pump works on principle_____",
+        "options": [
+            {
+                "label": "A",
+                "content": "Second law of thermodynamics",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "First law of thermodynamics",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Zero law of thermodynamics",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Third law of thermodynamics",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 51,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "The path followed in a vapor power cycle is_____",
+        "options": [
+            {
+                "label": "A",
+                "content": "Boiler-condenser-turbine-pump",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Boiler-turbine-condenser-pump",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Boiler-turbine-pump-condenser",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Boiler-pump-turbine-condenser",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 52,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which of the following is not an advantage of electronic instruments using semiconductor-based transducers?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Non-contact measurements",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Remote indication",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Transient response",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Low amplification",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 53,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "How does a linear power supply maintain a constant output voltage?",
+        "options": [
+            {
+                "label": "A",
+                "content": "By converting AC to DC and then using a transformer to adjust voltage levels.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Through the use of a voltage regulator that adjusts resistance to maintain steady voltage.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "By switching the input voltage on and off rapidly to regulate output.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "By filtering high-frequency noise from the input power source.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 54,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which of the following is a characteristic feature of Switch-Mode Power Supplies?",
+        "options": [
+            {
+                "label": "A",
+                "content": "They operate with a high-frequency switching mechanism to efficiently convert power.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "They use large transformers to step down voltage, resulting in a bulky design.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "They provide a constant output voltage by dissipating excess energy as heat.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "They are typically less efficient due to continuous conduction of current.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 55,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "In the context of power supplies, what does the term \"ripple\" refer to?",
+        "options": [
+            {
+                "label": "A",
+                "content": "The fluctuation in output voltage caused by incomplete filtering of the rectified signal.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The smooth, steady DC output voltage provided by the power supply.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The high-frequency noise generated by the switching action of SMPS.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The process of converting AC to DC voltage.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 56,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Why are linear power supplies often preferred for powering sensitive audio equipment?",
+        "options": [
+            {
+                "label": "A",
+                "content": "They are more efficient, reducing energy consumption.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "They produce less electrical noise, maintaining signal integrity.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "They are capable of providing higher output currents.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "They can easily convert AC to various DC voltage levels.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 57,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What is a potential disadvantage of using a linear power supply in applications requiring high efficiency?",
+        "options": [
+            {
+                "label": "A",
+                "content": "They tend to be more complex and costlier to design.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "They can generate significant electromagnetic interference (EMI).",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "They are less efficient, leading to higher energy consumption and heat generation.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "They require more maintenance due to moving parts.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 58,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which of the following is not a component of an electric drive system?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Electric motor",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Power modulator",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Hydraulic pump",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Control unit",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 59,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What is the primary function of an actuator in an electromechanical system?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Store energy",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Convert energy into motion",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Measure electrical current",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Reduce friction",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 60,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which material is commonly used for electrical conductors in electromechanical systems?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Copper",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Plastic",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Rubber",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Glass",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 61,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "How does increasing the voltage in a motor affect its speed?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Increases speed",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Decreases speed",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "No effect",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Stops the motor",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 62,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What is the purpose of a gearbox in an electromechanical system?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Increase speed only",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Control torque and speed",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Generate electricity",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Reduce weight",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 63,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which type of motor is best suited for precision positioning in robotics?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Stepper motor",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Induction motor",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "DC motor",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Synchronous motor",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 64,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What sensor is used to measure angular position in a robotic system?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Accelerometer",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Encoder",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Thermistor",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Proximity sensor",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 65,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What is the primary function of an electromechanical relay in a circuit?",
+        "options": [
+            {
+                "label": "A",
+                "content": "To store electrical energy",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "To amplify signals",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "To switch electrical loads",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "To generate magnetic fields",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 66,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which of the following is an example of an electromechanical energy conversion device?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Transformer",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Resistor",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "DC Motor",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Capacitor",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 67,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What is the function of a PLC in an automation system?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Manual control",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Automated process control",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Increase power supply",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Reduce signal noise",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 68,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which device is used for real-time monitoring of industrial processes?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Thermostat",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "SCADA system",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Resistor",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Inductor",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 69,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "How does a PID controller improve process control?",
+        "options": [
+            {
+                "label": "A",
+                "content": "By reducing error over time",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "By increasing response time",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "By amplifying noise",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "By eliminating sensors",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 70,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What type of sensor is used to detect the presence of an object on a conveyor belt?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Infrared sensor",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Thermocouple",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Pressure sensor",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Potentiometer",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 71,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "In a PLC-controlled system, an emergency stops button fails to respond. Which of the following is the most likely cause?",
+        "options": [
+            {
+                "label": "A",
+                "content": "The actuator is defective",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The sensor is misaligned",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The PLC program logic does not include emergency stop handling",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The SCADA system is not connected",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 72,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "When comparing a relay-based control systems with a PLC-based control system, which of the following is the biggest advantage of PLCS?",
+        "options": [
+            {
+                "label": "A",
+                "content": "PLCs consume more power",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "PLCs are less flexible",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "PLCs allow easier programming and modification",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "PLCs require manual rewiring for each new process",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 73,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "You are designing an automation system for a factory that needs real-time monitoring, fault detection, and remote operation. Which combination of technologies is most suitable?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Relays and timers",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "PLC and HMI",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Hydraulic actuators and sensors",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "VFD and stepper motors",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 74,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "A microcontroller at-least should consist of:",
+        "options": [
+            {
+                "label": "A",
+                "content": "RAM, ROM, I/O ports and timers",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "CPU, RAM, I/O ports and timers",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "CPU, RAM, ROM, I/O ports and timers",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "CPU, ROM, I/O ports and timers",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 75,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What is the most appropriate criterion for choosing the right microcontroller of our choice?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Speed",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Availability",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Ease with the product",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All of the mentioned",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 76,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Why microcontrollers are not called general purpose computers?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Because they have built in RAM and ROM",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Because they design to perform dedicated task",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Because they are cheap",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Because they consume low power",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 77,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "The device that generates the basic timing clock signal for the operation of the circuit using crystal oscillator is",
+        "options": [
+            {
+                "label": "A",
+                "content": "Timing unit",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Timing and control unit",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Oscillator",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Clock generator",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 78,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Arduino IDE consists of 2 functions. What are they?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Loop() and build() and setup()",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Build() and loop()",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Setup() and build()",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Setup() and loop()",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 79,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What is the microcontroller used in Arduino UNO?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Atmega32114",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "AT91SAM3x8E",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Atmega2560",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Atmega328p",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 80,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "__________ is a CPU built into a single chip.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Microcontroller",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Microprocessor",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Controller",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Microchip",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 81,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "______ is a small computer usually implemented on a single IC that contains a processor core, some memory, and programmable input/output peripherals.",
+        "options": [
+            {
+                "label": "A",
+                "content": "Microcontroller",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Microprocessor",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Controller",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Microchip",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 82,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which of the following is true about microprocessors?",
+        "options": [
+            {
+                "label": "A",
+                "content": "It has an internal memory",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It has interfacing circuits",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It contains ALU, CU, and registers",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "It uses Harvard architecture",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 83,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which of the following tools is commonly used to test and debug code for microcontrollers without the need for physical hardware, providing a virtual environment for development?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Simulator",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Programmer",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Debugger",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Oscilloscope",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 84,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which tool is used to load compiled code onto a microcontroller's memory, enabling the microcontroller to run the programmed software?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Simulator",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Programmer",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Debugger",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Logic Analyzer",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 85,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "In Hydraulic system;",
+        "options": [
+            {
+                "label": "A",
+                "content": "The mechanical energy is transferred to the oil and then converted into mechanical energy",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The electrical energy is transferred to the oil and then converted into mechanical energy",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The mechanical energy is transferred to the oil and converted into electrical energy",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "None of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 86,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "The resistance offered to the flow of fluid inside a piston develops in to;",
+        "options": [
+            {
+                "label": "A",
+                "content": "Pressure",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Force",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Stress",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 87,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What is the function of flow control valve?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Flow control valve changes the direction of oil flow",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Flow control valve can adjust the flow rate of hydraulic oil",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Both a. And b",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "None of the above",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 88,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What does the number in 4/2 valve mean?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Four position and two way.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Four way and two position .",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Four valve and two connecting line.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 89,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which of the following factors is/are considered while selecting a pump?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Viscosity of liquid",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Types of oil",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Volumetric efficiency",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "All.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    },
+    {
+        "qid": 90,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "In a hydraulic circuit a pump is provided with two outlet paths, one where load is attached and the other to the reservoir. Which path will the oil chose to flow first?",
+        "options": [
+            {
+                "label": "A",
+                "content": "To the load.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "To the reservoir.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Oil will flow equally to the load and reservoir.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "None of the above.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 91,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What type of motor is typically used in mobile robots for continuous motion with speed control, providing a balance between efficiency and ease of control?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Stepper Motor",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Servo Motor",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Brushed DC Motor",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Synchronous Motor,",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 92,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "For a robotic gripper requiring controlled gripping force to handle delicate objects, which actuator is preferred for achieving precise force control?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Stepper Motor",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Pneumatic Actuator",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "A Hydraulic Actuator",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "A Linear Induction Motor",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 93,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which type of drive system is commonly used in robotic arms to achieve smooth, continuous, and precise motion across multiple axes?",
+        "options": [
+            {
+                "label": "A",
+                "content": "A Chain Drive, which is used in power transmission systems",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "A Belt Drive, which is used for transmitting motion in some robots,",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "A Direct Drive, which is offers the high level of precision and eliminates mechanical backlash, leading to smoother and more accurate movement.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "A Rack and Pinion Drive, typically used in linear motion applications.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "C"
+    },
+    {
+        "qid": 94,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which sensor is best for object detection in an autonomous mobile robot, enabling it to navigate obstacles effectively in its environment?",
+        "options": [
+            {
+                "label": "A",
+                "content": "An Ultrasonic Sensor, which is commonly used for detecting objects in the robot's path by emitting sound waves and measuring the reflection time, offering good range and reliability.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "A Thermocouple, typically used for measuring temperature, but not suitable for detecting obstacles or objects in the robot's environment.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "A Hall Effect Sensor, primarily used for detecting magnetic fields, but not effective for object detection in mobile robots.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "A Pressure Sensor, which is useful for measuring force or pressure but not ideal for detecting objects in the path of a mobile robot.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 95,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What type of sensor is used in industrial robots for high-precision positioning, ensuring the robot moves with minimal deviation from its desired path?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Gyroscope",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Optical Encoder",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Accelerometer",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Load Cell",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 96,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which sensor is most suitable for SLAM (Simultaneous Localization and Mapping) in mobile robots, allowing them to build accurate maps while simultaneously navigating?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Light Detection and Ranging,",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Humidity Sensor,",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Thermistor",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "A Capacitive Sensor",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 97,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which of the following best defines forward kinematics in robotic systems?",
+        "options": [
+            {
+                "label": "A",
+                "content": "It is the process of determining the joint angles given the desired end-effector position.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "It is the process of determining the end-effector position based on given joint parameters.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "It involves solving the dynamic equations of motion for a robot manipulator.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "It refers to analyzing the effects of external forces on a robotic system.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "B"
+    },
+    {
+        "qid": 98,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "In robotic motion analysis, inverse kinematics is used to:",
+        "options": [
+            {
+                "label": "A",
+                "content": "Compute the required joint angles to achieve a specific end-effector position.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Find the trajectory of the end-effector when joint positions are known.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Measure the velocity of a robotic manipulator at different positions.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Identify the effect of torque on each robotic joint.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 99,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "Which of the following bridges is commonly used for measuring unknown resistances accurately by comparing them with known standard resistors in a balanced condition?",
+        "options": [
+            {
+                "label": "A",
+                "content": "Whetstone's Bridge",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "Anderson's Bridge",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "Schering Bridge",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "Maxwell Bridge",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "A"
+    },
+    {
+        "qid": 100,
+        "qno": null,
+        "department": "Eectromechanical Engineering",
+        "module": null,
+        "course": null,
+        "content": "What is the primary function of a microcontroller in a robotic system?tse",
+        "options": [
+            {
+                "label": "A",
+                "content": "The microcontroller serves as a power supply, providing energy to all electrical components.",
+                "image": null
+            },
+            {
+                "label": "B",
+                "content": "The microcontroller converts mechanical energy into electrical energy, enabling the robot to recharge itself.",
+                "image": null
+            },
+            {
+                "label": "C",
+                "content": "The microcontroller is used only for display purposes, showing sensor readings on a screen.",
+                "image": null
+            },
+            {
+                "label": "D",
+                "content": "The microcontroller acts as the brain of the robot, processing inputs from sensors and sending control signals to actuators.",
+                "image": null
+            }
+        ],
+        "image": null,
+        "answer": "D"
+    }
+]
